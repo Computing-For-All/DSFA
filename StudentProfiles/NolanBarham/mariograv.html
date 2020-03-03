@@ -1,0 +1,68 @@
+<html>
+  <canvas id="canvas" width = 700 height = 700></canvas>
+  <img id="mar" src="https://cdn-images-1.medium.com/max/1600/1*XAksToqI3TyMLhcszTCmhg.png">
+  
+  <style>
+    
+    img {
+      display:none;
+    }
+    
+  </style>
+  
+  <script>
+    window.onload = function () {
+      // Initialization of the canvas so we can draw!
+      var canvasElement = document.getElementById("canvas"),
+          canvas = canvasElement.getContext("2d"),
+          width = canvasElement.width,
+          height = canvasElement.height,
+          mar = document.getElementById("mar");
+      
+///////////////////////////////
+//////////////////////////////      
+      // MAKE VARIABLES THAT STORE WHERE THE SPRITE IS
+      var xpos=0;
+      var ypos=0;
+      var xspd=3;
+      var yspd=0;
+      
+      (function animate () {requestAnimationFrame(animate);
+      yspd=yspd+1;
+      xpos=xpos+xspd;
+      ypos=ypos+yspd;
+      if (xpos<0) {xpos=Math.abs(xspd);
+      }
+      if (ypos<-height) {yspd=Math.abs(yspd);
+      }
+      if (xpos>width) {xspd=-Math.abs(xspd);
+      }
+      if (ypos>height) {yspd=-Math.abs(yspd);
+      }
+      
+        // UPDATE THIS FUNCTION SO THAT THE SPRITE IS DRAW AT 
+        // THE LOCATION THAT IS STORED IN THE VARIABLES YOU ADDED ABOVE
+      
+        // clear the canvas with black
+         canvas.fillRect(0,0,width,height);
+        // draw the sprite at location <10,10>
+        canvas.drawImage(mar, xpos,ypos,100,100);
+        
+      })();
+      // MAKE FUNCTIONS THAT CHANGE WHERE THE SPRITE IS
+      // heres a hint :39
+     document.onkeydown = function (event) {
+      var keyIdNumber = event.which;
+       if (keyIdNumber=65){xspd=Math.abs(xspd);
+      }
+      if (keyIdNumber=68) {xspd=-Math.abs(xspd);
+      }
+       
+      
+      } 
+//////////////////////////////
+/////////////////////////////
+    }
+  </script>
+  
+</html>

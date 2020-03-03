@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Mohammed Hilfi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+</head>
+<body>
+<header>
+  <h2>Mohammed Hilfi</h2>
+  <a id= "back" href="../">Back</a>
+  <a class="button" id="resume" href="resume.pdf" target="_blank" >Resume</a>
+  <img id="headshot" src="pic.jpg">
+  <p id="blurb" ></p>
+  <script> 
+    var client = new XMLHttpRequest();
+    client.open ('GET', 'blurb.txt');
+    client.onreadystatechange = function () {
+        document.getElementById("blurb").innerHTML=(client.responseText);
+    }
+    client.send();
+  </script>
+</header>
+    <div id="bio">
+    <h1>Bio </h1>
+        <p>I am Mohammed Hilfi, a 9th grader at Chief Sealth International High School. I speak three languages; English, Spanish, and Arabic.<br> <br>I love technology and enjoy using it throughout my day. When I’m not working on my computer, I love to be active at the gym or to play soccer or basketball. I’m a very athletic person.<br> <br>   Words that describe me are passionate, pursuing my dreams, helpful, and good at communicating with others about what I’m working on.</p>
+    </div>
+   
+    <iframe width="630" height="360" style="margin-left:60px" src="https://www.youtube.com/embed/mc3TQTQvcLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3> My Projects </h3>
+    <div id="projects">
+	<a class="button" href="https://scratch.mit.edu/projects/321363197" target="_blank">Homeless Game</a>
+	<a class="button" href="http://dsfastudents.org/StudentProfiles/JhisberllyPineda/snake.html" target="_blank">snake animation</a>
+       
+    
+    </div>
+
+    <footer>
+      <p>DSFA</p>
+    </footer>
+
+<style>
+    h2 {
+        Color: #2761AF;
+    }
+    #back {
+        box-shadow :3px 3px 3px #78A7E0;
+        text-decoration :none;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:7px;
+        padding-bottom:7px;
+        border-radius:7px;
+        border-width:2px;
+        border-style:solid;
+        border-color:white;
+        background-color:#4f98cc;
+        color:white;
+        margin:10px;
+        text-align:center;
+        text-decoration : none;
+        position:absolute;
+        left: 10px;
+        top :10px;
+        font-size:15px;
+    }
+    #blurb{
+        font-weight:bold;
+        font-size: 25px;
+        position:absolute;
+        right:5%;
+        top:250px;
+        width:40%;
+    }
+    #resume {
+        font-size:22px;
+        position:absolute;
+        text-decoration:none;
+        top:10px;
+        right:1%;
+    }
+    #bio {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        padding:30px;
+        Color: #3B6199;
+        }
+    #headshot{
+      width:40%;
+      border-style:inset;
+    }
+    #projects {
+        padding:0px 10px 30px 10px;
+    }
+    .button {
+      box-shadow :3px 3px 3px:green;
+      padding-left:10px;
+      padding-right:10px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border-radius:10px;
+      border-style:solid;
+      border-color:#99BC8A;
+      background-color: #CFE4C0;
+      color:white;
+      margin:10px;
+      text-align:center;
+    }
+    .button:hover {
+      box-shadow:5px 5px 5px:black;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+    header {
+      background-color: #A9CFDF ;
+      padding: 30px;
+      text-align: left;
+      text-decoration-style: double;
+      font-size: 30px;
+      color:white;
+    }
+    footer {
+      background-color: #A9CFDF;
+      padding: 20px;
+      text-align: center;
+      color:white;
+    }
+    h3 {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        padding-left:30px;
+        Color: #3B6199;        
+    }
+</style>
+
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+  <canvas id="canvas" width = 800 height = 800></canvas>
+  <img id="sprite1" src="https://i.ytimg.com/vi/mjUCAMFVjaY/maxresdefault.jpg">
+  
+  <style>
+    
+    img {
+      display:none;
+      move:around width speed_X;=speed_Y;
+    }
+  </style>
+  
+  <script>
+    window.onload = function () {
+      // Initialization of the canvas so we can draw!
+      var canvasElement = document.getElementById("canvas"),
+          canvas = canvasElement.getContext("2d"),
+          width = canvasElement.width,
+          height = canvasElement.height,
+          sprite1 = document.getElementById("sprite1");
+      
+///////////////////////////////
+//////////////////////////////      
+     
+  
+     // MAKE VARIABLES THAT STORE WHERE THE SPRITE IS
+
+      var xpos=100
+      var ypos=180
+      var xspd=2;
+      var yspd=3;
+      
+      
+      
+      (function animate () { requestAnimationFrame(animate);
+      yspd=yspd+1;
+      xpos=xpos+xspd;
+      ypos=ypos+yspd;
+      
+      if (xpos<0){
+         xspd=Math.abs(xspd);
+         
+      }
+      if (ypos>height){
+        yspd=-Math.abs(yspd);
+      }
+      if (ypos<0){
+        yspd=Math.abs(yspd);
+        
+      }
+      if (xpos>width){
+        xspd=-Math.abs(xspd);
+      }   
+      
+      // clear the canvas with black
+        //canvas.fillRect(0,0,width,height);
+        // draw the sprite at location <10,10>
+        canvas.drawImage(sprite1, xpos,ypos,100,90);
+        
+      
+        // UPDATE THIS FUNCTION SO THAT THE SPRITE IS DRAW AT 
+        // THE LOCATION THAT IS STORED IN THE VARIABLES YOU ADDED ABOVE
+      speed_X = speed_X-1;
+      pos_X= pos_X + speed_X;      
+      
+      
+      
+  
+      })();
+      // MAKE FUNCTIONS THAT CHANGE WHERE THE SPRITE IS
+      // heres a hint :
+      canvas.onkeydown = function (event) {
+        var keyIdNumber = event.which;
+      } 
+//////////////////////////////
+/////////////////////////////
+    }
+  </script>
+  
+</html>

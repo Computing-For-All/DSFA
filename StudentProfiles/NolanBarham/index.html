@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Nolan Barham</title>
+<a id= "back" href="../">Back</a>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+</head>
+<body>
+<header>
+  <h2>Nolan Barham</h2>
+  <a class="button" id="resume" href= "resume.pdf" target="_blank" >Resume</a>
+  <img id="headshot" src="pic.jpg">
+  <p id="blurb" ></p>
+  <script> 
+    var client = new XMLHttpRequest();
+    client.open ('GET', 'blurb.txt');
+    client.onreadystatechange = function () {
+        document.getElementById("blurb").innerHTML=(client.responseText);
+    }
+    client.send();
+  </script>
+</header>
+    <div id="bio">
+    <h1 >Bio</h1>
+        <p>My name is Nolan Barham. I'm 17 and super passionate about video games. 
+        I've grown up drawing and playing classic games like Mega Man, Portal and Joust, 
+        and I enjoy messing with different programs and coding languages in my free time! <br><br>
+        I have lots of experience with design and coding, which makes me a great pick! I 
+        love helping people figure out technology and always give support with a smile on my face!
+        </p>
+    </div>
+    
+   
+    <iframe width="640" height="360" style="margin-left:60px" src="https://www.youtube.com/embed/hr1A5AJDgdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3> My Projects </h3>
+    <div id = "projects">
+        <a class="button" href="https://scratch.mit.edu/projects/306677058/" target="_blank">Tree Story Game</a>
+        <a class="button" href="https://trinket.io/library/trinkets/0b7c2bc48f" target="_blank">Boggle Player</a>
+        <a class="button" href="quiz.html" target="_blank">Find Your Villain Quiz</a>
+        <a class="button" href="https://trinket.io/library/trinkets/f988a2fd9c" target="_blank">Mario Gravity Simulation</a>
+        <a class="button" href="duckspin.html" target="_blank">spinning duck</a>
+        <a class="button" href="http://wyattflanders.com/DSFA/Projects/Monsanto/" target="_blank">Monsanto game</a>
+    </div>
+   
+    <footer>
+      <p>DSFA</p>
+    </footer>
+
+<style>
+    h2 {
+        Color: #2761AF;
+    }
+    #bio {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        Color: #3B6199;
+        padding: 20px;
+        
+        /* fix padding pls kar */
+    }
+    #back {
+  box-shadow :3px 3px 3px #78A7E0;
+  text-decoration :none;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:7px;
+  padding-bottom:7px;
+  border-radius:7px;
+  border-width:2px;
+  border-style:solid;
+  border-color:white;
+  background-color:#4f98cc;
+  color:white;
+  margin:10px;
+  text-align:center;
+  text-decoration : none;
+  position:absolute;
+  left: 10px;
+  top :10px;
+}
+    #headshot{
+      width:40%;
+      border-style:inset;
+    }
+    #resume {
+        font-size:30px;
+        position:absolute;
+        top:50px;
+        right:50px;
+    }
+    #projects {
+        padding:0px 10px 30px 10px;
+    }
+    .button {
+      text-decoration :none;
+      padding-left:10px;
+      padding-right:10px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border-radius:10px;
+      border-style:solid;
+      border-color: #99BC8A;
+      background-color: #CFE4C0;
+      color:white;
+      margin:10px;
+      text-align:center;
+    }
+    #blurb{
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-weight:bold;
+        font-size:27px;
+        position:absolute;
+        right:100px;
+        top:250px;
+        width:40%;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+    header {
+      background-color: #A9CFDF;
+      padding: 30px;
+      text-align: left;
+      font-size: 35px;
+      color: white;
+     
+    }
+    footer {
+      background-color: #A9CFDF;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+</style>
+
+
+
+</body>
+</html>

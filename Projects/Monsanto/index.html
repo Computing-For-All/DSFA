@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Monsanto</title>
+    </head>
+    <body>
+      <canvas id ="canvas" width= 750px height =750px></canvas>
+      <div id="inst">
+      <p><h1>How To Play: </h1>
+      <br>
+            The object of the game is to sue all of the farms on the board. 
+            <br>
+            you can buy upgrades in the store to help speed up your
+            <br>
+            progression. 
+            <br>
+            <br>
+            Farms with green leaves are organic farms; 
+            <br>
+            <br>
+            if organic farms are cross-pollinated by your farms nearby they appear with an 
+            <br>
+            exclamation mark.
+            <Br>
+            <br>
+            For $10,000 you can sue a cross-pollinated farm 
+            <br>
+            and it becomes a Monsanto customer. Customer farms appear with an 'M'. 
+            <br>
+            <br>
+            If you purchase chemicals in the research part of the store your toxicity
+            <br>
+            percentage will increase. The higher your toxicity percentage is, the 
+            <br>
+            likeliness of a Monsanto customer getting cancer will also increase. 
+            <br>
+            <br>
+            The PR section of the store will be helpful with legal fee reductions 
+            <br>
+            and reputation increases wich will also increase your income. 
+            <br>
+            <br>
+            The Lobbyist section of the store will help by decreasing taxes and will also 
+            <br>
+            negate the time cost for other upgrades.  
+            <br>
+            <br>
+            The Research area of the store will give you more income but the toxicity  
+            <br>
+            will increase with every upgrade.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+      <style>
+      #inst{
+          display: inline-block;
+          padding-left : 30px;
+      }
+          #canvas{ 
+              border-style: solid;
+          }
+          img,audio{
+              display:none;
+              visibility:hidden;
+          }
+          
+        </style>
+        <script src="monsanto.js"></script>
+        <script src="research.js"></script>
+        <script src="sprite.js"></script>
+        <script src="button.js"></script>
+        <script src="main.js"></script>
+        
+        <img id="tractor" src="images/tractor.jpg">
+        <img id="PlP" src="images/PlayPage.jpg">
+        <img id="MBG" src="images/main background.jpg">
+        <img id="farm-m" src="images/Monsanto farm sprite.png">
+        <img id="farm-x" src="images/crosspollen farm sprite.png">
+        <img id="farm-o" src="images/organic farm sprite.png">
+        <img id="farm-t" src="images/toxic farm sprite.png">
+        <img id="GOODrep" src="images/Happy-Rep.png">
+        <img id="NEUrep" src="images/Neutral-Rep.png">
+        <img id="BADrep" src="images/Anger-Rep.png">
+        <img id="gameOVER" src="images/game over.jpg">
+        <img id="gameWIN" src="images/game win.jpg">
+        <img id="farmer sprite" src="images/farmer sprite.png">
+        <img id="scientist" src="images/scientist.png ">
+        <img id="PR Guy" src="images/PR Guy.png"> 
+        <img id="Boss" src="images/Boss.png">
+        <img id="officer" src="images/officer.png">
+        
+        
+        
+        <audio id="bgMusic" loop controls>
+        <source  src="images/Kevin MacLeod _ Life of Riley.mp3" type="audio/mpeg">
+        </audio>
+         <audio id="sueSFX" controls>
+        <source  src="images/Judges Gavel.ogg" type="audio/ogg">
+        </audio>
+         <audio id="shopSFX" controls>
+        <source  src="images/Cash.ogg" type="audio/ogg">
+        </audio>
+        <audio id="toxicSFX" controls>
+        <source  src="images/Dry Cough.ogg" type="audio/ogg">
+        </audio>
+        <audio id="doneSFX" controls>
+        <source  src="images/SOUND EFFECT TADA.ogg" type="audio/ogg">
+        </audio>
+        <audio id="backSFX" controls>
+        <source  src="images/Click2.ogg" type="audio/ogg">
+        </audio>
+        <audio id="doorSFX" controls>
+        <source  src="images/Shop-door.ogg" type="audio/ogg">
+        </audio>
+        <audio id="speechSFX" controls>
+        <source  src="images/speech.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="lawyerSFX" controls>
+        <source  src="images/work complete.ogg" type="audio/ogg">
+        </audio>
+        <audio id="deniedSFX" controls>
+        <source  src="images/Wrong-answer-sound-effect.ogg" type="audio/ogg">
+        </audio>
+        <audio id="prSFX" controls>
+        <source  src="images/VoiceText.mp3" type="audio/mpeg">
+        </audio>
+</html>

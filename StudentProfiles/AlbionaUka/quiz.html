@@ -1,0 +1,49 @@
+<html>
+  <div>
+    <form class="question">
+      <p>do you like to play video games  ?</p>
+      <input type="radio" name="answer" value="extrovert"> yes!
+      <input type="radio" name="answer" value="introvert"> No:(
+      <input type="radio" name="answer" value="interovert,ectrovert"> i'm not sure 
+    </form>
+     <form class="question">
+      <p>do you love to help others  ?</p>
+      <input type="radio" name="answer" value="extrovert"> yes!
+      <input type="radio" name="answer" value="introvert"> No:(
+      <input type="radio" name="answer" value="interovert,ectrovert"> i'm not sure 
+    </form>
+    <form class="question">
+      <p>do you like this class ?</p>
+      <input type="radio" name="answer" value="extrovert"> yes!
+      <input type="radio" name="answer" value="introvert"> No:(
+      <input type="radio" name="answer" value="interovert,ectrovert"> i'm not sure 
+    </form>
+     <form class="question">
+    <button id="button">click to submit</button>
+     <h1 id=result></h1>
+    </div>
+  <style>
+    .question {
+      border-style: inset;
+      padding: 7 px;
+      width: 300px;
+    }
+  </style>
+    <script>
+      document.getElementById("button").onclick = function(){
+        var answers = document.getElementsByName("answer");
+        var introvert = 0;
+        var extrovert = 0;
+        for (var i = 0; i <answers.length;i++) {
+          var answer = answers[i];
+          if (answer.checked) {
+             if (answer.value =="extrovert") extrovert = extrovert+1;
+              else if (answer.value =="introvert") introvert = introvert+1;
+          }
+        } 
+        var result ="you are smart";
+        if(introvert>extrovert)result = "you are dumb";
+        if (introvert == extrovert) result = "you are in between";
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>

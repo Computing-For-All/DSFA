@@ -1,0 +1,208 @@
+<html>
+  <img id="right" src="right.png">
+  <img id="left" src="left.png">
+  <img id="kick1" src="kick1.png">
+  <img id="kick2" src="kick2.png">
+  <img id="jab1" src="jab1.png">
+  <img id="jab2" src="jab2.png">
+  <img id="background" src="CCBackground.jpg">
+  <img id="enemy" src="enemy.png">
+  <img id="eJab" src="eJab.png">
+
+  <canvas id ="canvas" width= 500 height =300></canvas>
+  <style>
+  #canvas{ border-style: solid;
+  }
+  img {display:none;
+  }
+</style>
+  <script>
+  var canvas= document.getElementById("canvas");//canvas variable/object
+  var ctx= canvas.getContext("2d");//sets up canvas for drawing
+  var pic = document.getElementById("right");//defines pic, which faces right
+  var pic2= document.getElementById("left");//faces left
+  var pic3=document.getElementById("kick1");
+  var pic4= document.getElementById("kick2");
+  var jab1=document.getElementById("jab1");//jab
+  var jab2= document.getElementById("jab2");
+  var bpic=document.getElementById("background");
+  //var frame=[pic,pic2];//not used
+  var epic=document.getElementById("enemy");
+  var eJab=document.getElementById("eJab");
+  function enemy(pic,x,y){//enemy class
+  	this.pic=epic;
+  	this.x=x;
+    this.y=y;
+    this.health=100;
+    this.orientation = 1;
+    this.eAttackTimer=0;
+	    this.draw= function(){//transform draw untransform
+	      var pic = this.pic;
+	      //ctx.drawImage(bpic,0,0,canvas.width,canvas.height);
+	      ctx.transform (this.orientation,0,0,1,this.x,this.y);
+	      ctx.drawImage(epic,-50,-50,100,100);//draw to canvas shifted to 400x
+	      ctx.setTransform([1,0,0,1]);
+
+	  	}
+	  	this.moveE= function(cat){ //function for multiple individual enemy movement
+		  	if(this.x<cat.x-50){
+		  		this.x=this.x+.5;
+		  	}
+		  	else if(this.x>cat.x+50){//50 is the amount of distance they want to get close to
+		  		this.x=bad.x-.5;
+		  	}
+		  	if(this.y<cat.y){
+		  		this.y+=.5;
+		  	}
+		  	else{
+		  		this.y-=.5;
+	  		}
+	  	}
+	  	this.attack=function(){
+	  		if(this.x>cat.x&&this.x<cat.x+50&&this.y==cat.y&&this.eAttackTimer==0){//if attacktimer is 0 then start another, if aligned with player
+	  			console.log("attack now");
+	  			this.eAttackTimer=180;
+	  		}
+	  		if (this.eAttackTimer<180){//start attacks when attack timer starts(3 seconds)
+	  			//attack at 40,20,1(jabs)
+	  			this.eAttackTimer--;
+	  			if(this.eAttackTimer<140&&this.eAttackTimer>0){
+	  				console.log(this.eAttackTimer);
+	  				this.pic=eJab;
+	  			}
+	  		}
+	  	}  	
+	}
+
+  function player(pic,x,y){//class (sprite) 
+    this.pic=pic;
+    this.x=x;
+    this.y=y;
+    this.orientation = 1;
+    this.attackTimer = 0;
+    this.jabTimer = 0;
+    this.health=100;
+    this.draw= function(){//transform draw untransform
+      var pic = this.pic;
+      if (this.jabTimer > 0){
+      	this.jabTimer--;
+      	pic=jab1;
+      	if(this.jabTimer>5&&this.jabTimer <15){
+      		pic=jab2;//during middle of animation, jab
+      		if(this.jabTimer==10&&this.y==bad.y){//at 10, jab occurs
+	        	if(bad.x>this.x&&bad.x<this.x+100){//in front facing right but not more than 200 away
+	        		console.log("hit");
+	        		// set stun timer
+
+	        		bad.health=bad.health-3;
+	        	}
+	        }	
+      	}
+      }
+      if (this.attackTimer > 0){//heavy attack
+        this.attackTimer--;  
+        pic = pic3;//attack animation 
+        if (this.attackTimer<30&&this.attackTimer>10){
+        	pic=pic4;
+        	if(this.attackTimer==20&&this.y==bad.y){//at 20 kick occurs
+	        	if(bad.x>this.x&&bad.x<this.x+100){//in front facing right but not more than 200 away
+	        		console.log("hit");
+	        		bad.health=bad.health-10;
+	        		//longer stun
+	        	}
+	        }	
+        }
+      }
+     
+      //ctx.clearRect(cat.x-200, cat.y-10, 200, 200);//supposed to clear canvas on sprite
+      //ctx.clearRect(0, 0, canvas.width, canvas.height);//clears the entire canvas not necessary
+      //ctx.drawImage(bpic,0,0,canvas.width,canvas.height);//background
+      ctx.transform (this.orientation,0,0,1,this.x,this.y);
+      ctx.drawImage(pic,-50,-50,100,100);//draw to canvas
+      ctx.setTransform([1,0,0,1]);
+    }
+  }
+  var cat= new player(pic,150,150);//creates object "cat"
+  var bad= new enemy(epic,250,250);//supposed to make enemy object
+  
+  
+  function animate(){//game animation that calls draw function to cat//calls itself for loop
+    requestAnimationFrame (animate);
+    ctx.drawImage(bpic,0,0,canvas.width,canvas.height);//background
+    cat.draw();
+    bad.draw();
+    bad.attack();
+    ctx.strokeText("Enemy:"+bad.health,400,25);
+    ctx.strokeText("Player:"+cat.health,25,25);
+    //calls draw on "bad" object
+    //enemy movement replace with method with this.x
+    /*//yanked this to replace with function moveE
+    if(bad.x<cat.x-50){
+  		bad.x=bad.x+.5;
+  	}
+  	else if(bad.x>cat.x+50){//50 is the amount of distance they want to get close to
+  		bad.x=bad.x-.5;
+  	}
+  	if(bad.y<cat.y){
+  		bad.y+=.5;
+  	}
+  	else{
+  		bad.y-=.5;
+  	}
+  	*/
+  	bad.moveE(cat);
+  }
+  animate();
+
+  //enemy movement
+  
+  	
+  
+  	  
+  
+  //movement move to function
+  document.addEventListener('keydown', function(event) {//movement 
+    if (event.keyCode == 80) cat.attackTimer = 60;//one second, kick is p
+    if (event.keyCode == 79) cat.jabTimer = 20;// jab is o, 1/3 second
+    if(event.keyCode == 37) {//left
+        //ctx.clearRect(cat.x, cat.y, 100, 50);
+        cat.x -=5;
+        //cat.pic=pic2;//left image
+        //cat.orientation = 1;//makes it face right using orientation
+        //ctx.drawImage(this.pic2);
+    }
+    else if(event.keyCode == 39) {//right
+         //cat.orientation = -1;
+        cat.pic=pic; //makes it face right using seperate picture
+        cat.x+=5;
+    }
+    else if(event.keyCode == 38&&cat.y>100) {//up and limit of 100y
+          cat.y-=5;
+    } 
+    
+    else if(event.keyCode == 40) {//down
+      cat.y+=5;  
+    }
+  });
+
+  /*document.addEventListener('keyup', function(event) {//use to end animations
+    if (event.keyCode == 32) cat.attackTimer = 0;//one second
+    if(event.keyCode == 37) {//right
+        //ctx.clearRect(cat.x, cat.y, 100, 50);
+        cat.x -=5;
+        cat.orientation = 1;//makes face right
+        ctx.drawImage(this.pic2);
+    }
+    else if(event.keyCode == 39) {//left
+         cat.orientation = -1;
+        cat.x+=5;
+    }
+    else if(event.keyCode == 38) {//up
+      cat.y-=5;
+    }
+    else if(event.keyCode == 40) {//down
+      cat.y+=5;  
+    }
+  });*/
+  </script>
+</html>

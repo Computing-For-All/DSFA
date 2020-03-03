@@ -1,0 +1,103 @@
+<html>
+     <canvas id="canvas" width=700 height=500></canvas>
+     <style>
+          #canvas {
+               border-style:inset;
+          } 
+     </style>
+     <script>
+       // 1.initialize canvas:
+          var canvas=document.getElementById ("canvas");
+          var ctx = canvas.getContext ("2d");
+       //2.create game variables:
+          var mouse = {
+               down:false, x:0, y:0
+          };
+          var left_paddle ={
+            x:10, y: 100, width:10, height:50, points:0
+          };
+          var right_paddle = {
+              x:canvas.width-20, y:100, width:10, height:50, points:0
+          };
+          var ball = {
+              x:canvas.width/2, y:canvas.height/2, radius:10, dx:3, dy:2
+          };
+       //3.create game functions:
+           function clear ()  {
+             ctx.clearRect(0,0,canvas.width,canvas.height);
+           }
+          function drawScore  () {
+            ctx.font = "30px arial";
+            ctx.fillText(
+                 left_paddle.points + " " + right_paddle.points,
+                 canvas.width/2-30,30);
+          }
+          function drawPaddle  (paddle)  {
+            ctx.fillRect(paddle.x,paddle.y,paddle.width,paddle.height);
+          }
+          function drawBall  (ball)  {
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y,ball.radius, 0, 2 * Math.PI);
+            ctx.fill();
+          }
+          function isBallTouchingPaddle (ball, paddle) {
+             return ball.x <paddle.x+paddle.width && ball.x > paddle.x &&
+             ball.y <paddle.y+paddle.height && ball.y > paddle.y;
+          }
+          function moveBall (ball)  {
+            ball.x += ball.dx;
+            ball.y += ball.dy;
+            if (ball.y<ball.radius) ball.dy =+Math.abs(ball.dy);
+            if (ball.y>canvas.height-ball.radius) ball.dy = -Math.abs(ball.dy);
+            if(isBallTouchingPaddle(ball,left_paddle))  {
+                ball.dx = Math.abs (ball.dx);
+            }
+            if(isBallTouchingPaddle(ball,right_paddle))  {
+                ball.dx = -Math.abs (ball.dx);
+            }
+            if (ball.x < 0)  {
+               right_paddle.points+= 1;
+               ball.x =canvas.width/2;
+               ball.y =canvas.height/2;
+            }
+            if (ball.x>canvas.width)  {
+              left_paddle.points+= 1;
+              ball.x = canvas.width/2;
+              ball.y = canvas.height/2;
+            }
+          }
+          function movePaddles (left_paddle, right_paddle)  {
+            if (mouse.down) right_paddle.y = mouse.y;
+            left_paddle.y=ball.y-left_paddle.height/2;
+          }
+          function main ()  {
+            clear ();
+            drawScore();
+            drawPaddle(left_paddle);
+            drawPaddle(right_paddle);
+            drawBall(ball);
+            moveBall(ball);
+            movePaddles (left_paddle, right_paddle);
+            console.log(right_paddle);
+          }
+       //4.beging game animation loop:
+       setInterval (main,17);
+       //5.manage user input :
+         function getMousePos(e) {
+             var rect = canvas.getBoundingClientRect();
+             mouse.x = e.clientX - rect.left;
+             mouse.y = e.clientY - rect.top;
+          }
+          canvas.onmousedown = function (e)  {
+               mouse.down = true ;
+               getMousePos(e);
+          }
+          canvas.onmouseup= canvas.onmouseout = function (e)  {
+            mouse.down = false;
+            getMousePos(e);
+          }  
+          canvas.onmousemove = function (e)  {
+                getMousePos(e);
+          }
+     </script>
+</html>

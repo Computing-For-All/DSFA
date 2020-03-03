@@ -1,0 +1,59 @@
+<html>
+  <canvas id = "canvas" width = 500 height = 500></canvas>
+  <img id = "pic" src = "https://www.pinclipart.com/picdir/middle/183-1836855_mallard-png-transparent-hd-photo-duck-png-clipart.png">
+  <style>
+    #canvas {
+      border-style:solid;
+    }
+    #pic {
+      display:none;
+    }
+  </style>
+  <script>
+    var canvas = document.getElementById("canvas");
+    var pic = document.getElementById("pic");
+    var ctx = canvas.getContext("2d");
+    function Sprite (pic, x, y, a, dx, dy, da) {
+        this.pic = pic;
+        this.x = x;
+        this.y = y;
+        this.a = a;
+        this.dx = dx;
+        this.dy = dy;
+        this.da = da;
+        this.draw = function() {
+            ctx.translate(this.x,this.y);
+            ctx.rotate(this.a);
+            ctx.drawImage(this.pic, -50,-50,100, 100);
+            ctx.rotate(-this.a);
+            ctx.translate(-this.x,-this.y);
+          }
+        this.advect = function () {
+          this.x += this.dx*3;
+          this.y += this.dy*3;
+          this.a += this.da*2;
+        }
+        this.bounce = function() {
+          if (this.x < 1 || canvas.width-this.x < 1) {
+            this.dx *= -1;
+            this.da *= -1;
+        }
+        if (this.y < 1 || canvas.height-this.y < 1) {
+          this.dy *= -1;
+          this.da *= -1;
+        } 
+      }
+    }
+    var duck = new Sprite (pic, 150, 150, 10,1,-1,.1);
+    function animate () {
+      duck.draw();
+      duck.dy += .02; //Gravity
+      duck.advect();
+      duck.bounce();
+      
+    }
+      setInterval (animate,17); // 1000ms/17ms = 60fps
+    
+  </script>
+  
+  </html>

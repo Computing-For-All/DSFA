@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <div class="mediacolumn">
+                <a href = "../"> <img src="logo.png" ></a>
+		<a id="back" href="../">Back</a>
+            </div>
+        
+        <title>Staff</title>
+        <meta name="viewport" content="width=1200, initial-scale=1">
+    </head>
+    <h1 id="title">Staff</h1>
+    <p id="rechtech">
+    
+        DSFA's dedicated teaching staff aims to empower and educate young people interested in technology.
+    </p>
+   
+    <div id="students">
+        
+        
+        <div class="student">
+            <img class="headshot" src="LeslieIcon.png">
+            <p class="name">Leslie Howle</p>
+            <p class="bio">Leslie is our fearless leader, bringing years of experience teaching high school and maaging education programs at museums and other non-profits; a nurturing presence whose personal assistant is a service dog named Raffi, who brings support and comic relief to our classroom.</p>
+        </div>
+        <div class="student">
+            <img class="headshot" src="JeremyIcon.png">
+            <p class="name">Jeremy Sim</p>
+            <p class="bio">Jeremy is a writer, educator, and all-around technology enthusiast. He loves working with students to help them discover and achieve their dreams. He dislikes chocolate ice cream.</p>
+        </div>
+        
+        <div class="student">
+            <img class="headshot" src="WyattIcon.png">
+            <p class="name">Wyatt Flanders</p>
+            <p class="bio">Wyatt is a physics student at UW who will stop at nothing to bring the power of technology to hands of the young and inspired.</p>
+      </div>
+        
+    </div>
+    <style> 
+ #back {
+        box-shadow :3px 3px 3px #78A7E0;
+        text-decoration :none;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:7px;
+        padding-bottom:7px;
+        border-radius:7px;
+        border-width:2px;
+        border-style:solid;
+        border-color:white;
+        background-color:#4f98cc;
+        color:white;
+        margin:10px;
+        text-align:center;
+        text-decoration : none;
+        position:absolute;
+        right: 10px;
+        top :10px;
+        font-size:15px;
+    }
+    #title {
+        padding-top:0px;
+        text-align: center;
+        /* text-shadow: 2px 2px 3px Color ; */
+        color:#78A7E0;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size :40px;
+    }
+    #rechtech{
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        border: 1px solid #8EAFE3;
+        padding: 25px 50px 75px 100px;
+        background-color: #C5E0F3;
+        font-size :25px;
+        color: #285BA7;
+    }
+    #students {
+        width:100%;
+        margin:auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px);
+        grid-gap: 10px;
+       
+    }
+    .student {
+        padding:30px;
+        border-radius: 25px;
+        border: 2px solid #78A7E0;
+        background: solid #C8F1F6;
+        box-shadow :1px 1px 8px rgba(0,0,0,.5);
+        /* background: linear-gradient(to bottom, #CBE5F5 0%, #ffffff 100%); */
+        
+        
+    }
+    .headshot {
+        clip: rect(0px,0px,200px,200px);
+        border-radius: 100%;
+        width : 200px;
+        height : auto;
+        
+        border: 2px solid #78A7E0;
+    }
+    .name{
+        font-family:Tahoma, Geneva, sans-serif;
+        font-size :25px;
+        font-weight:bold;
+        Color: #3668B2;
+    }
+    .bio {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        Color: #3B6199;
+        
+    }
+    /* My page buttons */
+    .link {
+      /* box-shadow :3px 3px 3px #302e2e; */
+      text-decoration :none;
+      padding-left:10px;
+      padding-right:10px;
+      padding-top:5px;
+      padding-bottom:5px;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      border-radius:10px;
+      border-style:solid;
+      /* border-color:black;  */
+      background-color:white;
+      color: #78A7E0;
+      
+      margin:5px;
+      text-align:center;
+    }
+    .link:hover {
+      margin:4px;
+      color :#a8ccf7;
+      
+    }     
+#buttons:hover {
+    margin:9px;
+  box-shadow:5px 5px 5px black;
+}
+    #logo{
+	position:
+	top:0;
+	left:0;
+    }
+    </style>
+    <script>
+    
+    var names=["Leslie Howle","Jeremy Sim", "Wyatt Flanders"];
+    function addBlurb (name) 
+    {
+        var client = new XMLHttpRequest();
+        client.open ('GET', name+'/blurb.txt');
+        client.onreadystatechange = function () 
+        {
+            document.getElementById(name).innerHTML=(client.responseText);
+        }
+        client.send();
+    }
+    for (var i=0; i<names.length;i++){
+     addBlurb (names[i])    
+    }
+    </script>
+</html>
