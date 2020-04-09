@@ -1,0 +1,61 @@
+<html>
+  <div>
+    <h>Are you Introverted, Extroverted, or just confused? </h>
+    <form class="question">
+      <p> Do you like people? </p>
+      <input type="radio" name="answer" value="extrovert"> Yes
+      <input type="radio" name="answer" value="introvert"> No
+       <input type="radio" name="answer" value="Confused"> Sometimes
+      <h1 id="results"></h1>
+      </form>
+     
+      <form class="question">
+      <p> What would you rather do? </p>
+      <input type="radio" name="answer" value="extrovert"> Spend a night partying
+      <input type="radio" name="answer" value="introvert"> stay home all night
+       <input type="radio" name="answer" value="introvert+extrovert"> Go to one party a week
+      <h1 id="results"></h1>
+      </form>
+      <form class="question">
+      <p> What are your thoughts on rap? </p>
+      <input type="radio" name="answer" value="extrovert"> It's so Filthy!
+      <input type="radio" name="answer" value="introvert"> To me it's just mumbling to a drumbeat
+       <input type="radio" name="answer" value="introvert+extrovert"> Sometimes its mumbling, other times not
+      <button id="button">Click to submit</button>
+      <h1 id="results"></h1>
+      </form>
+      </div>
+<style> .question {
+  border-style: outset;
+  border-color: crimson;
+  Padding:7px;
+  Width:300px;
+
+  
+}
+</style>
+<script>
+document.getElementById("button").onclick=function (){
+  var answers=document.getElementsByName("answer");
+
+  var introvert=0;
+  var extrovert=0;
+  var confused=0;
+  for (var i=0; i< answers.length; i++){
+    var answer=answers[i];
+    if(answer.checked){
+      if(answer.value== "extrovert") extrovert = extrovert+1;
+      else if (answer.value== "introvert") introvert = introvert+1;
+      else if (answer.value== "confused") confused = confused+1;
+    }
+  }
+  var result="you are an introvert";
+if (extrovert>introvert) result = "You are an extrovert";
+if (introvert>extrovert) result = "You are an introvert";
+if (introvert==extrovert) result="you are confusing";
+document.getElementById("results").innerHTML=result;
+}
+
+
+</script>
+</html>
