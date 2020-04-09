@@ -1,0 +1,86 @@
+<html>
+ <!-- /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+  <body style="background-color:DarkSlateGrey;">
+<h1 id="first">Are you an Introvert or an Extrovert?</h1>
+<style>
+  #first
+  {
+    color : Tomato;
+    text-shadow : 2px 2px black;
+    text-align : center;
+  }
+</style>
+ <!-- /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+  <div>
+    <form class="question">
+      <p>Do you like people?</p>
+      <input type="radio" name="answer" value="extrovert"> Yes!
+      <input type="radio" name="answer" value="introvert"> No :(
+    </form>
+    
+    <form class="question">
+      <p>What would you rather do?</p>
+      <input type="radio" name="answer" value="extrovert"> Go to a party.
+      <input type="radio" name="answer" value="introvert"> Stay at home.
+    </form>
+  
+    <form class="question">
+      <p>Which do you like more?</p>
+      <input type="radio" name="answer" value="extrovert"> Going on social media.
+      <input type="radio" name="answer" value="introvert"> Sleeping in.
+    </form>
+  
+   <form class="question">
+      <p>Which would you rather do after work?</p>
+      <input type="radio" name="answer" value="extrovert"> Spending time with friends.
+      <input type="radio" name="answer" value="introvert"> Taking some alone time.
+    </form>
+    
+     <form class="question">
+      <p>Which one do you identify as more often?</p>
+      <input type="radio" name="answer" value="extrovert"> Outgoing.
+      <input type="radio" name="answer" value="introvert"> Shy.
+    </form>
+    
+    <button id="button">Click to Submit</button>
+    <h2 id="results"></h2>
+  
+  </div>
+ <!-- /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+  <style>
+    
+    .question {
+      border-style :outset;
+      padding: 7px;
+      width:400px;
+      height: 100px;
+      border-color: Tomato;
+      background-color: Grey;
+      text color: Tomato;
+      
+    }
+    
+  </style>
+ <!-- /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+  <script>
+    document.getElementById("button").onclick = function (){
+      var answers = document.getElementsByName("answer");
+      var extrovert = 0;
+      var introvert = 0;
+      
+      for(var i=0;i<answers.length; i++){
+        var answer = answers[i]
+        if(answer.checked){
+          if(answer.value =="extrover")extrovert = extrovert+1;
+          else if(answer.value == "introvert") introvert = introvert+1;
+        }
+      }
+      var result = "You are an Extrovert";
+      if(introvert>extrovert) result = "You are an Introvert!";
+      if (introvert == extrovert) "You are truly neutral. Congratulations!";
+      document.getElementById("results").innerHTML = result;
+    }
+   
+  </script>
+ <!-- /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+</html>
