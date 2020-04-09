@@ -1,17 +1,24 @@
 <?php
 
-if($_POST["submit"]) {
-    $recipient="your@email.address";
-    $subject="Form to email message";
-    $sender=$_POST["sender"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
+    $name = $_POST['sender'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+    $email_from = 'andrew@computingforall.org';
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    $email_subject = "Student Site Inquiry";
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
-}
+    $email_body = "Name: $name.\n".
+                    "Email: $email.\n".
+                    "Message: $message.\n";
+
+    $to = 'andrew@computingforall.org';
+
+    $headers = "From: $email_from \r\n";
+    $headers .= "Reply-To: $email \r\n";
+
+    mail($to,$email_subject,$email_body,$headers);
+
+    header("Location: Contact");
 
 ?>

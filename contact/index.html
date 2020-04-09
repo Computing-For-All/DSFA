@@ -82,13 +82,13 @@ label, .button {
 
 <section class="bg-white spacing-section">
     <div class="container-txt">
-        <form action="contact.php">
+        <form method="post" action="contact.php">
             <label for="fname">Name</label>
-            <input type="text" id="fname" name="sender" placeholder="Your Name">
+            <input type="text" id="fname" name="sender" placeholder="Your Name" required>
             <label for="subject">Email</label>
-            <input type="text" id="subject" name="senderEmail" placeholder="Your Email">
+            <input type="text" id="subject" name="senderEmail" placeholder="Your Email" required>
             <label for="body">Body</label>
-            <textarea id="body" name="message" placeholder="Enter Message" style="height:200px"></textarea>
+            <textarea id="body" name="message" placeholder="Enter Message" required style="height:200px"></textarea>
             <input type="submit" value="Send" class="button btn-blue">
         </form>
     </div>
