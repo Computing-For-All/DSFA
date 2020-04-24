@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164554771-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-164554771-1');
-</script>
-    
 <title>DSFA: Contact Us</title>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/slider.css">
 
 <style type="text/css">
-html, body {
-    background-color:#333!important;
-}
 /* Style inputs */
 input[type=text], input[type=email], select, textarea {
     font-family: 'Montserrat', Arial, Verdana, sans-serif!important;
@@ -87,8 +75,8 @@ label, .button {
 <section class="hero" style="height:60%;background-image:url(images/hero.jpg);background-position: 50% 100%;">
     <div class="overlay"></div>
     <div class="txt-white abs-centered container-txt">
-        <h1>Contact Us</h1>
-        <p>If you are interested in partnering with Digital Skills For All or simply interested in more information, please use the form below to send us a message and we will get back to you as soon as we can.</p>
+        <h1>Digital Skills For All</h1>
+        <h2>Digital Skills For All is our initiative to provide underserved youth ages 14-24 with the Computer Science skills they need to succeed in entry level technology job opportunities in the Seattle area.</h2>
     </div>
 </section>
 
@@ -105,7 +93,34 @@ label, .button {
         </form>
     </div>
 </section>
-
+    
+<section class="bg-blue spacing-section">
+    <div class="container-txt centered txt-white">
+        <h1>Preparing Future Industry Professionals</h1>
+        <p>We want to prepare the next generation of technology leaders by creating pathways for students to thrive in technology and innovation. DSFA currently offers a small stipend to students at the end of each eight-week training to encourage and support their participation as well as assist with any economic barriers to their attendance.</p>
+    </div>
+</section>
+    
+<section class="bg-green spacing-section">
+    <div class="txt-white container-txt centered">
+        <h1>Looking To Work With Us?</h1>
+        <p>Are you interested in setting up an internship or job shadow opportunity with us, working directly with us in our education, donating help to our program, or would simply like to come share your knowledge with us? Then please go to our <a href="http://dsfastudents.org/contact">contact page</a> and send our administrators an email with your name and interest in our pilot program. We look forward to hearing from you!</p>
+        <div class="button-padding"><a href="http://dsfastudents.org/contact" class="button btn-white">Contact Us</a></div>
+    </div>
+</section>
+    
+<section class="bg-black spacing-section">
+    <div class="container-txt centered txt-white">
+        <div class="spacing-txt">
+            <h1>Where We Are Located</h1>
+            <p>Our classroom is located at the Delridge Community Center at 4501 Delridge Way SW, Seattle, WA 98106.</p>
+        </div>
+        <div class="videoWrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.2332043272227!2d-122.3666568125683!3d47.563250878086514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549040525d7b6c61%3A0x5a277288d8a6c3e9!2s4501+Delridge+Way+SW%2C+Seattle%2C+WA+98106!5e0!3m2!1sen!2sus!4v1564691259154!5m2!1sen!2sus" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+    
 <footer>
 	<div class="soc-icons-footer">
 		<a href="https://www.facebook.com/youthdsfa/" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -113,6 +128,24 @@ label, .button {
 	</div>
 	<div class="footer-legal"><i class="far fa-copyright"></i> copyright 2020 - Digital Skills For All</div>
 </footer>
+    
+<script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="../js/slides.js"></script>
+
+<script type="text/javascript">
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $(".slider_imgs").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: true,
+        speed: 1000,
+		timeout: 4000,
+        namespace: "large-btns"
+      });
+
+    });
+</script>
     
 </body>
     

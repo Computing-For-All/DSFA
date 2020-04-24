@@ -644,6 +644,10 @@ footer .footer-legal i {
 .rtb {
     padding: 30px;
 }
+
+.rtb p {
+    padding-top:0;
+}
 .rtb-icon {
     background-color:#fff;
     padding:10px;
@@ -659,6 +663,14 @@ footer .footer-legal i {
     position: relative;
     top:50%;
     transform: translateY(-50%);
+}
+
+.txt-black .rtb-icon {
+    background-color:#333;
+}
+
+.txt-black .rtb-icon i {
+    color:#fff;
 }
 
 /* GALLERY */
