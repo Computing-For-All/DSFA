@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<!-- William's head html -->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="testing_2.css">
+        <title>To Do List</title>
+        
+    
+<!-- Payton's head html -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+        
+<!-- Momo's head html --> 
+        
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Albiona's head html -->
+        
+        <style type="text/css">
+            .speach-bubbles {
+                display:grid; 
+                grid-template-columns: auto auto auto; 
+                margin:auto;
+                width:auto!important;
+            }
+            
+            .speach-bubbles div.options, .speach-bubbles div.add-talktext {
+                display:block!important;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+<!-- William's body html -->
+        <div id="navbar">
+            <div id="logo">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div id="name">
+                <h1>To Do List</h1>
+            </div>
+            <center>
+                <div id="will-buttons">
+                    <div id="stack">
+                        <div id="">
+                            <a href="" id="user"><i class="fas fa-user"></i></a>
+                        </div>
+                        <a href="" id="sign">sign in</a>
+                        <!--  <div id="login">
+                            <form action="/action_page.php">
+                              <input type="text" placeholder="Username" name="username" id="username">
+                              <input type="text" placeholder="Password" name="password" id="password">
+                              <button type="submit" id="submit">Login</button>
+                            </form>
+                        </div> -->
+                    </div>
+                </div>
+            </center>
+        </div>
+        
+
+<!-- Payton's body html -->
+            <main> 
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" id="tab1" onclick="select1()" href="#">1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab2" onclick="select2()" href="#">2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab3" onclick="select3()" href="#">3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab4" onclick="select4()" href="#">4</a>
+            </li>
+          </ul>
+    </main>
+        
+<!-- Momo's body html -->
+    
+<!-- tab 1 -->
+        
+        <center class="momo-spacing" id="tab_1">
+    
+      <!-- Talk Buble code
+        
+      <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p>Now we add a border and it looks like a comic. Uses .border .round and .btm-left-in</p>
+        </div>
+      </div>
+         -->
+        <div class="options" style="margin-bottom:100px;">
+        
+        <button type="button" id="momo-sort" onclick="alert('Hello world!')">sort</button>
+        <button type="button" id="momo-design" onclick="alert('Hello world!')">design</button>
+        
+        </div>
+        <div id="write-a-note-here1" class="speach-bubbles" >
+
+        
+      <!--  <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p> insert text</p>
+        </div>
+            
+            
+            <div>
+            <input type="checkbox" id="favoriteIcon" name="favorite">
+                
+                <input type="text" id="firstName" name="fname"><br><br>
+               
+                
+            </div> 
+            
+        </div> -->
+           
+            
+      
+    </div>
+            
+            <!-- Plus Sign ? Needs JS to be interactive -->
+      <div class="add-talktext">
+      </div>
+        <div id="addButton1" class="add-button">add a note <i class="fas fa-plus-circle"></i></div> 
+        
+        </center> 
+    
+    
+<!-- tab 2 -->    
+    
+     <center class="momo-spacing" id="tab_2">
+    
+      <!-- Talk Buble code
+        
+      <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p>Now we add a border and it looks like a comic. Uses .border .round and .btm-left-in</p>
+        </div>
+      </div>
+         -->
+         
+         <div class="options">
+        
+        <button type="button" id="momo-sort" onclick="alert('Hello world!')">sort</button>
+        <button type="button" id="momo-design" onclick="alert('Hello world!')">design</button>
+        
+        </div>
+        <div id="write-a-note-here2" class="speach-bubbles" >
+           
+        
+       <!-- <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p> insert text</p>
+        </div>
+            
+            
+            <div>
+            <input type="checkbox" id="favoriteIcon" name="favorite">
+                
+                <input type="text" id="firstName" name="fname"><br><br>
+               
+                
+            </div>
+            
+        </div> -->
+           
+
+      
+    </div>
+         <!-- Plus Sign ? Needs JS to be interactive -->
+      <div class="add-talktext">
+      </div>
+            <div id="addButton2" class="add-button" > 
+                
+                add a note 
+            
+            <i class="fas fa-plus-circle"></i>
+                
+            </div>
+        </center> 
+
+<!-- tab 3 -->    
+    
+     <center class="momo-spacing" id="tab_3">
+    
+      <!-- Talk Buble code
+        
+      <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p>Now we add a border and it looks like a comic. Uses .border .round and .btm-left-in</p>
+        </div>
+      </div>
+         -->
+         
+         <div class="options">
+        
+        <button type="button" id="momo-sort" onclick="alert('Hello world!')">sort</button>
+        <button type="button" id="momo-design" onclick="alert('Hello world!')">design</button>
+        
+        </div>
+        <div id="write-a-note-here3" class="speach-bubbles" >
+           
+            
+        
+      <!--  <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p> insert text</p>
+        </div>
+            
+            
+            <div>
+            <input type="checkbox" id="favoriteIcon" name="favorite">
+                
+                <input type="text" id="firstName" name="fname"><br><br>
+               
+                
+            </div>
+            
+        </div> -->
+           
+
+      
+    </div>
+         <!-- Plus Sign ? Needs JS to be interactive -->
+      <div class="add-talktext">
+      </div>
+            <div id="addButton3" class="add-button" > 
+                
+                add a note 
+            
+            <i class="fas fa-plus-circle"></i>
+                
+            </div>
+        </center> 
+
+<!-- tab 4 -->    
+    
+     <center class="momo-spacing" id="tab_4">
+    
+<div class="options">
+        
+        <button type="button" id="momo-sort" onclick="alert('Hello world!')">sort</button>
+        <button type="button" id="momo-design" onclick="alert('Hello world!')">design</button>
+        
+        </div>
+        <div id="write-a-note-here4" class="speach-bubbles" >
+           
+            
+        
+       <!--  <div class="talk-bubble tri-right border round btm-left-in">
+        <div class="talktext">
+          <p> insert text</p>
+        </div>
+            
+            
+            <div>
+            <input type="checkbox" id="favoriteIcon" name="favorite">
+                
+                <input type="text" id="firstName" name="fname"><br><br>
+               
+                
+            </div>
+            
+        </div> -->
+           
+
+      
+    </div>
+         <!-- Plus Sign ? Needs JS to be interactive -->
+      <div class="add-talktext">
+      </div>
+            <div id="addButton4" class="add-button" > 
+                
+                add a note 
+            
+            <i class="fas fa-plus-circle"></i>
+                
+            </div>
+        </center> 
+        
+<!-- Albiona's body html -->
+     
+    <center id="music-player">
+    <div id="bg">
+         <div id ="blackLayer"></div>
+        <img src="India.jpeg"/>
+     </div>
+    <div id="main">
+        <div id="image">
+          <img src="India.jpeg"/>
+         </div>
+        <div id="player">
+          <div id="songTitle">India</div>
+         <div id="buttons">
+            <button id="pre" onclick="pre()"><img src="Pre.png" height="90%" width="90%"/></button>
+             <button id="play" onclick="buttonPress()"><img src="play.png"/></button>
+             <button id="next" onclick="next()"><img src="Next.png" height="90%" width="90%"/></button>
+         </div>
+         <div id="seek-bar">
+            <div id="fill"></div>
+            <div id="handle"></div>
+         </div>
+        </div>
+     </div>
+    </center>
+        
+        
+    </body>
+    
+<!-- William's Javascript -->
+    
+<!-- Payton's Javascript -->
+    
+    <script type="text/javascript">
+        
+    function select2(){
+            document.getElementById("tab2").className = "nav-link active"
+            document.getElementById("tab1").className = "nav-link"
+            document.getElementById("tab3").className = "nav-link"
+            document.getElementById("tab4").className = "nav-link"
+            document.getElementById("tab_1").style.display = "none"
+            document.getElementById("tab_2").style.display = "block"
+            document.getElementById("tab_3").style.display = "none"
+            document.getElementById("tab_4").style.display = "none"
+            }
+    function select3(){
+            document.getElementById("tab3").className = "nav-link active"
+            document.getElementById("tab1").className = "nav-link"
+            document.getElementById("tab2").className = "nav-link"
+            document.getElementById("tab4").className = "nav-link"
+            document.getElementById("tab_1").style.display = "none"
+            document.getElementById("tab_2").style.display = "none"
+            document.getElementById("tab_3").style.display = "block"
+            document.getElementById("tab_4").style.display = "none"
+            }
+    function select4(){
+            document.getElementById("tab4").className = "nav-link active"
+            document.getElementById("tab1").className = "nav-link"
+            document.getElementById("tab2").className = "nav-link"
+            document.getElementById("tab3").className = "nav-link"
+            document.getElementById("tab_1").style.display = "none"
+            document.getElementById("tab_2").style.display = "none"
+            document.getElementById("tab_3").style.display = "none"
+            document.getElementById("tab_4").style.display = "block"
+            }
+    function select1(){
+            document.getElementById("tab1").className = "nav-link active"
+            document.getElementById("tab2").className = "nav-link"
+            document.getElementById("tab3").className = "nav-link"
+            document.getElementById("tab4").className = "nav-link"
+            document.getElementById("tab_1").style.display = "block"
+            document.getElementById("tab_2").style.display = "none"
+            document.getElementById("tab_3").style.display = "none"
+            document.getElementById("tab_4").style.display = "none"
+            }
+            
+<!-- Abliona's Javascript -->
+        
+    var songs = ["india.mp3","relaxing.mp3","slowmotion.mp3","French-Lab.mp3","DorMan-Relax.mp3","Rotta-Migala.mp3","Laurent-Danis.mp3","Helios-Salah.mp3","Symphonic.mp3","Sergey-Dolgunov.mp3","Madi-Composer.mp3","Happy-Days.mp3","Ginger-Tom.mp3"];
+    var poster =["India.jpeg","relaxing.jpeg","slowmotion.jpeg","French-Lab.jpg","DorMan-Relax.jpg","Rotta-Migala.jpg","Laurent-Danis.jpg","Helios-Salah.jpg","Symphonic.jpg","Sergey-Dolgunov.jpg","Madi-Composer.jpg","Happy-Days.jpg","Ginger-Tom.jpg"];
+    var title = ["India","Relaxing","Slowmotion","French","DorMan-Relax","Rotta-Migala","Laurent-Danis","Helios-Salah","Symphonic","Sergey-Dolgunov","Madi-Composer","Happy-Days","Ginger-Tom"];
+    
+    var songTitle = document.getElementById("songTitle");
+    var fillBar = document.getElementById("fill");
+    
+    var song = new Audio();
+    var currentSong = 0;
+    
+    var songIsNotPlaying = true;
+    
+    function buttonPress() {
+        if (songIsNotPlaying) {
+            songIsNotPlaying = false;
+            playSong();
+        } else {
+            playOrPauseSong();
+        }
+    }
+    
+    function playSong(){
+        song.src = songs[currentSong];
+        
+        songTitle.textContent = title[currentSong];
+         document.getElementById("play").innerHTML='<img src="pause.png"/>';
+        
+        song.play(); 
+    }
+    
+    function playOrPauseSong(){
+        
+        if(song.paused){
+            song.play();
+            document.getElementById("play").innerHTML='<img src="pause.png"/>';
+        }
+        else{
+            song.pause();
+             document.getElementById("play").innerHTML='<img src="play.png"/>';
+        }
+    }
+    
+    song.addEventListener('timeupdate', function(){
+        var position = song.currentTime / song.duration;
+        
+        fillBar.style.width = position * 100 + '%';
+        
+    });
+    
+    function next(){
+        
+        currentSong++;
+        if(currentSong > 12){
+            currentSong = 0;
+        }
+        playSong();
+        document.getElementById("play").innerHTML='<img src="pause.png"/>';
+        document.getElementById("image").innerHTML = '<img src="' + poster[currentSong] + '"/>'
+        document.getElementById("bg").innerHTML = '<img src="' + poster[currentSong] + '"/>'
+    }
+     function pre(){
+        
+        currentSong--;
+        if(currentSong < 0){
+            currentSong = 12;
+        }
+        playSong();
+        document.getElementById("play").innerHTML='<img src="pause.png"/>';
+        document.getElementById("image").innerHTML = '<img src="' + poster[currentSong] + '"/>'
+        document.getElementById("bg").innerHTML = '<img src="' + poster[currentSong] + '"/>'
+    }
+        
+        </script>
+
+  <script src="testing_2.js"></script>
+
+</html>

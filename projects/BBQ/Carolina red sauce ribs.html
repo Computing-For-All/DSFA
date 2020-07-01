@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        text-align: left;
+        position: relative; 
+        margin-left: 27%; 
+        width:46%;
+        }
+    .checked {
+        color: orange;
+    }
+    li {
+        text-align: left;
+        position: relative; 
+        margin-left: 27%; 
+        width:46%;
+        }
+    #share-buttons img {
+        width: 35px;
+        padding: 5px;
+        border: 0;
+        box-shadow: 0;
+        display: inline;
+        margin:auto;
+    }
+    .comment {
+        text-align: left;
+        position: relative; 
+        margin-left: 27%; 
+        width:46%;
+    }
+        .commentTitle {
+        text-align: left;
+        position: relative;
+        margin-left: 27%; 
+        width:46%;
+        font-size: normal;
+        font-weight: bold;
+    }
+    .commentName {
+        text-align: left;
+        position: relative;
+        font-size: Normal;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+    .commentText {
+        text-align: left;
+        position: relative;
+        font-size: normal;
+        font-weight: normal;
+        margin-bottom: 10px;
+        border-bottom: 1px solid black;
+
+    }
+
+</style>
+
+
+
+<body>
+    <h1 style="text-align:center; font-size:400%; font-family:'Impact', fantasy; font-weight: 900;">Carolina red sauce ribs</h1><p style="text-align: center;"><b>Posted by: </b>Lukas Chapman</p>
+    <p><b>Description: </b> This is a standard southern barbecue, in the form of spare ribs smoked with hickory, dry-rubbed, and basted in Carolina red sauce</p>
+    <img src="images/ribspic.jpg" style="position: relative; margin-left: 25%; width:50%; border: 5px solid gray; align:center; "> 
+        
+    
+    
+    
+    <p>
+        <b> Overall Rating: </b><span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+
+        <br><b>Diffculty rank: </b><br><b>Servings: </b><br><b>Prep time: </b><br><b>Cook time: </b><br><b>Total time: </b><br>
+    <p><b>Ingredients:</b></p> 
+    <ul>
+       <li>3 Tbsp chili powder</li>
+        <li>1 Tbsp garlic powder</li>
+        <li>1 Tbsp onion powder</li>
+        <li>1 Tbsp paprika (sub with smoked paprika for oven method)</li>
+        <li>2 Tbsp ground mustard</li>
+        <li>1 Tbsp dried oregano</li>
+        <li>1 Tbsp kosher salt</li>
+        <li>1 Tbsp each of black and white pepper</li>
+        <li>1 Tbsp cumin (optional, omit for oven method)</li>
+        <li>1 tsp cayenne pepper (optional)</li>
+        <li>3 full racks of pork spare ribs, with membranes removed</li>
+        <li>2 cups apple cider vinegar</li>
+        <li>2 cups tomato puree (sub with 1 1/2 cups ketchup for oven method)</li>
+        <li>1/4 cup dark brown sugar (increase to 3/4 cup for oven method)</li>
+        <li>1/2 tsp paprika</li>
+        <li>1 tsp garlic powder</li>
+        <li>1 tsp onion powder</li>
+        <li>1 tsp salt</li>
+        <li>2 tsp ground mustard (sub with 1/4 cup yellow mustard for oven method)</li>
+        <li>2 tsp Worcestershire sauce</li>
+        <li>2 Tbsp liquid hickory smoke (omit if using a smoker)</li>
+        <li>1 cup apple juice, preferably used via spray bottle</li>
+
+
+    
+    </ul>
+    <p><b>Instructions:</b></p> 
+    <ol>
+        <li>Cook brisket fat-side down in a cast iron skillet for 4-5 minutes</li>
+        <li>Peel and chop the carrots, chop celery into 1 inch chunks, peel and roughly chop 4 medium onions and crush 4 cloves of garlic</li>
+        <li>Remove all but 2 tbsp of fat from pan (if necessary)</li>
+        <li>Carmelize onions in the pan slowly for 10 minutes, adding brown sugar for color</li>
+        <li>Add carrots and celery and continue simmering for 2 minutes before adding garlic and tomato paste before sauteing for 30 seconds</li>
+        <li>Mix in thickener, usually flour or potato starch and let it before adding dry red wine to deglaze at medium high heat, being sure to scrape the bottom</li>
+        <li>Add beef broth (use another cup and a half of dry red wine if not enough liquid is in the pan), ketchup and crushed tomatoes</li>
+        <li>Add the rest of the ingredients to the liquid, adding the brisket and covering tightly. Broil in oven at 300 degrees fahrenheit for 3-4 hours</li>
+        <li>Let cool for an hour before serving (for best results, remove fat before broiling, this will make the fluid less greasy)</li>
+
+    
+    </ol>
+        <p></p>
+    <div class= "commentTitle")> Comments: </div> <p></p>
+    <textarea class = "comment" id="name" type="text "rows="1" cols="10" onkeyup="Allow()" placeholder="Please Enter Your Name"></textarea>
+    <textarea class = "comment" id="title" type="text "rows="5" cols="200" onkeyup="Allow()" placeholder="Write a comment......"></textarea>
+    <input type="submit" value="Post" onclick="insert()" style="" ><p></p>
+
+    <div id="display" class = "comment"></div>
+    <p></p>
+    
+    <div id="share-buttons"><center>
+     <!-- Email -->
+    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+    <!-- Print -->
+    <a href="javascript:;" onclick="window.print()">
+        <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+    </a>
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+    
+    <!-- Pinterest -->
+    <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+        <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+    </a>
+        </center></div>
+
+<script>
+    var titles = [];
+    var titleInput = document.getElementById("title");
+    var messageBox = document.getElementById("display");
+    var nameInput = document.getElementById("name");
+    function Allow()
+    {
+        if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+        {
+            user.title.value="";
+            alert("Please Enter only alphabets");
+        }
+        window.location.reload()
+    }
+    function insert () {
+        titles.push([nameInput.value,titleInput.value]);
+        clearAndShow();
+    }
+    function clearAndShow ()
+    {
+    titleInput.value = "";
+    nameInput.value="";
+    messageBox.innerHTML = "";
+    var messages= '';
+        for (var i = 0; i<titles.length; i++) {
+            messages += '<div class="commentName">';
+            messages += titles[i][0];
+            messages += '</div>';
+            messages += '<div class="commentText">';
+            messages += titles[i][1];
+            messages += '</div>';
+        }
+    messageBox.innerHTML = messages;
+        
+    }
+</script>
+     
+</body>
+    
+  
+        
+        
+    
+
+
+
+
+
+
+
+

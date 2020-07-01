@@ -1,0 +1,652 @@
+/* ---------------William's CSS Start-------------------*/
+
+#sign {
+    border: none;
+    color: white;
+    padding: 14px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    background-color: #555555;
+    border-radius: 10px;
+}
+
+#user {
+    border: none;
+    color: white;
+    padding: 13px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 4px;
+    background-color: #555555;
+    border-radius: 50%;
+}
+
+#username {
+    width: 70px;
+}
+
+#password {
+    width: 70px;
+}
+
+#submit {
+    
+}
+
+#login {
+    
+}
+a:hover {
+    color: #555555;
+    background-color: #829b9e;
+}
+
+#user:hover {
+    color: #555555;
+    background-color: #829b9e;
+}
+
+#sign:hover {
+    color: #555555;
+    background-color: #829b9e;
+}
+
+#will-buttons {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    padding-top: 8px;
+}
+
+#stack {
+    display: block;
+    align-content: center;
+    vertical-align: middle;
+}
+
+#navbar {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    background-color: #85c5d6;
+    grid-gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#logo {
+   display: grid;
+   justify-content: start;
+   align-content: center;
+   height: 120px;
+   width: 120px:
+   font-size: 0px;
+   font-size: 100px;
+}
+
+#name {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+/* ---------------William's CSS End-------------------*/
+/* ---------------Payton's CSS Start---------------*/
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+ color: white;
+}
+
+.nav-fill .nav-item {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #60919e !important;
+    color: white;
+}
+.nav-item {
+    width: 15%;
+    min-width: 110px;
+    max-width: 175px;
+    
+}
+
+#tab_1 {
+    background-color:#60919e;
+}
+
+#tab_2 {
+    display:none;
+    background-color:#60919e;
+}
+
+#tab_3 {
+    display:none;
+    background-color:#60919e;
+}
+
+#tab_4 {
+    display:none;
+    background-color:#60919e;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white;
+  background-color: #60919e;
+}
+
+ul {
+    background-color: #85c5d6;
+}
+/* ---------------Payton's CSS End-------------------*/
+/* ---------------Momo's CSS Start-------------------*/
+/* General CSS Setup */
+body{
+  background-color: #60919e;
+  
+}
+
+/* container */
+.container {
+  padding: 5% 5%;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: lightyellow transparent transparent transparent;
+}
+
+/* Right triangle, left side slightly down */
+.tri-right.border.left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+    transform: translateY(50%);
+}
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -8px;
+  right: auto;
+  top: auto;
+	bottom: -40px;
+	border: 32px solid;
+	border-color: transparent transparent transparent #666;
+}
+.tri-right.btm-left:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 22px solid;
+	border-color: transparent transparent transparent lightyellow;
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+  right: auto;
+  top: auto;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}
+.tri-right.btm-left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 38px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 12px solid;
+	border-color: lightyellow transparent transparent lightyellow;
+}
+
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 30px;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 38px;
+	bottom: -20px;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+}
+
+.tri-right.border.btm-right:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -8px;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 0px;
+	bottom: -20px;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+}
+
+/* Right triangle, right side slightly down*/
+.tri-right.border.right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow transparent transparent lightyellow;
+}
+
+/* Right triangle placed top right flush. */
+.tri-right.border.right-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.right-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 0px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: lightyellow transparent transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.to-do-list-container{
+    height: 50%;
+    width: 75%;
+    
+}
+
+.speach-bubbles{
+    width: 300px;
+    background-color:#60919e;
+        
+}
+.options{
+    float:  right;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+#momo-sort {
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    background-color: #555555;
+    border-radius: 10px;
+}
+
+#momo-design {
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    background-color: #555555;
+    border-radius: 10px;
+}
+
+#momo-sort:hover {
+    color: white;
+    background-color: #829b9e;
+}
+
+#momo-design:hover {
+    color: white;
+    background-color: #829b9e;
+}
+.options > button { 
+    padding 5px;
+}
+
+
+.add-button{
+    
+    width: 00px
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    background-color: #555555;
+    border-radius: 10px;
+    
+}
+
+#firstName {
+    width:150px;
+}
+
+.momo-spacing {
+    
+}
+
+.deleteButton{
+    background-color: #555555;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    margin-top: 15px;
+    font-size: 14px;
+
+    
+}
+
+#addButton1 {
+    margin-top: 10px;
+}
+
+#addButton2 {
+    margin-top: 10px;
+}
+
+#addButton3 {
+    margin-top: 10px;
+}
+
+#addButton4 {
+    margin-top: 10px;
+}
+/* ---------------Momo's CSS End-------------------*/
+/* ---------------Albiona's CSS Start-------------------*/
+#bg{
+  height: 100vh;
+    width:100%;
+    position: absolute;
+    overflow: hidden;
+    
+}
+#bg img{
+    height:120vh;
+    width:105%;
+    -webkit-filter:blur(20px);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+        
+}
+#blackLayer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 99;
+}
+#main{
+    width: 25%;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    top:50;
+    left: 50%;
+    transform:translate(-50%,60%);
+    z-index: 999; 
+}
+#image img{
+    height: 180px;
+    width: 100%;
+    margin-top: -5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#player{
+   padding: 25px;
+   color:#333;
+    
+    
+}
+#songTitle{ 
+    width:auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 18px;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+#buttons{
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    position:relative;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#play, #next, #pre{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} 
+#next{
+    width: 30px;
+    height: 30px;
+    left: 77%;
+}
+#pre{
+    width: 30px;
+    height: 30px;
+    left: 23%;
+}
+#play img,#next img,#pre img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+#seek-bar{
+    width: auto;
+    height: 5px;
+    background-color: gray;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#fill{
+    height: 5px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    
+}
+#handle{
+    width:8px;
+    height: 8px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+#music-player {
+    margin-top: 100px
+}
+#divider {
+    
+}
+
+html {
+    background-color: #60919e;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------Albiona's CSS End-------------------*/

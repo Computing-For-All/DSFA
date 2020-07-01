@@ -1,0 +1,125 @@
+.LGbreak{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: inherit;
+    z-index: 1;
+}
+
+
+a.button{
+    padding-top: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: sans-serif;
+}
+
+#browse{
+    padding-top: 25%;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 50px;
+    
+}
+
+#logo{
+   margin-top: 25px;
+    margin-right: 50%;
+    padding-left: 10%;
+    height: 2em;
+    width: 38px;
+}
+.navbar {
+    display: grid;
+    grid-template-areas: 
+        'logo browse profile';
+    grid-gap: 10px;
+    padding: 10px;
+    background-color:rgba(219, 124, 22,0.9);
+    position:fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+    width:100%;
+    height:120px;
+
+    padding:0px;
+    box-shadow:0px 1px 2px 1px rgba(0,0,0,0.2);
+    font-size:2em;
+}
+.searchbar{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 20px 20px 80px;
+    border-bottom-color: chocolate;
+    z-index: 1;
+    font-size: 26px;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#profile{
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-left: 75%!important;
+    text-align: right;
+    height: 2em;
+    width: 38px;
+}
+.profileContainer{
+    text-align: right;
+    margin: 0px;
+}
+
+.browseContainer{
+    text-align: center;
+    margin-top: 3%;
+}
+
+ .menu-slider {
+    position: relative;
+    overflow-y:hidden;
+}
+    
+.container-menu-items {
+    width:100%;
+    white-space: nowrap;
+}
+
+.column {
+        display:inline-block;
+        width:300px;
+        height:200px;
+}
+    
+.arrows {
+        position: absolute;
+        width:100%;
+        height:100%;
+}
+    
+    .arrow-l, .arrow-r {
+        position: absolute;
+        color:#fff;
+        font-size: 2em;
+}
+    
+.arrow-l {
+    left:1%;
+    top:50%;
+    transform: translateY(-50%);
+}
+    
+.arrow-r {
+    right:1%;
+    top:50%;
+    transform: translateY(-50%);
+}
+    
+.arrow-l a, .arrow-r a {
+    color:#fff;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif; 
+  margin:0;
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 800px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.slideshow-container1 {
+  width: 800px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+    
+img {
+  width: 800px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: whitesmoke;
+  font-size: 45px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.column {
+  background-color: #777777;
+  float: top;
+  width: 800px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #292929;
+}
+
+.center {
+  align-content: center;
+  
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+  color: darkred;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: .8}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: .8}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.dropbtn {
+  background-color: #ddd;
+  text-decoration-color: none;
+  float: top;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  text-decoration-color: none; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #777777;
+}
+
+.show {
+  display: block;
+}
+    
+</style>
+</head>
+<body>
+
+<div class="column">
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><h2 style="font-weight: bold;">Categories</h2></button>
+<div id="myDropdown" class="dropdown-content">
+    <a href="">Bbq ribs</a>
+    <a href="">Smoked pork</a>
+    <a href="">Brisket</a>
+    <a href="">Vegan BBQ</a>
+    <a href="">Seafood BBQ</a>
+    <a href="">Korean BBQ</a>
+    <a href="">Hawaiian BBQ</a>
+    <a href="">African BBQ</a>
+    
+</div>
+    <p>Check out some categories of BBQ that'll smell so good it'll make Martha say "You done good!"</p>   
+  </div>
+</div>
+    
+<div class="column">
+    <h2>Recipes</h2>
+    <p>Experience a variety of exquisite BBQ recipes down below!</p>
+</div>
+    
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <a href=""><img src="images/barbecue.jpg" style="width:100%"></a>
+  <div class="text">BBQ RIBS</div>
+</div>
+
+<div class="mySlides fade">
+  <a href=""><img src="images/shrimp.jpg" style="width:100%"></a>
+  <div class="text">BBQ Shrimp</div>
+</div>
+
+<div class="mySlides fade">
+  <a href=""><img src="images/SMOKED%20PORK%20BELLY.jpg" style="width:100%"></a>
+  <div class="text">PORK BELLY</div>
+</div>
+
+<div class="mySlides fade">
+  <a href=""><img src="images/KOREAN BBQ.jpg" style="width:100%"></a>
+  <div class="text">KOREAN BBQ</div>
+</div>
+    
+<div class="mySlides fade">
+  <a href=""><img src="images/TEXAS BRISKET.jpg" style="width:100%"></a>
+  <div class="text">TEXAS BRISKET</div>
+</div>
+    
+<div class="mySlides fade">
+  <a href=""><img src="images/RIBS.jpg" style="width:100%"></a>
+  <div class="text">Carolina RIBS</div>
+</div>
+    
+<div class="mySlides fade">
+  <a href=""><img src="images/BBQ PORK.jpg" style="width:100%"></a>
+  <div class="text">BBQ PORK</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides");
+  
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html> 
