@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* NAV CSS */
+nav {
+    background-color: skyblue;
+    margin:0;
+    text-align: center;
+}
+nav div ul {
+    padding: 0;
+    margin: 0;
+}
+nav div ul li {
+    display: inline-block;
+}
+nav div ul li a {
+    padding: 1em;
+    color: white;
+    display: block;
+    transition: 0.5s
+}
+nav div ul li a:hover {
+    color: lightgray;
+    font-size: 21px;
+}
+/* HEADER CSS*/
+header {
+    background-image: url("https://pbs.twimg.com/profile_banners/1039150464829284352/1562717457/1500x500");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 25%;
+}
+header h1 {
+    color: black;
+}
+header div {
+    height: 100%;
+    position: relative;
+}
+.container-text {
+    position: relative;
+    top: 25%;
+}
+/* CONTENT CSS */
+.grid-2by {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+}
+
+h1, h2, h3 {
+    margin: 0px !important;
+}
+.grid-text {
+    padding: 5%;
+}
+.grid-image {
+    height: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url(first.me.jpg);
+    background-position: 50% 15%;
+}
+.random-stuff {
+    text-align: center;
+    padding: .5em;
+}
+.random-stuff div ul {
+    padding: 0;
+    margin: 0;
+}
+.random-stuff div ul li {
+    display: inline-block;
+}
+.random-stuff div ul li a {
+    padding: .5em;
+    color: white;
+    display: block;
+    transition: 0.5s
+}
+.random-stuff div ul li a:hover {
+    color: lightgray;
+    font-size: 21px;
+}
+.grid-image2 {
+    height: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url(hobbies.jpg);
+    background-position: 50%;
+}
+.grid-2by2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+}
+.grid-image3 {
+    height: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url(https://blacklivesmatter.com/wp-content/themes/blm/dist/images/logo-black-lives-matter.png);
+    background-position: 50%;
+}
+footer {
+    background: darkgray;
+    padding: .5em;
+    color: #fff;
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 768px) {
+    .grid-2by {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .grid-2by2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+

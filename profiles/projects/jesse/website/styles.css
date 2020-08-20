@@ -1,0 +1,31 @@
+.grid-2by
+{
+    display: grid;
+}
+body {
+    background-image: url(pic-jesse-bg.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+}
+ nav div ul li {
+  margin: 0;
+  padding: 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align-last: center;
+  }
+nav div ul li a:hover {
+    color: black;
+}
+
