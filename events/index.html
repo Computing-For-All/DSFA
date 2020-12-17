@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164554771-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164554771-1');
+</script>
+    
+<title>DSFA: Events</title>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/slider.css">
+
+</head>
+        
+<body>
+    
+<div class="navbar">
+    <div class="navbar-logo">
+        <a href="http://dsfastudents.org/"><img src="../images/logo-color.png"></a>
+    </div>
+    <div>
+        <div class="navbar-items">
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <div class="navbar-list">
+            <a href="http://dsfastudents.org/profiles">Students</a>
+            <a href="http://dsfastudents.org/projects">Projects</a>
+            <a href="http://dsfastudents.org/events">Events</a>
+            <a href="http://dsfastudents.org/visits">Visits</a>
+            <a href="http://dsfastudents.org/about">About Us</a>
+            <a href="http://dsfastudents.org/contact"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="hero short" style="background-image:url(images/hero.jpg);background-position: 100% 20%;">
+    <div class="overlay"></div>
+    <div class="txt-white abs-centered container-txt">
+        <h1>Digital Skills</h1>
+        <h1 class="bold">News &amp; Events</h1>
+        <h2>Keep up on our recent events, special guests, and the latest news from us</h2>
+    </div>
+</section>
+<!--  
+<section class="bg-blue spacing-section">
+    <div class="container-txt centered txt-white">
+        <h1>Onsite Visits and <span class="nowrap">Job Shadows</span></h1>
+        <p>We are provided with the opportunities to experience the tech industry first-hand through onsite visits to leading tech companies. These visits range from learning business skills from experienced professionals to participating in hackathons and real-world tech applications.</p>
+    </div>
+</section>
+-->
+<section class="bg-white spacing-section">
+    <div class="container-limited">
+        <div class="grid-2by">
+<!-- SUMMER 2020 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url(../projects/images/sign-in-cia.jpg);background-position: 50% 100%;"></div>
+                <div>
+                    <h2>Summer Finals</h2>
+                    <p>Watch as we present our final projects for the 2020 Summer Quarter and demo our recently developed web apps and games.</p>
+                </div>
+                <div><a href="summer2020/index.html" class="button btn-blue">View Summer Finals <span><i class="fas fa-arrow-right"></i></span></a></div>
+            </div>
+<!-- SPRING 2020 -->
+            <div class="card">
+                <div class="card-img" style="background-image: url(spring2020/hero.jpg);"></div>
+                <div>
+                    <h2>Spring Finals</h2>
+                    <p>Watch our presentation of out final projects for the 2020 Spring Quarter and try out the recently developed web apps we built from scratch.</p>
+                </div>
+                <div><a href="spring2020/index.html" class="button btn-blue">View Spring Finals <span><i class="fas fa-arrow-right"></i></span></a></div>
+            </div>
+<!-- END EVENTS -->
+        </div>
+    </div>
+</section>
+    
+<section class="bg-green spacing-section">
+    <div class="txt-white container-txt centered">
+        <h1>Check Out Our Onsite Visits</h1>
+        <div class="button-padding"><a href="http://dsfastudents.org/visits" class="button btn-white">View Onsite Visits</a></div>
+    </div>
+</section>
+    
+<footer>
+	<div class="soc-icons-footer">
+		<a href="https://www.facebook.com/youthdsfa/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+		<a href="https://www.instagram.com/dsfa.students/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="http://dsfastudents.org/contact"><i class="fas fa-envelope"></i></a>
+	</div>
+	<div class="footer-legal"><i class="far fa-copyright"></i> copyright 2020 - Digital Skills For All</div>
+</footer>
+    
+<script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="../js/slides.js"></script>
+
+<script type="text/javascript">
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $(".slider_imgs").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: true,
+        speed: 1000,
+		timeout: 4000,
+        namespace: "large-btns"
+      });
+
+    });
+</script>
+    
+</body>
+    
+</html>
