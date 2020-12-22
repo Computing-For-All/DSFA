@@ -1,6 +1,6 @@
 <?php
     
-    $myemail = 'andrew@computingforall.org';
+    $myemail = 'info@computingforall.org';
 
     $name = $_POST['sender'];
     $email_address = $_POST['email'];
@@ -8,7 +8,7 @@
     
     $to = $myemail;
 
-    $email_subject = "Student Inquiry from: $name";
+    $email_subject = "DSFA Students Inquiry from: $name";
 
     $email_body = "Name: $name\n".
                     "Email: $email_address\n".
