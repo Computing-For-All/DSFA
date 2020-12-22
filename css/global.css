@@ -30,7 +30,7 @@ td {
     
 .hero {
     background-size:cover;
-    height:60%;
+    height:100%;
     position:relative;
     background-attachment:scroll;
 }
@@ -70,7 +70,7 @@ h1.bold, h2.bold {
 h2 {
     font-family: 'Montserrat', Arial, Verdana, sans-serif!important;
     font-size: 1.4em;
-    margin: 1.2em 0;
+    padding: 1.2em 0;
     line-height:1.4em;
     text-transform: none;
     font-weight: 400;
@@ -81,7 +81,7 @@ h3 {
     font-weight:700;
     font-size:1em;
     text-transform: uppercase;
-    margin: 1.2em;
+    padding: 1.2em;
 }
 
 p {
@@ -175,6 +175,14 @@ a {
 .centered {
     margin:0 auto;
     text-align: center;
+}
+
+.v-centered {
+    margin:0 auto;
+    text-align: center;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 .abs-centered {
@@ -938,7 +946,7 @@ and (min-width :1024px) {
 }
 .grid-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
     
@@ -1103,7 +1111,7 @@ footer .footer-legal i {
 @media (min-width: 1280px) {
 .grid-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
 .grid-4by {
@@ -1117,7 +1125,15 @@ footer .footer-legal i {
 @media (min-width: 1600px) {
 .grid-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+}
+    
+@media (min-width: 2400px) {
+.grid-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
 }
