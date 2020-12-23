@@ -1104,8 +1104,7 @@ footer .footer-legal {
 
 footer .footer-legal i {
     padding-right:0px;
-}
-    
+} 
 }
     
 @media (min-width: 1280px) {
@@ -1125,7 +1124,7 @@ footer .footer-legal i {
 @media (min-width: 1600px) {
 .grid-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
 }
