@@ -874,7 +874,7 @@ and (min-device-width :320px) {
 .dt-only {
 	display:none;
 }
-
+}
     
 /* Small screens ----------- */
 @media (min-width: 768px) {
@@ -900,7 +900,7 @@ and (min-width :1024px) {
 
     
 /* CONTAINERS */
-.container-full, .container-limited, .container-compact, {
+.container-full, .container-limited, .container-compact {
     width:96%; 
 }
 .container-page, .container-limited, .container-compact {
