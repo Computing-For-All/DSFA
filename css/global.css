@@ -33,6 +33,7 @@ td {
     height:100%;
     position:relative;
     background-attachment:scroll;
+    background-position: 50% 50%;
 }
 
 section, footer {
@@ -74,7 +75,6 @@ h2 {
     line-height:1.4em;
     text-transform: none;
     font-weight: 400;
-    line-height: 1.4em;
 }
 
 h3 {
@@ -315,19 +315,6 @@ a.button.btn-white:hover {
     right:1.5em;
 }
     
-.button-disc {
-    position: relative;
-    background-color:#059fc3;
-    width:60px;
-    height:60px;
-    border-radius:100%;
-    transition: all 0.4s ease-in-out;
-}
-
-a:hover .button-disc {
-    transform: translateY(-15px);
-}
-    
 .button-disc i {
     position:absolute;
     top:50%;
@@ -416,6 +403,10 @@ td a div.button{
 }
 
 /* CARDS */
+.grid-cards .path {
+    background-position:50% 50%;
+}
+
 .card {
     position: relative;
     background-color:#fff;
@@ -870,8 +861,19 @@ footer .footer-legal i {
     display: inline-block;
 }
 
-.contributors .button-disc {
+.contributors img {
+    position: relative;
+    background-color:#059fc3;
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    transition: all 0.4s ease-in-out;
     border:4px solid #fff;
+    object-fit: cover;
+}
+
+.contributors a:hover img {
+    transform: translateY(-15px);
 }
 
 
