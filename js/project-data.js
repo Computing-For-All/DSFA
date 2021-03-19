@@ -32,31 +32,29 @@ let gameData = [
 ];
 
 
-
-const map1 = gameData.map((obj, index) => {
-const { title, description, names, url } = obj;
-let nameSec = "";
-names.forEach((name) => {
-nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
-});
-return `
-<div class="card">
-  <div class="card-img" style="background-image: url(../projects/images/${title.split(" ").join("-")}-thumbnail.jpg)">
-      <div class="contributors">
-        ${nameSec}
-      </div>
-  </div>
-  <div>
-      <h2>${title}</h2>
-      <p>${description}<br><span class="label">Protyped with Figma</span></p>
-  </div>
-<div><a href="${url}" target="_blank" class="button btn-blue"> View Prototype <span><i class="fas fa-arrow-right"></i></span></a></div>
-</div>
-`
-});
-
 $(document).ready(
   function() {
-    $(".grid-cards").append(map1)
+    const map1 = gameData.map((obj, index) => {
+      const { title, description, names, url } = obj;
+      let nameSec = "";
+      names.forEach((name) => {
+      nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
+      });
+      return $(".grid-cards").prepend(
+      `
+      <div class="card">
+        <div class="card-img" style="background-image: url(../projects/images/${title.split(" ").join("-")}-thumbnail.jpg)">
+            <div class="contributors">
+              ${nameSec}
+            </div>
+        </div>
+        <div>
+            <h2>${title}</h2>
+            <p>${description}<br><span class="label">Protyped with Figma</span></p>
+        </div>
+      <div><a href="${url}" target="_blank" class="button btn-blue"> View Prototype <span><i class="fas fa-arrow-right"></i></span></a></div>
+      </div>
+      ` );
+      });
   }
 )
