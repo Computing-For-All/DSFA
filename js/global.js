@@ -2,7 +2,6 @@ $(document).ready(
     function(){
         
         let pageUrl = document.URL.split('/')[3];
-        console.log(pageUrl);
         if(pageUrl === 'DSFA'){
             pageUrl = '/DSFA/'
         } else {
