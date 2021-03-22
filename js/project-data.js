@@ -2,25 +2,25 @@ let gameData = [
     {
       title: "Laika",
       description: "A resource tool to find volunteer opportunities to fulfill their desire of helping others.",
-      names: ["lukas", "alexis", "ksusha", "albiona"],
+      names: ["lukaschapman", "alexissanchez", "ksushagotham", "albionauka"],
       url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
     },
     {
       title: "Technical Difficulty",
       description: "An app that reminds people to use reusable bags when they go out shopping.",
-      names: ["rebecca", "william", "jasmine"],
+      names: ["rebeccapaez", "williamhenke", "jasminenavarro"],
       url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down"
     },
     {
       title: "Blue Oceans Game Center",
       description: "A Game Center that contains a news feed, leaderboard, and friends list.",
-      names: ["gage", "victor", "veronika"],
+      names: ["gageberz", "victordeserley", "veronikaclavo"],
       url: "https://gageberz.github.io/WebsiteProgress/public/index",
     },
     {
       title: "Vesta Project",
       description: "A website which features a news feed, leaderboard, friends list, and a game.",
-      names: ["raymond", "carlota"],
+      names: ["raymondnhim"],
       url: "https://hotsoz.github.io/Vesta-Project/public/index",
     },
     // {
