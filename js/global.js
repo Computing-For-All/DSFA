@@ -1,6 +1,9 @@
 $(document).ready(
     function(){
-    
+        
+        let pageUrl = document.URL.split('/')[0];
+        console.log(pageUrl);
+        
         
         //  NAV LINKS
         let apndNavItems = $('.navbar-items').find('a').first();

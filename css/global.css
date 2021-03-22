@@ -372,8 +372,6 @@ td a div.button{
 
 /* PANEL */
 
-.panel {}
-
 .panel-image {
     background-size:cover;
     background-position: center;
@@ -498,10 +496,6 @@ td a div.button{
 
 .grid-cards .path {
     height:350px;
-}
-    
-.hover-container {
-    
 }
     
 .hover-headline {
@@ -714,9 +708,6 @@ footer .footer-legal i {
 }
 
 /* RTB */
-.rtb-container {
-
-}
 .rtbs {
     margin:40px 0 0;
 }
@@ -1012,9 +1003,7 @@ and (min-device-width :320px) {
         font-size:1em;
         border-top:none;
     }
-    .navbar-logo {
-        
-    }
+    
     .navbar-logo img {
         height:70px;
     }
