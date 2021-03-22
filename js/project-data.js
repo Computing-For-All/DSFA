@@ -14,7 +14,7 @@ let gameData = [
     {
       title: "Blue Oceans Game Center",
       description: "A Game Center that contains a news feed, leaderboard, and friends list.",
-      names: ["gageberz", "victordeserley", "veronikaclavo"],
+      names: ["gageberz", "victordeserley", "veronikacalvo"],
       url: "https://gageberz.github.io/WebsiteProgress/public/index",
     },
     {
@@ -48,7 +48,7 @@ return `
   </div>
   <div>
       <h2>${title}</h2>
-      <p>${description}<br><span class="label">Protyped with Figma</span></p>
+      <p>${description}<br><span class="label">Protoyped with Figma</span></p>
   </div>
 <div><a href="${url}" target="_blank" class="button btn-blue"> View Prototype <span><i class="fas fa-arrow-right"></i></span></a></div>
 </div>
