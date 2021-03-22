@@ -6,7 +6,7 @@ $(document).ready(
         if(pageUrl === 'DSFA'){
             pageUrl = '/DSFA/'
         } else {
-            pageUrl = './';
+            pageUrl = '/';
         }
         
         //  NAV LINKS
