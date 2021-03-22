@@ -52,7 +52,7 @@ $(document).ready(
       names.forEach((name) => {
       nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
       });
-      return $(".grid-cards").prepend(
+      return $(".grid-cards").append(
       `
       <div class="card">
         <div class="card-img" style="background-image: url(../projects/images/${title.split(" ").join("-")}-thumbnail.jpg)">
