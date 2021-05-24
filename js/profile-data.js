@@ -27,58 +27,20 @@ let profileData = [
 ]
 
 let classYear = [
-    {year: [ 
-    {2021: {names: ["Albiona Uka", "Alexis Sanchez", "Gage Berz"]}},
-    {2020: {names: ["Rando Bonda"]}},
-]}
-];
+    {2021: [
+            "Albiona Uka", "Alexis Sanchez", "Gage Berz"
+            ]
+        },
 
+    {2020: [
+            "Rando Bonda"
+            ]
+        },
+];
 
 $(document).ready(
     function() {
-console.log(classYear)
-
-        const map1 = classYear.map((obj, index) => {
-            const { year, names } = obj;
-            let profileDataInfo = "";
-            year.find(names).forEach((name) => {
-                let profileName = profileData.find(name);
-                profileDataInfo += 
-                `
-                <div class="path hover-container card" style="background-image:url(images/pic-${name.split(" ").join("").toLowerCase()}.jpg);">
-                <div class="overlay"></div>
-                <div class="hover-headline"><h2>${name}</h2></div>
-                <div class="hover-content">
-                    <div>
-                        <p>${introduction}</p>
-                    </div>
-                    <div><a href="${url}" class="button btn-blue">View Profile <span><i class="fas fa-arrow-right"></i></span></a></div>
-                </div>
-                </div>
-                `;
-            })
-            return $(".test-ground").append(
-                `
-                    <section class="bg-white spacing-section">
-                        <div class="container-txt centered spacing-txt">
-                            <h1>Class of ${year}</h1>
-                        </div>
-                        <div class="container-full">s
-                            <div class="grid-cards">
-                                ${profileDataInfo}
-                            </div>
-                        </div>
-                    </section>
-                `
-            );
-        });
-
-    //     const map2 = profileData.map((obj, index) => {
-    //         const { name, introduction, url } = obj;
-    //         return $().append(
-                
-    //         )
-    //     });
+        
     }
 )
 
