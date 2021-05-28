@@ -34,6 +34,14 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "https://hotsoz.github.io/Vesta-Project/public/index",
   },
+  {
+    title: "Children's Intelligence Agency",
+    description: "Create a user account to sign in.",
+    names: ["nolanbarham", "williamhenke", "lukaschapman"],
+    language: "HTML, CSS, JavaScript",
+    url: "https://data-intelligence-agency.github.io/BOA-Project/",
+  },
+  
   
   // {
   //   title: "",
@@ -55,19 +63,21 @@ $(document).ready(
       return $(".grid-cards").append(
       `
       <div class="card">
-        <div class="card-img" style="background-image: url(../projects/images/${title.split(" ").join("-")}-thumbnail.jpg)">
+        <div class="card-img" style="background-image: url(../projects/images/${title.split(" ").join("-").replace("'", "%27")}-thumbnail.jpg)">
             <div class="contributors">
               ${nameSec}
             </div>
         </div>
         <div>
             <h2>${title}</h2>
-            <p>${description}</p>
-            <div class="label">Programmed with ${language}</div>
+            <p>${description}
+            </br>
+            <span class="label">Programmed with ${language}</span>
+            </p>
         </div>
         <div><a href="${url}" target="_blank" class="button btn-blue">View Project <span><i class="fas fa-arrow-right"></i></span></a></div>
       </div>
       ` );
       });
   }
-)
+);
