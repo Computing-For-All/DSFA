@@ -16,6 +16,16 @@ let profileData = {
             url: "alexissanchez.html",
         },
         {
+            name: "Charles Tan",
+            introduction: "Hello my name is Khang, and my nickname is Charles. I am currently a senior at Chief Sealth. Learning and researching technology is one of my passions, especially web programming.",
+            url: "charlestan.html",
+        },
+        {
+            name: "Fraol Bogale",
+            introduction: "I am a senior at Franklin High School studying computer science. Recently I have become interested in app development and web/game design.",
+            url: "fraolbogale.html",
+        },
+        {
             name: "Gage Berz",
             introduction: "Hello, my name is Gage Berz, I am currently a student at Bellevue College pursuing an Associates' degree to transfer to a four year university so I can study Computer Engineering.",
             url: "gageberz.html",
@@ -39,6 +49,11 @@ let profileData = {
             name: "Mari Chua",
             introduction: "I am a Nursing Assistant with a little bit of background in coding. Hoping to learn more! Also, I am enlisting for US Air Force.",
             url: "marichua.html",
+        },
+        {
+            name: "Matiyas Yared",
+            introduction: "I am a senior at Raisbeck Aviation High School and I play football at Rainier Beach Highschool. In my free time I like to practice my coding skills and play videogames.",
+            url: "matiyasyared.html",
         },
         {
             name: "Mohamed Muse",
