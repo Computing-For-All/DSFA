@@ -6,12 +6,35 @@ let gameData = [
   //   names: [],
   //   url: ""
   // },
-
   {
-    title: "Games For All",
+    title: "Vaccine Shift Webpage",
+    description: "",
+    names: ["matiyasyared"],
+    url: "https://matiyasyared.github.io/vaccine-shift/index.html"
+  },
+  {
+    title: "Ocean Saver",
+    description: "",
+    names: ["charlestan", "fraolbogale"],
+    url: "https://scratch.mit.edu/projects/449143423"
+  },
+  {
+    title: "Team Infinite Game Center Project",
+    description: "This website is a Game Center that contains a news feed, leaderboard, and friends list",
+    names: ["vannarysou", "marichua"],
+    url: "https://vannarysou.github.io/infinite-project/public/"
+  },
+  {
+    title: "OceanSaver",
+    description: "Displays player information, game news, and players list.",
+    names: ["charlestan", "fraolbogale"],
+    url: "https://charlestan44.github.io/oceansaver/public/index.html"
+  },
+  {
+    title: "Games for All",
     description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
     language: "HTML, CSS, JavaScript",
-    names: [],
+    names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victorialum"],
     url: "https://computingforall.github.io/G4A/public/"
   },
   {
