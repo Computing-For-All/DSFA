@@ -4,36 +4,58 @@ let profileData = {
         //     introduction: "",
         //     url: "",
         // },
+        '2022': [
+            {
+                name: "Albiona Uka",
+                introduction: "My name is Albiona Uka. I am a sophomore at Chief Sealth International High School and an aspiring graphic designer. I enjoy working at RecTech with Digital Skills For All.",
+                url: "albionauka",
+            },
+            {
+                name: "Charles Tan",
+                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                url: "charlestan",
+            },
+            {
+                name: "Connor CM",
+                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                url: "connorcm",
+            },
+            {
+                name: "Jia Hao Chen",
+                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                url: "jiahaochen",
+            },
+            {
+                name: "Luka Goggins",
+                introduction: "Hi I'm Luka, I use any pronouns, I'm 17, and I have tourettes. I enrolled in CFA after i finished getting my GED to jumpstart my career in tech.",
+                url: "lukagoggins",
+            },
+            {
+                name: "Mohammed Hilfi",
+                introduction: "My name is Mohammed Hilfi and I go to Chief Sealth International High School. I am interested in tech and how things work in computer science. I would like to be a graphic designer.",
+                url: "mohammed Hilfi",
+            },
+            {
+                name: "Rebecca Paez",
+                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                url: "rebeccapaez",
+            },
+            {
+                name: "Ze Xu",
+                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                url: "zexu",
+            },
+        ],
     '2021': [
-        {
-            name: "Albiona Uka",
-            introduction: "My name is Albiona Uka. I am a sophomore at Chief Sealth International High School and an aspiring graphic designer. I enjoy working at RecTech with Digital Skills For All.",
-            url: "albionauka",
-        },
         {
             name: "Alexis Sanchez",
             introduction: "",
             url: "alexissanchez",
         },
         {
-            name: "Charles Tan",
-            introduction: "Hello my name is Khang, and my nick name is Charles. I am currently a senior at Chief Sealth. Learning and researching technology is one of my passions, especially web programming. Also, I have a passion for music and I've been studying piano for over 5 years. Nice to meet you and welcome to my page.",
-            url: "charlestan",
-        },
-        {
-            name: "Fraol Bogale",
-            introduction: "I am a senior at Franklin High School studying computer science. Recently I have become interested in app development and web/game design. I will be going to the University of Washington next year in Seattle, WA.",
-            url: "fraolbogale",
-        },
-        {
-            name: "Charles Tan",
-            introduction: "Hello my name is Khang, and my nickname is Charles. I am currently a senior at Chief Sealth. Learning and researching technology is one of my passions, especially web programming.",
-            url: "charlestan.html",
-        },
-        {
             name: "Fraol Bogale",
             introduction: "I am a senior at Franklin High School studying computer science. Recently I have become interested in app development and web/game design.",
-            url: "fraolbogale.html",
+            url: "fraolbogale",
         },
         {
             name: "Gage Berz",
@@ -66,29 +88,14 @@ let profileData = {
             url: "matiyasyared",
         },
         {
-            name: "Matiyas Yared",
-            introduction: "I am a senior at Raisbeck Aviation High School and I play football at Rainier Beach Highschool. In my free time I like to practice my coding skills and play videogames.",
-            url: "matiyasyared.html",
-        },
-        {
             name: "Mohamed Muse",
             introduction: "My name is Mohamed, I will be a senior at Rainier Beach High School this fall. I applied for the Digital Skills Youth Academy because I want to learn more about coding and creating my own website.",
             url: "mohamedmuse",
         },
         {
-            name: "Mohammed Hilfi",
-            introduction: "My name is Mohammed Hilfi and I go to Chief Sealth International High School. I am interested in tech and how things work in computer science. I would like to be a graphic designer.",
-            url: "mohammed Hilfi",
-        },
-        {
             name: "Raymond Nhim",
             introduction: "Hi, welcome! My name is Raymond Nhim. I study at Bellevue College pursuing in graphics design. When I was introduced to DSFA, I jumped on the opportunity and learned so many things that I couldn't learn myself. I really like the process of problem solving when it comes to coding, it's like art.",
             url: "raymondnhim",
-        },
-        {
-            name: "Rebecca Paez",
-            introduction: "I go to Rainer Reach High School. I am intrested in how things work and what's needed for them to work.",
-            url: "rebeccapaez",
         },
         {
             name: "Vannary Sou",

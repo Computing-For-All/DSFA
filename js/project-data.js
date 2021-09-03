@@ -34,7 +34,7 @@ let gameData = [
     title: "Games for All",
     description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
     language: "HTML, CSS, JavaScript",
-    names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victorialum"],
+    names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou"],
     url: "https://computingforall.github.io/G4A/public/"
   },
   {
