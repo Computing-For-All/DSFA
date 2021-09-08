@@ -31,8 +31,8 @@ let profileData = {
                 url: "cherrysudderth",
             },
             {
-                name: "Connor CM",
-                introduction: "I'm Connor, I'm attending the CFA summer quarter to learn HTMl and CSS.",
+                name: "Connor Changebringer-McCoy",
+                introduction: "I'm Connor, I'm attending the CFA summer quarter to learn HTML and CSS.",
                 url: "connorcm",
             },
             {
