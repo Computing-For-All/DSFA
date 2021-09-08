@@ -6,14 +6,29 @@ let profileData = {
         // },
         '2022': [
             {
+                name: "Alazar Mengistu",
+                introduction: "I am a senior in highschool and I joined Computing for All because I am interested in learning computer science. I have learned to used HTML / CSS and Scratch so far and I have enjoyed it!",
+                url: "alazarmengistu",
+            },
+            {
                 name: "Albiona Uka",
                 introduction: "My name is Albiona Uka. I am a sophomore at Chief Sealth International High School and an aspiring graphic designer. I enjoy working at RecTech with Digital Skills For All.",
                 url: "albionauka",
             },
             {
+                name: "Benjamin Nguyen",
+                introduction: "My name is Benjamin, I'm 20 years old. I'm currently pursuing an Associate in Science degree at North Seattle College.",
+                url: "benjaminnguyen",
+            },
+            {
                 name: "Charles Tan",
                 introduction: "Learning and researching technology is one of my passions, especially web programming.",
                 url: "charlestan",
+            },
+            {
+                name: "Cherry Sudderth",
+                introduction:"",
+                url: "cherrysudderth",
             },
             {
                 name: "Connor CM",
