@@ -6,23 +6,38 @@ let profileData = {
         // },
         '2022': [
             {
+                name: "Alazar Mengistu",
+                introduction: "I am a senior in highschool and I joined Computing for All because I am interested in learning computer science. I have learned to used HTML / CSS and Scratch so far and I have enjoyed it!",
+                url: "alazarmengistu",
+            },
+            {
                 name: "Albiona Uka",
                 introduction: "My name is Albiona Uka. I am a sophomore at Chief Sealth International High School and an aspiring graphic designer. I enjoy working at RecTech with Digital Skills For All.",
                 url: "albionauka",
             },
             {
+                name: "Benjamin Nguyen",
+                introduction: "My name is Benjamin, I'm 20 years old. I'm currently pursuing an Associate in Science degree at North Seattle College.",
+                url: "benjaminnguyen",
+            },
+            {
                 name: "Charles Tan",
-                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                introduction: "Learning and researching technology is one of my passions, especially web programming.",
                 url: "charlestan",
             },
             {
+                name: "Cherry Sudderth",
+                introduction:"",
+                url: "cherrysudderth",
+            },
+            {
                 name: "Connor CM",
-                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                introduction: "I'm Connor, I'm attending the CFA summer quarter to learn HTMl and CSS.",
                 url: "connorcm",
             },
             {
                 name: "Jia Hao Chen",
-                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                introduction: "I'm currently a student at University of Washington-Bothell pursuing an Electrical Engineering degree.",
                 url: "jiahaochen",
             },
             {
@@ -36,9 +51,19 @@ let profileData = {
                 url: "mohammedhilfi",
             },
             {
+                name: "Reanna De Guzman",
+                introduction: "I love to crochet and also enjoy spending time with friends, watching movies, and reading on my free time.",
+                url: "reannadeguzman",
+            },
+            {
                 name: "Rebecca Paez",
-                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+                introduction: "I am intrested in how things work and what's needed for them to work. Now I study Computer Engineering.",
                 url: "rebeccapaez",
+            },
+            {
+                name: "Xuan Nhu Tran",
+                introduction: "I'm from Vietnam and moved to the US in 2018. I have had an interest in coding since I'm in 7th grade when I was taking a computer class.",
+                url: "xuantran",
             },
             {
                 name: "Ze Xu",
