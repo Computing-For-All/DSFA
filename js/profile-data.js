@@ -42,7 +42,7 @@ let profileData = {
             },
             {
                 name: "Luka Goggins",
-                introduction: "Hi I'm Luka, I use any pronouns, I'm 17, and I have tourettes. I enrolled in CFA after i finished getting my GED to jumpstart my career in tech.",
+                introduction: "Hi I'm Luka, I use any pronouns, I'm 17, and I have tourettes. I enrolled in CFA after I finished getting my GED to jumpstart my career in tech.",
                 url: "lukagoggins",
             },
             {
