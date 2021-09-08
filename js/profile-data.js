@@ -27,7 +27,7 @@ let profileData = {
             },
             {
                 name: "Cherry Sudderth",
-                introduction:"",
+                introduction:"My hobbies, are upcycled leatherwork products and art. I love to longboard and roller skate.",
                 url: "cherrysudderth",
             },
             {
