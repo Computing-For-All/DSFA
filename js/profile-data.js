@@ -33,7 +33,7 @@ let profileData = {
             {
                 name: "Mohammed Hilfi",
                 introduction: "My name is Mohammed Hilfi and I go to Chief Sealth International High School. I am interested in tech and how things work in computer science. I would like to be a graphic designer.",
-                url: "mohammed Hilfi",
+                url: "mohammedhilfi",
             },
             {
                 name: "Rebecca Paez",
