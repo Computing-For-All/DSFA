@@ -6,6 +6,7 @@ let gameData = [
   //   names: [],
   //   url: ""
   // },
+  /*
   {
     title: "Vaccine Shift Webpage",
     description: "",
@@ -30,11 +31,12 @@ let gameData = [
     names: ["charlestan", "fraolbogale"],
     url: "https://charlestan44.github.io/oceansaver/public/index.html"
   },
+  */
   {
     title: "Games for All",
     description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
     language: "HTML, CSS, JavaScript",
-    names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou"],
+    names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
     url: "https://computingforall.github.io/G4A/public/"
   },
   {
