@@ -37,7 +37,8 @@ let gameData = [
     description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
     language: "HTML, CSS, JavaScript",
     names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
-    url: "https://computingforall.github.io/G4A/public/"
+    url: "https://computingforall.github.io/G4A/public/",
+    project: "p2",
   },
   {
     title: "Laika",
@@ -45,13 +46,14 @@ let gameData = [
     language: "Figma",
     names: ["lukaschapman", "alexissanchez", "ksushagotham", "albionauka"],
     url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
+    project: "p4",
   },
   {
     title: "Technical Difficulty",
     description: "An app that reminds people to use reusable bags when they go out shopping.",
     language: "Figma",
     names: ["rebeccapaez", "williamhenke", "jasminenavarro"],
-    url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down"
+    url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
   },
   {
     title: "Blue Oceans Game Center",
@@ -66,6 +68,7 @@ let gameData = [
     names: ["raymondnhim"],
     language: "HTML, CSS, JavaScript",
     url: "https://hotsoz.github.io/Vesta-Project/public/index",
+    project: "p1",
   },
   {
     title: "Children's Intelligence Agency",
@@ -192,7 +195,7 @@ let gameData = [
 $(document).ready(
   function() {
     const map1 = gameData.map((obj, index) => {
-      const { title, description, language, names, url } = obj;
+      const { title, description, language, names, url, project } = obj;
       let nameSec = "";
       names.forEach((name) => {
       nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
@@ -200,7 +203,7 @@ $(document).ready(
       return $(".grid-cards").append(
       `
       <div class="card">
-        <div class="card-img" style="background-image: url(../projects/images/${title.split(" ").join("-").replace("'", "%27").replace(":", "")}-thumbnail.jpg)">
+        <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${names[0]}_${project}.jpg)">
             <div class="contributors">
               ${nameSec}
             </div>
