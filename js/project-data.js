@@ -38,7 +38,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
     url: "https://computingforall.github.io/G4A/public/",
-    project: "p2",
+    imageName: "gamesforall",
   },
   {
     title: "Laika",
@@ -46,7 +46,7 @@ let gameData = [
     language: "Figma",
     names: ["lukaschapman", "alexissanchez", "ksushagotham", "albionauka"],
     url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
-    project: "p4",
+    imageName: "laika",
   },
   {
     title: "Technical Difficulty",
@@ -54,6 +54,7 @@ let gameData = [
     language: "Figma",
     names: ["rebeccapaez", "williamhenke", "jasminenavarro"],
     url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
+    imageName: "technicaldifficulty",
   },
   {
     title: "Blue Oceans Game Center",
@@ -61,6 +62,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     names: ["gageberz", "victordeserley", "veronikacalvo"],
     url: "https://gageberz.github.io/WebsiteProgress/public/index",
+    imageName: "blueoceansgamecenter",
   },
   {
     title: "Vesta Project",
@@ -68,7 +70,7 @@ let gameData = [
     names: ["raymondnhim"],
     language: "HTML, CSS, JavaScript",
     url: "https://hotsoz.github.io/Vesta-Project/public/index",
-    project: "p1",
+    imageName: "vestaproject",
   },
   {
     title: "Children's Intelligence Agency",
@@ -76,6 +78,7 @@ let gameData = [
     names: ["nolanbarham", "williamhenke", "lukaschapman"],
     language: "HTML, CSS, JavaScript",
     url: "https://data-intelligence-agency.github.io/BOA-Project/",
+    imageName: "childrensint",
   },
   {
     title: "Electric Boogie Boys",
@@ -195,7 +198,7 @@ let gameData = [
 $(document).ready(
   function() {
     const map1 = gameData.map((obj, index) => {
-      const { title, description, language, names, url, project } = obj;
+      const { title, description, language, names, url, imageName } = obj;
       let nameSec = "";
       names.forEach((name) => {
       nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
@@ -203,7 +206,7 @@ $(document).ready(
       return $(".grid-cards").append(
       `
       <div class="card">
-        <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${names[0]}_${project}.jpg)">
+        <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
             <div class="contributors">
               ${nameSec}
             </div>
