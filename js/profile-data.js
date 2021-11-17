@@ -73,8 +73,8 @@ let profileData = {
         ],
     '2021': [
         {
-            name: "Alexis Sanchez",
-            introduction: "",
+            name: "Alex Sanchez",
+            introduction: "I am a first generation college student currently studying to become an architect. I’ll be the first student to graduate with a Bachelor's Degree in my family.",
             url: "alexissanchez",
         },
         {
