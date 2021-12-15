@@ -78,7 +78,7 @@ let gameData = [
     names: ["nolanbarham", "williamhenke", "lukaschapman"],
     language: "HTML, CSS, JavaScript",
     url: "https://data-intelligence-agency.github.io/BOA-Project/",
-    imageName: "childrensint",
+    imageName: "childrenint",
   },
   {
     title: "Electric Boogie Boys",
@@ -86,6 +86,7 @@ let gameData = [
     names: ["nolanbarham", "williamhenke", "lukaschapman"],
     language: "HTML, CSS, JavaScript",
     url: "https://electricboogieboys.github.io/bankOfAmerica/username.html",
+    imageName: "electricboogieboys",
   },
   {
     title: "Momo Klickers: Jars",
@@ -93,6 +94,7 @@ let gameData = [
     names: ["karenma", "jayecheng", "mohammedhilfi"],
     language: "HTML, CSS, JavaScript",
     url: "https://makaren.github.io/BOAproject/Login/",
+    imageName: "momoklickers",
   },
   {
     title: "The Educated Gamer",
@@ -100,6 +102,7 @@ let gameData = [
     names: ["victoriaulm", "rebeccapaez"],
     language: "MakeCode",
     url: "https://makaren.github.io/BOAproject/Login/",
+    imageName: "theeducatedgamer",
   },
   {
     title: "Trees",
@@ -107,6 +110,7 @@ let gameData = [
     names: ["mohamedmuse", "shamtsegay"],
     language: "MakeCode",
     url: "https://makecode.com/_8LY9AqAXbFsd",
+    imageName: "trees",
   },
   {
     title: "Sea Turtles",
@@ -114,6 +118,7 @@ let gameData = [
     names: ["yusufadem", "jasminenavarro"],
     language: "MakeCode",
     url: "https://makecode.com/_TaDUciE7WDrJ",
+    imageName: "seaturtles",
   },
   {
     title: "Water Game",
@@ -121,6 +126,7 @@ let gameData = [
     names: ["jesserivas"],
     language: "MakeCode",
     url: "https://makecode.com/_4WfJUUUThMw2",
+    imageName: "watergame",
   },
   {
     title: "To Do Lists",
@@ -128,6 +134,7 @@ let gameData = [
     names: ["williamhenke", "paytonsmith", "mohammedhilfi", "albionauka"],
     language: "HTML, CSS, JavaScript",
     url: "ToDo/testing_2.html",
+    imageName: "todolists",
   },
   {
     title: "Regional Barbecue",
@@ -135,6 +142,7 @@ let gameData = [
     names: ["nolanbarham", "anthonybechara", "lukaschapman", "alexissanchez"],
     language: "HTML, CSS, JavaScript",
     url: "BBQ/index.html",
+    imageName: "regionalbbq",
   },
   {
     title: "Monsanto",
@@ -142,6 +150,7 @@ let gameData = [
     names: ["nolanbarham", "williamhenke", "nuhmukhtar", "nhatphan"],
     language: "HTML, CSS, JavaScript",
     url: "Monsanto/index.html",
+    imageName: "monsanto",
   },
   {
     title: "Tree Story",
@@ -149,6 +158,7 @@ let gameData = [
     names: ["nolanbarham", "williamhenke", "henrynguyen", "jhisberllypineda"],
     language: "HTML, CSS, JavaScript",
     url: "https://scratch.mit.edu/projects/306677058/",
+    imageName: "treestory",
   },
   {
     title: "The Hate We Ignore",
@@ -156,6 +166,7 @@ let gameData = [
     names: ["williamhenke", "lukaschapman", "nasroyusuf"],
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/288022277/",
+    imageName: "thehateweignore",
   },
   {
     title: "TRASH DASH!",
@@ -163,6 +174,7 @@ let gameData = [
     names: ["anthonybechara", "jhisberllypineda"],
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/288018428/",
+    imageName: "trashdash",
   },
   {
     title: "The Journey of the Homeless Man",
@@ -170,6 +182,7 @@ let gameData = [
     names: ["mohammedhilfi", "albionauka"],
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/321363197",
+    imageName: "journeyofhomelessman",
   },
   {
     title: "Box Explorer",
@@ -177,6 +190,7 @@ let gameData = [
     names: ["anthonybechara"],
     language: "Unity",
     url: "BoxExplorer/index.html",
+    imageName: "boxexplorer",
   },
   {
     title: "DiveIn",
@@ -184,6 +198,7 @@ let gameData = [
     names: ["nafisomukhtar"],
     language: "HTML",
     url: "DiveIn/DiveIn.html",
+    imageName: "divein",
   },
   {
     title: "Carbon Monsters",
@@ -191,6 +206,7 @@ let gameData = [
     names: ["nhatphan"],
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/321929757/",
+    imageName: "carbonmonsters",
   },
 ];
 
