@@ -5,6 +5,8 @@ let gameData = [
   //   description: "",
   //   names: [],
   //   url: ""
+  //   imageName: "",
+  //   filter: "",
   // },
   /*
   {
@@ -32,14 +34,14 @@ let gameData = [
     url: "https://charlestan44.github.io/oceansaver/public/index.html"
   },
   */
-  {
-    title: "Games for All",
-    description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
-    language: "HTML, CSS, JavaScript",
-    names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
-    url: "https://computingforall.github.io/G4A/public/",
-    imageName: "gamesforall",
-  },
+  // {
+  //   title: "Games for All",
+  //   description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
+  //   language: "HTML, CSS, JavaScript",
+  //   names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
+  //   url: "https://computingforall.github.io/G4A/public/",
+  //   imageName: "gamesforall",
+  // },
   {
     title: "Laika",
     description: "A resource tool to find volunteer opportunities to fulfill their desire of helping others.",
@@ -47,6 +49,7 @@ let gameData = [
     names: ["lukaschapman", "alexissanchez", "ksushagotham", "albionauka"],
     url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
     imageName: "laika",
+    filter: "ux",
   },
   {
     title: "Technical Difficulty",
@@ -55,6 +58,7 @@ let gameData = [
     names: ["rebeccapaez", "williamhenke", "jasminenavarro"],
     url: "https://www.figma.com/proto/iHZDx6ouHvuCqUsPlIxbwu/CFA-Prototypes?node-id=357%3A11630&scaling=scale-down",
     imageName: "technicaldifficulty",
+    filter: "ux",
   },
   {
     title: "Blue Oceans Game Center",
@@ -63,15 +67,16 @@ let gameData = [
     names: ["gageberz", "victordeserley", "veronikacalvo"],
     url: "https://gageberz.github.io/WebsiteProgress/public/index",
     imageName: "blueoceansgamecenter",
+    filter: "web",
   },
-  {
-    title: "Vesta Project",
-    description: "A website which features a news feed, leaderboard, friends list, and a game.",
-    names: ["raymondnhim"],
-    language: "HTML, CSS, JavaScript",
-    url: "https://hotsoz.github.io/Vesta-Project/public/index",
-    imageName: "vestaproject",
-  },
+  // {
+  //   title: "Vesta Project",
+  //   description: "A website which features a news feed, leaderboard, friends list, and a game.",
+  //   names: ["raymondnhim"],
+  //   language: "HTML, CSS, JavaScript",
+  //   url: "https://hotsoz.github.io/Vesta-Project/public/index",
+  //   imageName: "vestaproject",
+  // },
   {
     title: "Children's Intelligence Agency",
     description: "Create a user account to sign in.",
@@ -79,6 +84,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "https://data-intelligence-agency.github.io/BOA-Project/",
     imageName: "childrenint",
+    filter: "web",
   },
   {
     title: "Electric Boogie Boys",
@@ -87,6 +93,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "https://electricboogieboys.github.io/bankOfAmerica/username.html",
     imageName: "electricboogieboys",
+    filter: "web",
   },
   {
     title: "Momo Klickers: Jars",
@@ -95,6 +102,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "https://makaren.github.io/BOAproject/Login/",
     imageName: "momoklickers",
+    filter: "web",
   },
   {
     title: "The Educated Gamer",
@@ -103,6 +111,7 @@ let gameData = [
     language: "MakeCode",
     url: "https://makaren.github.io/BOAproject/Login/",
     imageName: "theeducatedgamer",
+    filter: "game",
   },
   {
     title: "Trees",
@@ -111,6 +120,7 @@ let gameData = [
     language: "MakeCode",
     url: "https://makecode.com/_8LY9AqAXbFsd",
     imageName: "trees",
+    filter: "game",
   },
   {
     title: "Sea Turtles",
@@ -119,6 +129,7 @@ let gameData = [
     language: "MakeCode",
     url: "https://makecode.com/_TaDUciE7WDrJ",
     imageName: "seaturtles",
+    filter: "game",
   },
   {
     title: "Water Game",
@@ -127,6 +138,7 @@ let gameData = [
     language: "MakeCode",
     url: "https://makecode.com/_4WfJUUUThMw2",
     imageName: "watergame",
+    filter: "game",
   },
   {
     title: "To Do Lists",
@@ -135,6 +147,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "ToDo/testing_2.html",
     imageName: "todolists",
+    filter: "web",
   },
   {
     title: "Regional Barbecue",
@@ -143,6 +156,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "BBQ/index.html",
     imageName: "regionalbbq",
+    filter: "web",
   },
   {
     title: "Monsanto",
@@ -151,6 +165,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "Monsanto/index.html",
     imageName: "monsanto",
+    filter: "game",
   },
   {
     title: "Tree Story",
@@ -159,6 +174,7 @@ let gameData = [
     language: "HTML, CSS, JavaScript",
     url: "https://scratch.mit.edu/projects/306677058/",
     imageName: "treestory",
+    filter: "game",
   },
   {
     title: "The Hate We Ignore",
@@ -167,6 +183,7 @@ let gameData = [
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/288022277/",
     imageName: "thehateweignore",
+    filter: "game",
   },
   {
     title: "TRASH DASH!",
@@ -175,6 +192,7 @@ let gameData = [
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/288018428/",
     imageName: "trashdash",
+    filter: "game",
   },
   {
     title: "The Journey of the Homeless Man",
@@ -183,6 +201,7 @@ let gameData = [
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/321363197",
     imageName: "journeyofhomelessman",
+    filter: "game",
   },
   {
     title: "Box Explorer",
@@ -191,15 +210,17 @@ let gameData = [
     language: "Unity",
     url: "BoxExplorer/index.html",
     imageName: "boxexplorer",
+    filter: "game",
   },
-  {
-    title: "DiveIn",
-    description: "Adventures of a reincarnated Muslim.",
-    names: ["nafisomukhtar"],
-    language: "HTML",
-    url: "DiveIn/DiveIn.html",
-    imageName: "divein",
-  },
+  // {
+  //   title: "DiveIn",
+  //   description: "Adventures of a reincarnated Muslim.",
+  //   names: ["nafisomukhtar"],
+  //   language: "HTML",
+  //   url: "DiveIn/DiveIn.html",
+  //   imageName: "divein",
+  //   filter: "game",
+  // },
   {
     title: "Carbon Monsters",
     description: "Plant trees to protect yourself from monsters.",
@@ -207,36 +228,108 @@ let gameData = [
     language: "Scratch",
     url: "https://scratch.mit.edu/projects/321929757/",
     imageName: "carbonmonsters",
+    filter: "game",
   },
 ];
 
 
 $(document).ready(
   function() {
-    const map1 = gameData.map((obj, index) => {
-      const { title, description, language, names, url, imageName } = obj;
-      let nameSec = "";
-      names.forEach((name) => {
-      nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
-      });
-      return $(".grid-cards").append(
-      `
-      <div class="card">
-        <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
-            <div class="contributors">
-              ${nameSec}
-            </div>
-        </div>
-        <div>
-            <h2>${title}</h2>
-            <p>${description}
-            </br>
-            <span class="label">Programmed with ${language}</span>
-            </p>
-        </div>
-        <div><a href="${url}" target="_blank" class="button btn-blue">View Project <span><i class="fas fa-arrow-right"></i></span></a></div>
+  fillCardData();
+  showCard();
+  filterProj();
+}); 
+
+
+// Project cards
+
+function fillCardData() {
+  const map1 = gameData.map((obj, index) => {
+    const { title, description, language, names, url, imageName, filter } = obj;
+    let nameSec = "";
+    names.forEach((name) => {
+    nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
+    });
+    return $(".grid-cards").append(
+    `
+    <div class="card hidden-card ${filter}">
+      <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
+          <div class="contributors">
+            ${nameSec}
+          </div>
       </div>
-      ` );
-      });
+      <div>
+          <h2>${title}</h2>
+          <p>${description}
+          </br>
+          <span class="label">Programmed with ${language}</span>
+          </p>
+      </div>
+      <div><a href="${url}" target="_blank" class="button btn-blue">View Project <span><i class="fas fa-arrow-right"></i></span></a></div>
+    </div>
+    ` );
+    });
+}
+
+// Showing Cards
+
+var showCardLimit = 8;
+var filterId = "all";
+
+function showCard() {
+  $('.showMore').show();
+  for (i = 0; i < showCardLimit; i++) {
+    if (filterId == 'all') {
+      $('.card').eq(i).removeClass('hidden-card');
+    } else {
+      $('.' + filterId).eq(i).removeClass('hidden-card');
+    }
   }
-);
+
+  if (filterId == 'all') {
+    if (showCardLimit >= gameData.length) {
+      $('.showMore').hide();
+    }
+  } else {
+    if (showCardLimit >= filterAmount) {
+      $('.showMore').hide();
+    }
+  }
+  
+  showCardLimit += 4;
+};
+
+$(".showMore").on('click', function() {
+  showCard();
+});
+
+// Filter buttons
+
+var filterAmount = 0;
+
+function filterProj() {
+
+  $('.filterButton').on('click', function() {
+    filterId = $(this).attr('id');
+    filterLength()
+    showCardLimit = 8;
+
+    $('.card').addClass('hidden-card');
+    console.log(filterId);
+
+    showCard();
+  });
+}
+
+var key;
+
+function filterLength() {
+  filterAmount = 0;
+  for(j = 0; j < gameData.length; j++) {
+    const current = gameData[j];
+    key = current.filter;
+    if (key == filterId){
+      filterAmount++;
+    }
+  }
+}
