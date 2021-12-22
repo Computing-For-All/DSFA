@@ -16,6 +16,11 @@ let profileData = {
                 url: "albionauka",
             },
             {
+                name: "Andrew Gonzalez",
+                introduction: "My name is Andrew, I'm a college student, and I joined Computing For All to learn more about coding and develop my skills so I can pursue a career in tech. I've really been enjoying front-end work so far!",
+                url: "andrewgonzalez",
+            },
+            {
                 name: "Benjamin Nguyen",
                 introduction: "My name is Benjamin, I'm 20 years old. I'm currently pursuing an Associate in Science degree at North Seattle College.",
                 url: "benjaminnguyen",
@@ -31,9 +36,19 @@ let profileData = {
                 url: "cherrysudderth",
             },
             {
+                name: "Christian Lockley",
+                introduction: "As I type this part out, I am now nearing the end of my 3rd sprint in the computing for all course.",
+                url: "christianlockley",
+            },
+            {
                 name: "Connor Changebringer-McCoy",
                 introduction: "I'm Connor, I'm attending the CFA summer quarter to learn HTML and CSS.",
                 url: "connorchangebringer-mccoy",
+            },
+            {
+                name: "Furtuna Biemnet",
+                introduction: "My name is Furtuna, I go by Fifi and I'm bilingual. I studied Computer Information Management. I'm glad that I'm taking class and Join Digital Skills for All (Computing for All).",
+                url: "furtunabiemnet",
             },
             {
                 name: "Jia Hao Chen",
