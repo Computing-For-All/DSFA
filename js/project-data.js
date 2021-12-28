@@ -133,12 +133,12 @@ let gameData = [
     filter: "web",
   },
   {
-    title: "A Poor Nomad",
+    title: "A Poor Nomad Game",
     description: "A Poor Nomad is a game about being a nomadic homeless youth. You are Abby. She is a nomadic homeless youth and trying to get basic necessities such as food, water, shelter and money. The purpose of the game is to show you the harsh realities of being a nomadic homeless youth.",
     language: "SCRATCH",
     names: ["cherrysudderth"],
     url: "https://scratch.mit.edu/projects/553561204/embed",
-    imageName: "apoornomad",
+    imageName: "apoornomadgame",
     filter: "game",
   },
   {
