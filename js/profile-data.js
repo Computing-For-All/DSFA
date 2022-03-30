@@ -16,6 +16,11 @@ let profileData = {
                 url: "albionauka",
             },
             {
+                name: "Alex De la Torre",
+                introduction: "My name is Alex. I was born in California. Moved to Washington when I was 5, and grew up in the King County area.",
+                url: "alexdelatorre",
+            },
+            {
                 name: "Andrew Gonzalez",
                 introduction: "My name is Andrew, I'm a college student, and I joined Computing For All to learn more about coding and develop my skills so I can pursue a career in tech. I've really been enjoying front-end work so far!",
                 url: "andrewgonzalez",
@@ -59,6 +64,11 @@ let profileData = {
                 name: "Luka Goggins",
                 introduction: "Hi I'm Luka, I use any pronouns, I'm 17, and I have tourettes. I enrolled in CFA after I finished getting my GED to jumpstart my career in tech.",
                 url: "lukagoggins",
+            },
+            {
+                name: "Michael Berish",
+                introduction: "Hello my name is Michael, I enjoy coding a lot and can spend hours just writing and debugging!",
+                url: "michaelberish",
             },
             {
                 name: "Mohammed Hilfi",
