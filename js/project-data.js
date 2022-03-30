@@ -43,6 +43,15 @@ let gameData = [
   //   imageName: "gamesforall",
   // },
   {
+    title: "Otter Run",
+    description: "There is more water than land on the earth and more life below water than life on land so why do we throw away so much trash into the ocean as if it doesn't affect the ecosystem of millions of creatures. Even creatures that don't fully live under water.",
+    language: "HTML, CSS",
+    names: ["alexdelatorre", "michaelberish"],
+    url: "https://iinaudible.github.io/Game-Website/index.html",
+    imageName: "otterrun",
+    filter: "web",
+  },
+  {
     title: "Mind Refresher Game",
     description: "This game can act as a distraction from pain and psychological trauma. Video games can help people who are dealing with mental disorders like anxiety, depression, attention deficit hyperactivity disorder (ADHD), and post-traumatic stress disorder (PTSD).",
     language: "SCRATCH",
