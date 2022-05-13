@@ -242,7 +242,7 @@ let gameData = [
   {
     title: "Children's Intelligence Agency",
     description: "Create a user account to sign in.",
-    names: ["nolanbarham", "williamhenke", "lukaschapman"],
+    names: ["albionauka", "alexsanchez"],
     language: "HTML, CSS, JavaScript",
     url: "https://data-intelligence-agency.github.io/BOA-Project/",
     imageName: "childrenint",
@@ -350,7 +350,7 @@ let gameData = [
   {
     title: "TRASH DASH!",
     description: "Take the garbage to the bin and learn to make the world a cleaner place!",
-    names: ["anthonybechara", "jhisberllypineda"],
+    names: ["albionauka", "anthonybechara", "jhisberllypineda"],
     language: "SCRATCH",
     url: "https://scratch.mit.edu/projects/288018428/",
     imageName: "trashdash",
@@ -397,13 +397,45 @@ let gameData = [
 
 $(document).ready(
   function() {
+  fillHomeCardData();
   fillCardData();
   showCard();
   filterProj();
 });
 
 
-// Project cards
+// Project cards home page
+
+function fillHomeCardData() {
+  const map1 = gameData.map((obj, index) => {
+    if (index < 4) {
+    const { title, description, language, names, url, imageName, filter } = obj;
+    let nameSec = "";
+    names.forEach((name) => {
+    nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
+    });
+    return $("#home-cards").append(
+    `
+    <div class="card hidden-card ${filter}">
+      <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
+          <div class="contributors">
+            ${nameSec}
+          </div>
+      </div>
+      <div>
+          <h2>${title}</h2>
+          <p>${description}
+          </br>
+          <span class="label">Programmed with ${language}</span>
+          </p>
+      </div>
+      <div><a href="${url}" target="_blank" class="button btn-blue">View Project <span><i class="fas fa-arrow-right"></i></span></a></div>
+    </div>
+    ` );
+    }});
+}
+
+// Project cards project page
 
 function fillCardData() {
   const map1 = gameData.map((obj, index) => {
@@ -412,7 +444,7 @@ function fillCardData() {
     names.forEach((name) => {
     nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
     });
-    return $(".grid-cards").append(
+    return $("#project-cards").append(
     `
     <div class="card hidden-card ${filter}">
       <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
