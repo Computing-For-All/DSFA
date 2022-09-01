@@ -396,12 +396,12 @@ let gameData = [
 
 
 $(document).ready(
-  function() {
-  fillHomeCardData();
-  fillCardData();
-  showCard();
-  filterProj();
-});
+  function () {
+    fillHomeCardData();
+    fillCardData();
+    showCard();
+    filterProj();
+  });
 
 
 // Project cards home page
@@ -409,13 +409,13 @@ $(document).ready(
 function fillHomeCardData() {
   const map1 = gameData.map((obj, index) => {
     if (index < 4) {
-    const { title, description, language, names, url, imageName, filter } = obj;
-    let nameSec = "";
-    names.forEach((name) => {
-    nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
-    });
-    return $("#home-cards").append(
-    `
+      const { title, description, language, names, url, imageName, filter } = obj;
+      let nameSec = "";
+      names.forEach((name) => {
+        nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
+      });
+      return $("#home-cards").append(
+        `
     <div class="card hidden-card ${filter}">
       <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
           <div class="contributors">
@@ -432,7 +432,8 @@ function fillHomeCardData() {
       <div><a href="${url}" target="_blank" class="button btn-blue">View Project <span><i class="fas fa-arrow-right"></i></span></a></div>
     </div>
     ` );
-    }});
+    }
+  });
 }
 
 // Project cards project page
@@ -442,10 +443,10 @@ function fillCardData() {
     const { title, description, language, names, url, imageName, filter } = obj;
     let nameSec = "";
     names.forEach((name) => {
-    nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
+      nameSec += `<div><a href="../profiles/${name}.html"><img src="../profiles/images/pic-${name}.jpg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" class="button-disc"></a></div>`
     });
     return $("#project-cards").append(
-    `
+      `
     <div class="card hidden-card ${filter}">
       <div class="card-img" style="background-image: url(../projects/thumbnails/thumb_proj_${imageName}.jpg)">
           <div class="contributors">
@@ -462,7 +463,7 @@ function fillCardData() {
       <div><a href="${url}" target="_blank" class="button btn-blue">View Project <span><i class="fas fa-arrow-right"></i></span></a></div>
     </div>
     ` );
-    });
+  });
 }
 
 // Showing Cards
@@ -489,11 +490,11 @@ function showCard() {
       $('.showMore').hide();
     }
   }
-  
+
   showCardLimit += 4;
 };
 
-$(".showMore").on('click', function() {
+$(".showMore").on('click', function () {
   showCard();
 });
 
@@ -503,7 +504,7 @@ var filterAmount = 0;
 
 function filterProj() {
 
-  $('.filterButton').on('click', function() {
+  $('.filterButton').on('click', function () {
     filterId = $(this).attr('id');
     filterLength()
     showCardLimit = 8;
@@ -519,10 +520,10 @@ var key;
 
 function filterLength() {
   filterAmount = 0;
-  for(j = 0; j < gameData.length; j++) {
+  for (j = 0; j < gameData.length; j++) {
     const current = gameData[j];
     key = current.filter;
-    if (key == filterId){
+    if (key == filterId) {
       filterAmount++;
     }
   }
