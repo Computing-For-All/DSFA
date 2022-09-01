@@ -6,6 +6,11 @@ let profileData = {
         // },
         '2022': [
             {
+                name: "Testy McTesterson",
+                introduction: "I am a test student",
+                url:"testymctesterson",
+            },
+            {
                 name: "Alazar Mengistu",
                 introduction: "I am a senior in highschool and I joined Computing for All because I am interested in learning computer science. I have learned to used HTML / CSS and Scratch so far and I have enjoyed it!",
                 url: "alazarmengistu",
