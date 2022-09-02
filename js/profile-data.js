@@ -1,101 +1,101 @@
 let profileData = {
-        // {
-        //     name: "",
-        //     introduction: "",
-        //     url: "",
-        // },
-        '2022': [
-            {
-                name: "Alazar Mengistu",
-                introduction: "I am a senior in highschool and I joined Computing for All because I am interested in learning computer science. I have learned to used HTML / CSS and Scratch so far and I have enjoyed it!",
-                url: "alazarmengistu",
-            },
-            {
-                name: "Albiona Uka",
-                introduction: "My name is Albiona Uka. I am a sophomore at Chief Sealth International High School and an aspiring graphic designer. I enjoy working at RecTech with Digital Skills For All.",
-                url: "albionauka",
-            },
-            {
-                name: "Alex De la Torre",
-                introduction: "My name is Alex. I was born in California. Moved to Washington when I was 5, and grew up in the King County area.",
-                url: "alexdelatorre",
-            },
-            {
-                name: "Andrew Gonzalez",
-                introduction: "My name is Andrew, I'm a college student, and I joined Computing For All to learn more about coding and develop my skills so I can pursue a career in tech. I've really been enjoying front-end work so far!",
-                url: "andrewgonzalez",
-            },
-            {
-                name: "Benjamin Nguyen",
-                introduction: "My name is Benjamin, I'm 20 years old. I'm currently pursuing an Associate in Science degree at North Seattle College.",
-                url: "benjaminnguyen",
-            },
-            {
-                name: "Charles Tan",
-                introduction: "Learning and researching technology is one of my passions, especially web programming.",
-                url: "charlestan",
-            },
-            {
-                name: "Cherry Sudderth",
-                introduction:"My hobbies, are upcycled leatherwork products and art. I love to longboard and roller skate.",
-                url: "cherrysudderth",
-            },
-            {
-                name: "Christian Lockley",
-                introduction: "As I type this part out, I am now nearing the end of my 3rd sprint in the computing for all course.",
-                url: "christianlockley",
-            },
-            {
-                name: "Connor Changebringer-McCoy",
-                introduction: "I'm Connor, I'm attending the CFA summer quarter to learn HTML and CSS.",
-                url: "connorchangebringer-mccoy",
-            },
-            {
-                name: "Furtuna Biemnet",
-                introduction: "My name is Furtuna, I go by Fifi and I'm bilingual. I studied Computer Information Management. I'm glad that I'm taking class and Join Digital Skills for All (Computing for All).",
-                url: "furtunabiemnet",
-            },
-            {
-                name: "Jia Hao Chen",
-                introduction: "I'm currently a student at University of Washington-Bothell pursuing an Electrical Engineering degree.",
-                url: "jiahaochen",
-            },
-            {
-                name: "Luka Goggins",
-                introduction: "Hi I'm Luka, I use any pronouns, I'm 17, and I have tourettes. I enrolled in CFA after I finished getting my GED to jumpstart my career in tech.",
-                url: "lukagoggins",
-            },
-            {
-                name: "Michael Berish",
-                introduction: "Hello my name is Michael, I enjoy coding a lot and can spend hours just writing and debugging!",
-                url: "michaelberish",
-            },
-            {
-                name: "Mohammed Hilfi",
-                introduction: "My name is Mohammed Hilfi and I go to Chief Sealth International High School. I am interested in tech and how things work in computer science. I would like to be a graphic designer.",
-                url: "mohammedhilfi",
-            },
-            {
-                name: "Reanna De Guzman",
-                introduction: "I love to crochet and also enjoy spending time with friends, watching movies, and reading on my free time.",
-                url: "reannadeguzman",
-            },
-            {
-                name: "Rebecca Paez",
-                introduction: "I am intrested in how things work and what's needed for them to work. Now I study Computer Engineering.",
-                url: "rebeccapaez",
-            },
-            {
-                name: "Xuan Nhu Tran",
-                introduction: "I'm from Vietnam and moved to the US in 2018. I have had an interest in coding since I'm in 7th grade when I was taking a computer class.",
-                url: "xuantran",
-            },
-            {
-                name: "Ze Xu",
-                introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
-                url: "zexu",
-            },
-        ],
+    // {
+    //     name: "",
+    //     introduction: "",
+    //     url: "",
+    // },
+    '2022': [
+        {
+            name: "Alazar Mengistu",
+            introduction: "I am a senior in highschool and I joined Computing for All because I am interested in learning computer science. I have learned to used HTML / CSS and Scratch so far and I have enjoyed it!",
+            url: "alazarmengistu",
+        },
+        {
+            name: "Albiona Uka",
+            introduction: "My name is Albiona Uka. I am a sophomore at Chief Sealth International High School and an aspiring graphic designer. I enjoy working at RecTech with Digital Skills For All.",
+            url: "albionauka",
+        },
+        {
+            name: "Alex De la Torre",
+            introduction: "My name is Alex. I was born in California. Moved to Washington when I was 5, and grew up in the King County area.",
+            url: "alexdelatorre",
+        },
+        {
+            name: "Andrew Gonzalez",
+            introduction: "My name is Andrew, I'm a college student, and I joined Computing For All to learn more about coding and develop my skills so I can pursue a career in tech. I've really been enjoying front-end work so far!",
+            url: "andrewgonzalez",
+        },
+        {
+            name: "Benjamin Nguyen",
+            introduction: "My name is Benjamin, I'm 20 years old. I'm currently pursuing an Associate in Science degree at North Seattle College.",
+            url: "benjaminnguyen",
+        },
+        {
+            name: "Charles Tan",
+            introduction: "Learning and researching technology is one of my passions, especially web programming.",
+            url: "charlestan",
+        },
+        {
+            name: "Cherry Sudderth",
+            introduction: "My hobbies, are upcycled leatherwork products and art. I love to longboard and roller skate.",
+            url: "cherrysudderth",
+        },
+        {
+            name: "Christian Lockley",
+            introduction: "As I type this part out, I am now nearing the end of my 3rd sprint in the computing for all course.",
+            url: "christianlockley",
+        },
+        {
+            name: "Connor Changebringer-McCoy",
+            introduction: "I'm Connor, I'm attending the CFA summer quarter to learn HTML and CSS.",
+            url: "connorchangebringer-mccoy",
+        },
+        {
+            name: "Furtuna Biemnet",
+            introduction: "My name is Furtuna, I go by Fifi and I'm bilingual. I studied Computer Information Management. I'm glad that I'm taking class and Join Digital Skills for All (Computing for All).",
+            url: "furtunabiemnet",
+        },
+        {
+            name: "Jia Hao Chen",
+            introduction: "I'm currently a student at University of Washington-Bothell pursuing an Electrical Engineering degree.",
+            url: "jiahaochen",
+        },
+        {
+            name: "Luka Goggins",
+            introduction: "Hi I'm Luka, I use any pronouns, I'm 17, and I have tourettes. I enrolled in CFA after I finished getting my GED to jumpstart my career in tech.",
+            url: "lukagoggins",
+        },
+        {
+            name: "Michael Berish",
+            introduction: "Hello my name is Michael, I enjoy coding a lot and can spend hours just writing and debugging!",
+            url: "michaelberish",
+        },
+        {
+            name: "Mohammed Hilfi",
+            introduction: "My name is Mohammed Hilfi and I go to Chief Sealth International High School. I am interested in tech and how things work in computer science. I would like to be a graphic designer.",
+            url: "mohammedhilfi",
+        },
+        {
+            name: "Reanna De Guzman",
+            introduction: "I love to crochet and also enjoy spending time with friends, watching movies, and reading on my free time.",
+            url: "reannadeguzman",
+        },
+        {
+            name: "Rebecca Paez",
+            introduction: "I am intrested in how things work and what's needed for them to work. Now I study Computer Engineering.",
+            url: "rebeccapaez",
+        },
+        {
+            name: "Xuan Nhu Tran",
+            introduction: "I'm from Vietnam and moved to the US in 2018. I have had an interest in coding since I'm in 7th grade when I was taking a computer class.",
+            url: "xuantran",
+        },
+        {
+            name: "Ze Xu",
+            introduction: "Student at the University of Washington. Currently a sophomore and majoring in Electrical Engineer.",
+            url: "zexu",
+        },
+    ],
     '2021': [
         {
             name: "Alex Sanchez",
@@ -266,13 +266,13 @@ let profileData = {
 }
 
 $(document).ready(
-    function() {
+    function () {
         for (year in profileData) {
             let profilesOfYear = '';
 
             for (person in profileData[year]) {
-                profilesOfYear += 
-                `
+                profilesOfYear +=
+                    `
                     <div class="path hover-container card" style="background-image:url(images/pic-${profileData[year][person].name.split(" ").join("").toLowerCase()}.jpg);">
                         <div class="overlay"></div>
                         <div class="hover-headline"><h2>${profileData[year][person].name}</h2></div>
