@@ -27,7 +27,7 @@ This repo's GitHub Pages deployment is currently used for development purposes o
         {
             name: "",
             introduction: "",
-            url: "",
+            url: "", // This must match the student's profile html file name
         },
     ],
     'previousYear': [ 
@@ -45,7 +45,7 @@ let profileData = {
         {
             name: "Testy McTesterson",
             introduction: "I am a test student",
-            url:"testymctesterson", // This must match the student's profile html file name
+            url:"testymctesterson",
         },
     ]
 }
