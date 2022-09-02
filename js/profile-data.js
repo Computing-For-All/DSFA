@@ -271,13 +271,13 @@ let profileData = {
 }
 
 $(document).ready(
-    function() {
+    function () {
         for (year in profileData) {
             let profilesOfYear = '';
 
             for (person in profileData[year]) {
-                profilesOfYear += 
-                `
+                profilesOfYear +=
+                    `
                     <div class="path hover-container card" style="background-image:url(images/pic-${profileData[year][person].name.split(" ").join("").toLowerCase()}.jpg);">
                         <div class="overlay"></div>
                         <div class="hover-headline"><h2>${profileData[year][person].name}</h2></div>

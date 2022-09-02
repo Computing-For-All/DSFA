@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
 
 /* Reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}  
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 
-    
+
 html, body {
     position: relative;
     margin: 0;
@@ -17,8 +17,8 @@ html, body {
     color:#333;
     scroll-behavior: smooth;
 }
-    
-    
+
+
 img {
     width:100%;
     position: relative;
@@ -27,7 +27,7 @@ img {
 td {
     vertical-align: top;
 }
-    
+
 .hero {
     background-size:cover;
     height:100%;
@@ -39,7 +39,7 @@ td {
 section, footer {
     position: relative;
 }
-    
+
 .spacing-section {
     padding:6em 0;
 }
@@ -100,7 +100,7 @@ li {
     list-style: circle;
     line-height: 2.4em;
 }
-    
+
 b, strong {
     font-weight: 700;
 }
@@ -118,12 +118,12 @@ i {
 .txt-white {
     color: #fff;
 }
-    
+
 .txt-white a {
     color: #fff;
     text-decoration: underline;
 }
-    
+
 .txt-white a:hover {
     text-decoration: none;
 }
@@ -193,7 +193,7 @@ a {
     margin:0 auto;
     text-align: center;
 }
-    
+
 .right {
     text-align: right;
 }
@@ -316,7 +316,7 @@ a.button.btn-white:hover {
     position:absolute;
     right:1.5em;
 }
-    
+
 .button-disc i {
     position:absolute;
     top:50%;
@@ -325,7 +325,7 @@ a.button.btn-white:hover {
     font-size:1.5em;
     color:#fff;
 }
-    
+
 .button-disc i a {
     color:#fff;
 }
@@ -377,7 +377,7 @@ td a div.button{
 .panel-image {
     background-size:cover;
     background-position: center;
-    
+
 }
 .panel-copy {
     padding:5%;
@@ -433,7 +433,7 @@ td a div.button{
 .card h2, .hover-content h2 {
     padding:1em 1.5em 0;
 }
-    
+
 .card p, .hover-content p {
     padding:2em 2em 5.5em;
 }
@@ -449,7 +449,7 @@ td a div.button{
 .card-stack .card {
     margin-top:2em;
 }
-  
+
 
 
 
@@ -467,7 +467,7 @@ td a div.button{
 	width: 100%;
 	height: 100%;
 }
-    
+
 .videoCopy {
     padding: 0 40px;
 }
@@ -481,7 +481,7 @@ td a div.button{
     background-size: cover;
     position: relative;
 }
- 
+
 .imgby-copy {
     width:100%;
     position: relative;
@@ -503,13 +503,13 @@ td a div.button{
 .grid-cards .path {
     height:350px;
 }
-    
+
 .hover-headline {
     position: absolute;
     top:0;
     padding:1.5em;
 }
-    
+
 .hover-headline h1, .hover-headline h2 {
     position: relative;
     margin:0;
@@ -518,7 +518,7 @@ td a div.button{
     top:0px;
     transition: .5s ease;
 }
-    
+
 .hover-content {
     position: absolute;
     bottom:0;
@@ -536,7 +536,7 @@ td a div.button{
     opacity: 1;
     transition: .5s ease;
 }
-    
+
 .hover-container:hover .overlay, .hover-container:hover .hover-headline {
     opacity: 0;
 }
@@ -544,7 +544,7 @@ td a div.button{
 .hover-container:hover .hover-headline h1, .hover-container:hover .hover-headline h2 {
     top:100px;
 }
-   
+
 .hover-container:hover .hover-content {
     opacity: 1;
 }
@@ -558,23 +558,23 @@ td a div.button{
     background-size:cover;
     background-position: 50% 10%;
 }
-    
+
 .item-main {
     grid-row: 1;
 }
-    
+
 .item-one .overlay, .item-two .overlay, .item-three .overlay, .item-four .overlay {
     background-color:#00000099;
     outline: 1px dotted #999;
 }
-    
+
 .item-main-copy {
     padding:2em;
     color:#fff;
     background-color:#00000066;
     height:100%;
 }
-    
+
 .item-main-copy h2 {
     width:96%;
 }
@@ -632,7 +632,7 @@ td a div.button{
     font-size:0.5em;
     border-top:2px solid #999;
 }
- 
+
 .navbar-items a:hover {
     background-color:rgba(0,0,0,0.5);
     color: #fff;
@@ -685,7 +685,7 @@ td a div.button{
 }
 .cfa-logo a span {
 	color:#ffffff00!important;
-}  
+}
 
 
 /* FOOTER */
@@ -876,22 +876,22 @@ footer .footer-legal i {
 
 
 
-    
+
 /* MEDIA */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media only screen
 and (min-device-width :320px) {
     .dt-only {
         display:none;
     }
 }
-    
+
 /* Small screens ----------- */
 @media (min-width: 768px) {
 
 }
-    
+
 /* Laptops - medium screens ----------- */
 @media only screen and (min-width :1024px) {
     .hero {
@@ -903,14 +903,14 @@ and (min-device-width :320px) {
     .profile-hero {
         height:70%;
     }
-        
+
     /* FONTS */
     /* POSITIONING */
 
-        
+
     /* CONTAINERS */
     .container-full, .container-limited, .container-compact {
-        width:96%; 
+        width:96%;
     }
     .container-page, .container-limited, .container-compact {
         max-width: 1200px;
@@ -918,7 +918,7 @@ and (min-device-width :320px) {
     .container-txt, .container-compact {
         max-width: 700px;
     }
-        
+
     /* GRIDS */
     .grid-2by, .grid-imgby {
         grid-template-columns: 1fr 1fr;
@@ -958,7 +958,7 @@ and (min-device-width :320px) {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
     }
-        
+
     /* US GRID */
     .us-grid {
         display: grid;
@@ -972,16 +972,16 @@ and (min-device-width :320px) {
     .item-main {
         grid-row: 1 / span 2;
     }
-        
+
     .item-main-copy {
         padding:5em;
     }
-        
+
     .item-main-copy h2 {
         width:50%;
     }
 
-    
+
     /* BUTTONS */
 
     .tab-menu {
@@ -1009,7 +1009,7 @@ and (min-device-width :320px) {
         font-size:1em;
         border-top:none;
     }
-    
+
     .navbar-logo img {
         height:70px;
     }
@@ -1028,10 +1028,10 @@ and (min-device-width :320px) {
     .hamburger {
         display:none;
     }
-        
+
     /* CARDS */
 
-        
+
     .imgby-img {
         min-height:400px;
     }
@@ -1039,13 +1039,13 @@ and (min-device-width :320px) {
         padding-left:40px;
         padding-right:40px;
     }
-    
+
     /* PANEL */
-        
+
     .panel-copy a {
         margin-left:0;
     }
-        
+
     /* GALLERY */
     .gallery {
         width:96%;
@@ -1061,7 +1061,7 @@ and (min-device-width :320px) {
         height:350px;
     }
 
-        
+
     /* RTB */
     .rtb-icon {
         width:60px;
@@ -1084,12 +1084,12 @@ and (min-device-width :320px) {
     #resume p {
         margin:0 0 10px;
     }
-        
+
     /* PROFILES */
     .profile-container {
         top:-80px;
     }
-        
+
     .dt-only {
         display:block;
     }
@@ -1111,9 +1111,9 @@ and (min-device-width :320px) {
 
     footer .footer-legal i {
         padding-right:0px;
-    } 
+    }
 }
-    
+
 @media (min-width: 1280px) {
     .grid-cards {
         display: grid;
@@ -1127,7 +1127,7 @@ and (min-device-width :320px) {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
-    
+
 @media (min-width: 1600px) {
     .grid-cards {
         display: grid;
@@ -1135,7 +1135,7 @@ and (min-device-width :320px) {
         grid-template-rows: auto;
     }
     }
-        
+
     @media (min-width: 2400px) {
     .grid-cards {
         display: grid;
