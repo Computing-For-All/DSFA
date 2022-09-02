@@ -1,3 +1,35 @@
+/* Project Data Schema:
+[
+  {
+    title: "",
+    description: "",
+    language: "",  
+    names: [], 
+    url: "", 
+    imageName: "", 
+    filter: "",
+  },
+]
+
+Sample array:
+[
+  {
+    title: "Test Project title",
+    description: "Test project description",
+    language: "HTML, CSS",
+    // The following names must match the names of the students' profile HTML files
+    names: ["testymctesterson"],
+    // The following URL should lead to the project hosted on the course's game development platform (ex: Scratch, Tynker, etc) or it's web host platform (ex: GitHub Pages)
+    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted elsewhere.
+    url: "www.google.com",
+    // The following name needs to match an image file in the /projects/thumbnails folder.
+    imageName: "testproject",
+    // The following designates which type of project it is, so it can be filtered using buttons on projects/index.html
+    filter: "web",
+  },
+]
+*/
+
 let gameData = [
   /*
   {
@@ -33,30 +65,6 @@ let gameData = [
   //   url: "https://computingforall.github.io/G4A/public/",
   //   imageName: "gamesforall",
   // },
-
-  /* Schema:
-  {
-    title: "",
-    description: "",
-    language: "",  
-    names: [], // These must match the names of the students' profile HTML files
-    url: "", // This URL should lead to the project hosted on the course's game development platform (ex: Scratch, Tynker, etc) or it's web host platform (ex: GitHub Pages)
-    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted elsewhere.
-    imageName: "", // This name needs to match an image file in the /projects/thumbnails folder.
-    filter: "",
-  },
-
-  Sample data:
-  {
-    title: "Test Project title",
-    description: "Test project description",
-    language: "HTML, CSS", 
-    names: ["testymctesterson"],
-    url: "www.google.com",
-    imageName: "testproject",
-    filter: "web",
-  },
-  */
 
   {
     title: "Otter Run",
