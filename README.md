@@ -54,7 +54,7 @@ let profileData = {
 
 ## Adding a DSFA student project
 
-1. Add a thumbnail image for the project to `projects/thumbnails/`
+1. Add a thumbnail image for the project to `projects/thumbnails/`.
 1. Add project info to `project-data.js`, as demonstrated in the code block below.
 
 ```js
@@ -70,7 +70,7 @@ let profileData = {
     names: [],
 
     // The following URL should lead to the project hosted on the course's game development platform (ex: Scratch, Tynker, etc) or it's web host platform (ex: GitHub Pages)
-    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted elsewhere. 
+    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted elsewhere per the previous comment. 
 
     url: "", 
 
