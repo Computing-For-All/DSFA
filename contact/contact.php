@@ -1,11 +1,11 @@
 <?php
-    
+
     $myemail = 'info@computingforall.org';
 
     $name = $_POST['sender'];
     $email_address = $_POST['email'];
     $message = $_POST['message'];
-    
+
     $to = $myemail;
 
     $email_subject = "DSFA Students Inquiry from: $name";

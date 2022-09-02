@@ -170,7 +170,7 @@
     width:100%;
     height:100%;
 }
-    
+
 .rslides_container {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.25);
 }
@@ -181,27 +181,27 @@
     height:500px;
     background-size:cover;
 }
-    
+
 .slide-img-hero {
     width:100%;
     height:100%;
     background-size:cover;
     background-attachment: scroll;
 }
-    
+
 .slide-copy {
     width:50%;
     position: relative;
     padding: 0;
 }
-    
+
 .slide-copy .button {
     position:absolute;
     width: 100%;
     bottom:0;
     padding:20px;
 }
-    
+
 .slide-copy h1, .slide-copy p {
     padding:10px 40px;
 }
@@ -210,16 +210,16 @@
     width:100%;
     max-width:auto;
 }
-    
+
 /* MEDIA */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media only screen
 and (min-device-width :320px) {
 
 }
 /* Desktops and laptops ----------- */
-@media only screen 
+@media only screen
 and (min-width :1024px) {
 .slide-img-hero {
     background-attachment: fixed;
@@ -234,5 +234,4 @@ and (min-width :1024px) {
 .large-btns_tabs a {
   width:12px;
   height:12px;
-  }
 }
