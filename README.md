@@ -4,7 +4,9 @@ This website is the primary public face of Computing For All's Pre-Apprentaceshi
 
 ## Deployment
 
-This GitHub repo is deployed via FTP to a Bluehost service which serves this site from the domain `dsfastudents.com`.
+This GitHub repo is deployed via manual FTP upload to a Bluehost service which serves this site from the domain `dsfastudents.com`.
+
+<!-- TODO: Add the FTP server's url and credentials -->
 
 This repo's GitHub Pages deployment is currently used for development purposes only.
 
@@ -18,6 +20,7 @@ This repo's GitHub Pages deployment is currently used for development purposes o
       - `profile/images/pic-firstnamelastname.jpg`
     - A background/secondary profile picture
       - `profile/images/pic-firstnamelastname-bg.jpg`
+1. The profile page's projects section will have blank projects. Follow the steps in the [**Adding a DSFA student project**](#adding-a-dsfa-student-project) instructions to complete these.
 1. Add the student's profile data to `js/profile-data.js`:
 
 ```js
@@ -49,12 +52,12 @@ let profileData = {
         },
     ]
 }
-
 ```
 
 ## Adding a DSFA student project
 
 1. Add a thumbnail image for the project to `projects/thumbnails/`.
+1. Fill in the project info into the appropriate section of the student's profile page `profiles/firstnamelastname.html`. Using the thumbnail image name where needed.
 1. Add project info to `project-data.js`, as demonstrated in the code block below.
 
 ```js
