@@ -1,13 +1,4 @@
 let gameData = [
-  // Format:
-  // {
-  //   title: "",
-  //   description: "",
-  //   names: [],
-  //   url: ""
-  //   imageName: "",
-  //   filter: "",
-  // },
   /*
   {
     title: "Vaccine Shift Webpage",
@@ -42,6 +33,31 @@ let gameData = [
   //   url: "https://computingforall.github.io/G4A/public/",
   //   imageName: "gamesforall",
   // },
+
+  /* Schema:
+  {
+    title: "",
+    description: "",
+    language: "",  
+    names: [], // These must match the names of the students' profile HTML files
+    url: "", // This URL should lead to the project hosted on the course's game development platform (ex: Scratch, Tynker, etc) or it's web host platform (ex: GitHub Pages)
+    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted elsewhere.
+    imageName: "", // This name needs to match an image file in the /projects/thumbnails folder.
+    filter: "",
+  },
+
+  Sample data:
+  {
+    title: "Test Project title",
+    description: "Test project description",
+    language: "HTML, CSS", 
+    names: ["testymctesterson"],
+    url: "www.google.com",
+    imageName: "testproject",
+    filter: "web",
+  },
+  */
+
   {
     title: "Otter Run",
     description: "There is more water than land on the earth and more life below water than life on land so why do we throw away so much trash into the ocean as if it doesn't affect the ecosystem of millions of creatures. Even creatures that don't fully live under water.",
