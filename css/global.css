@@ -36,6 +36,10 @@ td {
     background-position: 50% 50%;
 }
 
+.hero .v-centered *:first-child {
+    margin-top: 0;
+}
+
 section, footer {
     position: relative;
 }
