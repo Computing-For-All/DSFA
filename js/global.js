@@ -1,7 +1,7 @@
 $(document).ready(
     function () {
 
-        // NOT SURE WHY THIS EXISTS? LEGACY?
+        // Note from Nathan 9/7/2022: I'm not sure why this exists? Legacy?
         let pageUrl = document.URL.split('/')[3];
         if (pageUrl === 'DSFA') {
             pageUrl = '/DSFA/'
