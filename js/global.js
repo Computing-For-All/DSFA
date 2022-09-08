@@ -10,7 +10,7 @@ $(document).ready(
         }
 
         // Insert Nav Html
-        let headerElem = document.querySelector('#js-populate-header');
+        let headerElem = document.querySelector('[data-js-target="js-populate-header"]');
 
         headerElem.innerHTML = `
             <nav class="navbar">
