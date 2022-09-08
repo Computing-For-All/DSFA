@@ -42,8 +42,8 @@
     }
     p {
         text-align: left;
-        position: relative; 
-        margin-left: 27%; 
+        position: relative;
+        margin-left: 27%;
         width:46%;
         }
     .checked {
@@ -51,8 +51,8 @@
     }
     li {
         text-align: left;
-        position: relative; 
-        margin-left: 27%; 
+        position: relative;
+        margin-left: 27%;
         width:46%;
         }
     #share-buttons img {
@@ -65,14 +65,14 @@
     }
     .comment {
         text-align: left;
-        position: relative; 
-        margin-left: 27%; 
+        position: relative;
+        margin-left: 27%;
         width:46%;
     }
         .commentTitle {
         text-align: left;
         position: relative;
-        margin-left: 27%; 
+        margin-left: 27%;
         width:46%;
         font-size: normal;
         font-weight: bold;
@@ -110,18 +110,18 @@
                 <option value="5">5 - Hard</option>
             </select>
             <label for="fname">Servings</label>
-            <input type="text" id="ptime" name="preptime" placeholder="Average serving size..."> 
+            <input type="text" id="ptime" name="preptime" placeholder="Average serving size...">
             <label for="fname">Preparation Time</label>
-            <input type="text" id="ptime" name="preptime" placeholder="Average Prep Time..."> 
+            <input type="text" id="ptime" name="preptime" placeholder="Average Prep Time...">
             <label for="CookTime">Cook Time</label>
-            <input type="text" id="ctime" name="cooktime" placeholder="Average Cook Time...">  
+            <input type="text" id="ctime" name="cooktime" placeholder="Average Cook Time...">
             <label for="img">Select image (Optional):</label>
             <input type="file" id="img" name="img" accept="image/*" multiple><p></p>
-            <label for="details">Details:</label> 
+            <label for="details">Details:</label>
             <textarea class ="recipe" id="detailsinput" type="text "rows="3" cols="10" placeholder="What makes it special? Why is it significant? " required></textarea><br>
-            <label for="Ingredients">Ingredients</label> 
+            <label for="Ingredients">Ingredients</label>
             <textarea class = "recipe" id="ingredientsinput" type="text "rows="5" cols="10" placeholder="Enter Ingredients(s)..." required></textarea><br>
-            <label for="Directions">Directions</label> 
+            <label for="Directions">Directions</label>
             <textarea class = "recipe" id="directionsinput" type="text "rows="10" cols="10" placeholder="Enter Directions(s)..." required></textarea>
             <input class="formsubmit" type="submit" value="Post" onclick="Post()">
             <div id="display"></div>
@@ -130,7 +130,7 @@
     <div id="RecipePage" style="display: none">
         <h1 id="title" style="text-align:center; font-size:400%; font-family:'Impact', fantasy; font-weight: 900;">Recipe</h1><p style="text-align: center;"><b>Posted by: </b>Author</p>
         <div class="description"><p><b>Description: </b><div id="description">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div></p>
-        <img src="dish.jpg" style="position: relative; margin-left: 25%; width:50%; border: 5px solid gray; align:center; "> 
+        <img src="dish.jpg" style="position: relative; margin-left: 25%; width:50%; border: 5px solid gray; align:center; ">
 
 
 
@@ -143,12 +143,12 @@
             <span class="fa fa-star"></span>
 
             <br><b>Diffculty rank: </b><br><b>Servings: </b><br><b>Prep time: </b><br><b>Cook time: </b><br><b>Total time: </b><br>
-        <p><b>Ingredients:</b></p> 
+        <p><b>Ingredients:</b></p>
         <ul id="ingredients">
             <li>one</li>
             <li>two</li>
-            <li>three</li></ul> 
-        <p><b>Instructions:</b></p> 
+            <li>three</li></ul>
+        <p><b>Instructions:</b></p>
         <ol id="instructions">
             <li>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
             <li>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
@@ -157,7 +157,7 @@
         <div class= "commentTitle")> Comments: </div> <p></p>
         <textarea class = "comment" id="name" type="text "rows="1" cols="10" onkeyup="Allow()" placeholder="Please Enter Your Name"></textarea>
         <textarea class = "comment" id="title" type="text "rows="5" cols="200" onkeyup="Allow()" placeholder="Write a comment......"></textarea>
-        <input type="submit" value="Post" onclick="insert()" style="" ><p></p>
+        <input type="submit" value="Post" onclick="insert()" ><p></p>
 
         <div id="display" class = "comment"></div>
         <p></p>
@@ -225,7 +225,7 @@
             messages += '</div>';
         }
     messageBox.innerHTML = messages;
-        
+
     }
 </script>-->
 <script>
@@ -261,7 +261,7 @@
             messages += '</div>';
         }
     messageBox.innerHTML = messages;
-        
+
     }
     var instructions= document.getElementById("instructions");
     var ingredients = document.getElementById("ingredients");
@@ -271,7 +271,7 @@
     var directionsInput = document.getElementById("directionsinput");
     var ingredientsInput = document.getElementById("ingredientsinput");
     var titleinput = document.getElementById("titleinput")
-    
+
     function Post() {
         document.getElementById("Form").style.display = "none";
         document.getElementById("RecipePage").style.display = "block";
@@ -279,11 +279,11 @@
         ingredients.innerHTML= ingredientsInput.value;
         description.innerHTML= detailsInput.value;
         instructions.innerHTML= directionsInput.value;
-        
+
     }
 
-    
-    
+
+
 </script>
 
 
