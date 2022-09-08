@@ -185,6 +185,10 @@ a {
     transform: translateY(-50%);
 }
 
+.v-centered *:first-child {
+    margin-top: 0;
+}
+
 .abs-centered {
     position:absolute;
     top:50%;
