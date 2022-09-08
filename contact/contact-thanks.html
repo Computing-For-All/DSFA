@@ -1,120 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>DSFA: Thank You!</title>
 
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="../css/global.css" />
+<head>
+    <title>DSFA: Thank You!</title>
 
-        <style type="text/css">
-            html,
-            body {
-                background-color: #333 !important;
-            }
-            /* Style inputs */
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/global.css" />
+
+    <style type="text/css">
+        html,
+        body {
+            background-color: #333 !important;
+        }
+
+        /* Style inputs */
+        input[type="text"],
+        select,
+        textarea {
+            font-family: "Montserrat", Arial, Verdana, sans-serif !important;
+            width: 100%;
+            font-size: 2em;
+            padding: 24px;
+            border: 3px solid #ccc;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        label,
+        .button {
+            font-size: 2em;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {}
+
+        @media only screen and (min-width: 1024px) {
+
             input[type="text"],
             select,
             textarea {
-                font-family: "Montserrat", Arial, Verdana, sans-serif !important;
-                width: 100%;
-                font-size: 2em;
-                padding: 24px;
-                border: 3px solid #ccc;
-                margin-top: 20px;
-                margin-bottom: 40px;
-                resize: vertical;
-                box-sizing: border-box;
+                font-size: 1em;
+                padding: 12px;
+                border: 1px solid #ccc;
+                margin-top: 10px;
+                margin-bottom: 20px;
             }
+
             label,
             .button {
-                font-size: 2em;
+                font-size: 1em;
             }
+        }
+    </style>
+</head>
 
-            input[type="submit"] {
-                width: 100%;
-                margin: auto;
-                cursor: pointer;
-            }
+<body>
+    <header data-js-target="js-populate-header">
+        <!-- navbar inserted here via js -->
+    </header>
 
-            input[type="submit"]:hover {
-            }
+    <!-- HERO -->
 
-            @media only screen and (min-width: 1024px) {
-                input[type="text"],
-                select,
-                textarea {
-                    font-size: 1em;
-                    padding: 12px;
-                    border: 1px solid #ccc;
-                    margin-top: 10px;
-                    margin-bottom: 20px;
-                }
-                label,
-                .button {
-                    font-size: 1em;
-                }
-            }
-        </style>
-    </head>
-
-    <body>
-        <header data-js-target="js-populate-header">
-            <!-- navbar inserted here via js -->
-        </header>
-
-        <!-- HERO -->
-
-        <section
-            class="hero"
-            style="
+    <section class="hero" style="
                 height: 60%;
                 background-image: url(images/hero-thanks.jpg);
                 background-position: 50% 50%;
-            "
-        >
-            <div class="overlay"></div>
-            <div class="txt-white abs-centered container-txt">
-                <h1>Thank You!</h1>
-                <h2>
-                    Thank you for your message. We will get back to you as soon
-                    as we can.
-                </h2>
-            </div>
-        </section>
+            ">
+        <div class="overlay"></div>
+        <div class="txt-white abs-centered container-txt">
+            <h1>Thank You!</h1>
+            <h2>
+                Thank you for your message. We will get back to you as soon
+                as we can.
+            </h2>
+        </div>
+    </section>
 
-        <section class="bg-green spacing-section">
-            <div class="txt-white container-txt centered">
-                <div class="button-padding">
-                    <a href="http://dsfastudents.org/" class="button btn-white"
-                        >Return To Home Page</a
-                    >
-                </div>
+    <section class="bg-green spacing-section">
+        <div class="txt-white container-txt centered">
+            <div class="button-padding">
+                <a href="http://dsfastudents.org/" class="button btn-white">Return To Home
+                    Page</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <div class="soc-icons-footer">
-                <a href="https://www.facebook.com/youthdsfa/" target="_blank"
-                    ><i class="fab fa-facebook-square"></i
-                ></a>
-                <a
-                    href="https://www.instagram.com/dsfa.students/?hl=en"
-                    target="_blank"
-                    ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="http://dsfastudents.org/contact"
-                    ><i class="fas fa-envelope"></i
-                ></a>
-            </div>
-            <div class="footer-legal">
-                <i class="far fa-copyright"></i> copyright 2020 - Digital Skills
-                For All
-            </div>
-        </footer>
-    </body>
+    <footer>
+        <div class="soc-icons-footer">
+            <a href="https://www.facebook.com/youthdsfa/" target="_blank"><i
+                    class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/dsfa.students/?hl=en" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="http://dsfastudents.org/contact"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="footer-legal">
+            <i class="far fa-copyright"></i> copyright 2020 - Digital Skills
+            For All
+        </div>
+    </footer>
+</body>
+
 </html>
