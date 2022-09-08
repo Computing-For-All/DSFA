@@ -9,7 +9,7 @@ $(document).ready(
             pageUrl = '/';
         }
 
-        // INSERT NAV HTML
+        // Insert Nav Html
         let headerElem = document.querySelector('#js-populate-header');
 
         headerElem.innerHTML = `
