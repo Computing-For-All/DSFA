@@ -1,7 +1,7 @@
 $(document).ready(
     function () {
 
-        // Note from Nathan 9/7/2022: I'm not sure why this exists? Legacy?
+        // Determine if URL is on Github Pages
         let pageUrl = document.URL.split('/')[3];
         if (pageUrl === 'DSFA') {
             pageUrl = '/DSFA/'
