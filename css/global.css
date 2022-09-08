@@ -36,10 +36,6 @@ td {
     background-position: 50% 50%;
 }
 
-.hero .v-centered *:first-child {
-    margin-top: 0;
-}
-
 section, footer {
     position: relative;
 }
@@ -187,6 +183,10 @@ a {
     position:relative;
     top:50%;
     transform: translateY(-50%);
+}
+
+.v-centered *:first-child {
+    margin-top: 0;
 }
 
 .abs-centered {
