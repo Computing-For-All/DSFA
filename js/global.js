@@ -16,9 +16,9 @@ $(document).ready(
             <nav class="navbar">
                 <div class="navbar-logo">
                     <a href="http://computingforall.org" class="cfa-logo"></a>
-                    <a href="http://dsfastudents.org/">
-                        <img src="images/logo-color.png">
-                    </a>
+                    <a href="` + pageUrl + `"
+                        ><img src="images/logo-color.png"
+                    ></a>
                 </div>
                 <div>
                     <div class="navbar-items">
@@ -31,7 +31,9 @@ $(document).ready(
                             <a href="` + pageUrl + `events">Events</a>
                             <a href="` + pageUrl + `visits">Visits</a>
                             <a href="` + pageUrl + `about">About</a>
-                            <a href="` + pageUrl + `contact"><i class=\"fas fa-envelope\"></i></a>
+                            <a href="` + pageUrl + `contact"
+                                ><i class="fas fa-envelope"></i
+                            ></a>
                         </div>
                     </div>
                 </div>
