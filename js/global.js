@@ -15,7 +15,7 @@ $(document).ready(
         headerElem.innerHTML = `
             <nav class="navbar">
                 <div class="navbar-logo">
-                    <a href="http://computingforall.org" class="cfa-logo"></a>
+                    <a href="https://computingforall.org" class="cfa-logo" target="_blank"></a>
                     <a href="` + pageUrl + `"
                         ><img src="images/logo-color.png"
                     ></a>
