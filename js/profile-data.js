@@ -1,9 +1,32 @@
+/* profileData Schema
+{
+    'currentYear': [ 
+        {
+            name: "",
+            introduction: "",
+            url: "",
+        },
+    ],
+    'previousYear': [ 
+        { 
+            // student data goes here 
+        }, 
+        // etc 
+    ],
+}
+
+Sample data:
+{
+    '2099': [
+        {
+            name: "Testy McTesterson",
+            introduction: "I am a test student",
+            url:"testymctesterson", // This must match the student's profile html file name
+        },
+    ]
+}
+*/
 let profileData = {
-    // {
-    //     name: "",
-    //     introduction: "",
-    //     url: "",
-    // },
     '2022': [
         {
             name: "Alazar Mengistu",
