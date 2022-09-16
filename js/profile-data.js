@@ -297,7 +297,7 @@ $(document).ready(
             for (person in profileData[year]) {
                 profilesOfYear +=
                     `
-                    <div class="path hover-container card" style="background-image:url(images/pic-${profileData[year][person].name.split(" ").join("").toLowerCase()}.jpg);">
+                    <div class="path hover-container card" style="background-image:url(./images/pic-${profileData[year][person].name.split(" ").join("").toLowerCase()}.jpg);">
                         <div class="overlay"></div>
                         <div class="hover-headline"><h2>${profileData[year][person].name}</h2></div>
                         <div class="hover-content">
