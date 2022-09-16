@@ -13,6 +13,7 @@
     <style type="text/css">
         /* Style inputs */
         input[type=text],
+        input[type=email],
         select,
         textarea {
             font-family: 'Montserrat', Arial, Verdana, sans-serif !important;
@@ -42,6 +43,7 @@
         @media only screen and (min-width :1024px) {
 
             input[type=text],
+            input[type=email],
             select,
             textarea {
                 font-size: 1em;
@@ -83,7 +85,7 @@
     <!-- HERO -->
 
     <section class="hero"
-        style="height:60%;background-image:url(images/hero.jpg);background-position: 50% 100%;">
+        style="height:60%; background-image:url(./images/hero.jpg); background-position: 50% 100%;">
         <div class="overlay"></div>
         <div class="txt-white abs-centered container-txt">
             <h1>Digital Skills For All</h1>
@@ -95,7 +97,16 @@
 
     <section class="bg-white spacing-section">
         <div class="container-txt">
-            <h1>THANKS!</h1>
+            <form method="post" action="contact.php">
+                <label for="fname">Name</label>
+                <input type="text" name="sender" placeholder="Your Name" required>
+                <label for="subject">Email</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <label for="body">Body</label>
+                <textarea name="message" placeholder="Enter Message" required
+                    style="height:200px"></textarea>
+                <input type="submit" value="Send" class="button btn-blue">
+            </form>
         </div>
     </section>
 
