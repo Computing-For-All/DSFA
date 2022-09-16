@@ -17,7 +17,7 @@ $(document).ready(
                 <div class="navbar-logo">
                     <a href="https://computingforall.org" class="cfa-logo" target="_blank"></a>
                     <a href="` + pageUrl + `"
-                        ><img src="images/logo-color.png"
+                        ><img src="` + pageUrl + `images/logo-color.png"
                     ></a>
                 </div>
                 <div>
