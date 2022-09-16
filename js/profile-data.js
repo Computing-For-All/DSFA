@@ -1,17 +1,17 @@
 /* profileData Schema
 {
-    'currentYear': [ 
+    'currentYear': [
         {
             name: "",
             introduction: "",
             url: "",
         },
     ],
-    'previousYear': [ 
-        { 
-            // student data goes here 
-        }, 
-        // etc 
+    'previousYear': [
+        {
+            // student data goes here
+        },
+        // etc
     ],
 }
 
@@ -26,6 +26,7 @@ Sample data:
     ]
 }
 */
+
 let profileData = {
     '2022': [
         {
