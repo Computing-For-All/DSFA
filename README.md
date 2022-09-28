@@ -4,11 +4,11 @@ This website is the primary public face of Computing For All's Pre-Apprenticeshi
 
 ## Deployment
 
-This GitHub repo is deployed via manual FTP upload to a Bluehost service which serves this site from the domain `dsfastudents.com`.
+This GitHub repo is deployed via GitHub Pages and served from www.computingforall.org.
 
 <!-- TODO: Add the FTP server's url and credentials -->
 
-This repo's GitHub Pages deployment is currently used for development purposes only.
+If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
 
 ## Adding a DSFA student profile
 
