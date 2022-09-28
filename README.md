@@ -12,7 +12,7 @@ If you wish to pre-check changes, make a personal fork of this repo and deploy f
 
 During Sept '22, this website was moved from using a Bluehost.com deploy to using GitHub Pages, while still using Bluehost.com for DNS services. The process of that transition is documented [here](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing), and includes useful information about the DNS configuration.
 
-## Adding a DSFA student profile
+## Adding a student profile
 
 1. Copy and fill out a template profile page, found at `profiles/__template_with_todos.html`
 1. Place it in the `profiles` folder.
@@ -56,7 +56,7 @@ let profileData = {
 }
 ```
 
-## Adding a DSFA student project
+## Adding a student project
 
 1. Add a thumbnail image for the project to `projects/thumbnails/`.
 1. Fill in the project info into the appropriate section of the student's profile page `profiles/firstnamelastname.html`. Using the thumbnail image name where needed.
