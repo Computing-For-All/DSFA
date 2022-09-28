@@ -8,7 +8,9 @@ This GitHub repo is deployed via GitHub Pages and served from www.dsfastudents.o
 
 If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
 
-During Sept '22, this website was moved from using a Bluehost.com deploy to using GitHub Pages. The process of that transition is documented [here](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing).
+### DNS Configuration
+
+During Sept '22, this website was moved from using a Bluehost.com deploy to using GitHub Pages, while still using Bluehost.com for DNS services. The process of that transition is documented [here](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing), and includes useful information about the DNS configuration.
 
 ## Adding a DSFA student profile
 
