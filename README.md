@@ -1,6 +1,6 @@
 # DSFA
 
-This website is the primary public face of Computing For All's Pre-Apprentaceship program, conveying the stories and successes of our past students to partners and future students.
+This website is the primary public face of Computing For All's Pre-Apprenticeship Program, conveying the stories and successes of our past students to partners and future students.
 
 ## Deployment
 
