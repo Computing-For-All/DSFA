@@ -75,7 +75,7 @@ let profileData = {
     names: [],
 
     // The following URL should lead to the project hosted on the course's game development platform (ex: Scratch, Tynker, etc) or it's web host platform (ex: GitHub Pages)
-    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted elsewhere per the previous comment. 
+    // Some older student projects are hosted on this website and found in the projects folder, but new projects should be hosted on the aformentioned platforms. 
 
     url: "", 
 
