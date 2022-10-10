@@ -11,6 +11,7 @@ let gameData = [
     // TODO write you and your teammates' names in the format ["my name","teammate A name","teammate B name"]
     names: ["testymctesterson","teststudent"],
     // TODO add the deployed URL which leads to the hosted version of your final project
+    // This should NOT be a link to a GitHub repo unless your final project has no front-end component.
     url: "www.google.com", 
     // TODO write your project thumbnail file name into the quotes
     imageName: "testproject",
