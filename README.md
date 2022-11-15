@@ -17,12 +17,12 @@ During Sept '22, this website was moved from using a Bluehost.com deploy to usin
 1. Copy and fill out a template profile page, found at `profiles/__template_with_todos.html`
 1. Place it in the `profiles` folder.
 1. Name the copy in the format of `firstnamelastname.html`.
-1. Add the following files, noting the folders they belong in and the similar naming convention:
+1. Add the following files
     - A headshot/primary profile picture
       - `profile/images/pic-firstnamelastname.jpg`
     - A background/secondary profile picture
       - `profile/images/pic-firstnamelastname-bg.jpg`
-1. The profile page's projects section will have blank projects. Follow the steps in the [**Adding a DSFA student project**](#adding-a-dsfa-student-project) instructions to complete these.
+1. The profile page's projects section will have blank projects. Follow the steps in the [**Adding a DSFA student project**](#adding-a-student-project) instructions to complete these.
 1. Add the student's profile data to `js/profile-data.js`:
 
 ```js
