@@ -35,12 +35,6 @@ During Sept '22, this website was moved from using a Bluehost.com deploy to usin
             url: "", // This must match the student's profile html file name
         },
     ],
-    'previousYear': [ 
-        { 
-            // student data goes here 
-        }, 
-        // etc 
-    ],
 }
 */
 
