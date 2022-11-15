@@ -47,8 +47,8 @@ During Sept '22, this website was moved from using a Bluehost.com deploy to usin
 // Sample: 
 let profileData = {
     '2098': [
-       // Existing from a past year 
-    ]
+       // Existing data from a past year 
+    ],
     '2099': [
         {
             // Existing data from a past student
