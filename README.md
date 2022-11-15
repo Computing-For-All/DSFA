@@ -46,10 +46,16 @@ During Sept '22, this website was moved from using a Bluehost.com deploy to usin
 
 // Sample: 
 let profileData = {
+    '2098': [
+       // Existing from a past year 
+    ]
     '2099': [
         {
+            // Existing data from a past student
+        },
+        {
             name: "Testy McTesterson",
-            introduction: "I am a test student",
+            introduction: "I am a new test student",
             url:"testymctesterson",
         },
     ]
@@ -91,6 +97,9 @@ let profileData = {
 
 Sample data: */
 let gameData = [
+  {
+    // Existing data from past student projects
+  },
   {
     title: "Test Project title",
     description: "Test project description",
