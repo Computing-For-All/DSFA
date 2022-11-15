@@ -22,7 +22,7 @@ During Sept '22, this website was moved from using a Bluehost.com deploy to usin
       - `profile/images/pic-firstnamelastname.jpg`
     - A background/secondary profile picture
       - `profile/images/pic-firstnamelastname-bg.jpg`
-1. The profile page's projects section will have blank projects. Follow the steps in the [**Adding a DSFA student project**](#adding-a-student-project) instructions to complete these.
+1. The profile page's projects section will have blank projects. Follow the steps in the [**Adding a student project**](#adding-a-student-project) instructions to complete these.
 1. Add the student's profile data to `js/profile-data.js`:
 
 ```js
