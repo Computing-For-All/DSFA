@@ -4,7 +4,7 @@ This website is the primary public face of Computing For All's Pre-Apprenticeshi
 
 ## Deployment
 
-This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org](https://www.dsfastudents.org/) and [digitalskillsforall.org](https://www.digitalskillsforall.org/).
+This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org](https://www.dsfastudents.org/).
 
 If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
 
