@@ -1,85 +1,123 @@
 <!DOCTYPE html>
 <html>
-   
-    <head>
-        <title>Leaderboard</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body style="background-color:#434343">
-         <nav>
-      <div class="nav-grid">
-        <div class="nav-bar-left"> 
-          <div class="emblem-buttons-container">
-            <div class="emblem-container">
-              <div class="emblem">
-                
-              </div>
+
+<head>
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:#434343">
+  <nav>
+    <div class="nav-grid">
+      <div class="nav-bar-left">
+        <div class="emblem-buttons-container">
+          <div class="emblem-container">
+            <div class="emblem">
+
             </div>
-            <div class="buttons-left">
-              <ul>
-                <li><a class="button-text text-left" id="page-button" href="homepage.html">Home Page</a></li>
-                <li><a class="button-text text-left" id="leaderboard-button" href="leaderboard.html">Leaderboard</a></li>
-                <li><a class="button-text text-left" id="friends-button" href="friends.html">Friends</a></li>
-              </ul>
-            </div>
-            <div></div>
-            <h1 class="welcome-text">Welcome, Players!</h1>
           </div>
-        </div>
-        <div class="nav-bar-right">
-          <div class="buttons-right">
-            <a class="button-text text-right" id="login-button" href="login.html"><i></i>Login</a>
-            <a class="button-text text-right" id="setting-button" href="setting.html"><i></i>Settings</a>
+          <div class="buttons-left">
+            <ul>
+              <li><a class="button-text text-left" id="page-button" href="homepage.html">Home Page</a></li>
+              <li><a class="button-text text-left" id="leaderboard-button" href="leaderboard.html">Leaderboard</a></li>
+              <li><a class="button-text text-left" id="friends-button" href="friends.html">Friends</a></li>
+            </ul>
           </div>
-          <div id="search-container">
-            <input class="search-box" type="search" placeholder="Search">
-          </div>
+          <div></div>
+          <h1 class="welcome-text">Welcome, Players!</h1>
         </div>
       </div>
-    </nav>
-       <div class="leaderboard">
-           
-            <div class="leaderboard-header">
-                <div class="table-border leaderboard-rank-title"><p>Rank</p></div>
-                <div class="table-border leaderboard-name-title"><p>Name</p></div>
-                <div class="table-border leaderboard-score-title"><p>Score</p></div>
-            </div>
-            
-            <div class="leaderboard-body">
-                <div class="leaderboard-row">
-                    <div class="table-border leaderboard-rank"><p>1</p></div>
-                    <div class="leaderboard-name table-border name-spacing"><img src="avatars/mari_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Mari</p></div>
-                    <div><p class="leaderboard-score">1000</p></div>
-                </div>   
-                <div class="leaderboard-row">
-                    <div class="table-border leaderboard-rank"><p>2</p></div>
-                    <div class="leaderboard-name table-border name-spacing"><img src="avatars/victor_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Victor</p></div>
-                    <div><p class="leaderboard-score">986</p></div>
-                </div> 
-                
-                <div class="leaderboard-row">
-                    <div class="table-border leaderboard-rank"><p>3</p></div>
-                    <div class="leaderboard-name table-border name-spacing"><img src="avatars/oscar_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Oscar</p></div>
-                    <div><p class="leaderboard-score">843</p></div>
-                </div> 
-                
-                 <div class="leaderboard-row">
-                    <div class="table-border leaderboard-rank"><p>4</p></div>
-                    <div class="leaderboard-name table-border name-spacing"><img src="avatars/vannary_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Vannary</p></div>
-                    <div><p class="leaderboard-score">732</p></div>
-                </div> 
-                 <div class="leaderboard-row">
-                    <div class="table-border leaderboard-rank"><p>5</p></div>
-                    <div class="leaderboard-name table-border name-spacing"><img src="avatars/michael_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Michael</p></div>
-                    <div><p class="leaderboard-score">639</p></div>
-                </div> 
-            </div>
+      <div class="nav-bar-right">
+        <div class="buttons-right">
+          <a class="button-text text-right" id="login-button" href="login.html"><i></i>Login</a>
+          <a class="button-text text-right" id="setting-button" href="setting.html"><i></i>Settings</a>
         </div>
-        <footer>
-          <div>
-            <p>Team Infinite 2020</p>
-          </div>
-        </footer>
-    </body>
+        <div id="search-container">
+          <input class="search-box" type="search" placeholder="Search">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="leaderboard">
+
+    <div class="leaderboard-header">
+      <div class="table-border leaderboard-rank-title">
+        <p>Rank</p>
+      </div>
+      <div class="table-border leaderboard-name-title">
+        <p>Name</p>
+      </div>
+      <div class="table-border leaderboard-score-title">
+        <p>Score</p>
+      </div>
+    </div>
+
+    <div class="leaderboard-body">
+      <div class="leaderboard-row">
+        <div class="table-border leaderboard-rank">
+          <p>1</p>
+        </div>
+        <div class="leaderboard-name table-border name-spacing"><img src="avatars/mari_avatar.png" alt="avatar"
+            width="100" height="100" style="float:left">
+          <p>Mari</p>
+        </div>
+        <div>
+          <p class="leaderboard-score">1000</p>
+        </div>
+      </div>
+      <div class="leaderboard-row">
+        <div class="table-border leaderboard-rank">
+          <p>2</p>
+        </div>
+        <div class="leaderboard-name table-border name-spacing"><img src="avatars/victor_avatar.png" alt="avatar"
+            width="100" height="100" style="float:left">
+          <p>Victor</p>
+        </div>
+        <div>
+          <p class="leaderboard-score">986</p>
+        </div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="table-border leaderboard-rank">
+          <p>3</p>
+        </div>
+        <div class="leaderboard-name table-border name-spacing"><img src="avatars/oscar_avatar.png" alt="avatar"
+            width="100" height="100" style="float:left">
+          <p>Oscar</p>
+        </div>
+        <div>
+          <p class="leaderboard-score">843</p>
+        </div>
+      </div>
+
+      <div class="leaderboard-row">
+        <div class="table-border leaderboard-rank">
+          <p>4</p>
+        </div>
+        <div class="leaderboard-name table-border name-spacing"><img src="avatars/vannary_avatar.png" alt="avatar"
+            width="100" height="100" style="float:left">
+          <p>Vannary</p>
+        </div>
+        <div>
+          <p class="leaderboard-score">732</p>
+        </div>
+      </div>
+      <div class="leaderboard-row">
+        <div class="table-border leaderboard-rank">
+          <p>5</p>
+        </div>
+        <div class="leaderboard-name table-border name-spacing"><img src="avatars/michael_avatar.png" alt="avatar"
+            width="100" height="100" style="float:left">
+          <p>Michael</p>
+        </div>
+        <div>
+          <p class="leaderboard-score">639</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer data-js-target="js-populate-footer"></footer>
+</body>
+
 </html>
