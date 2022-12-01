@@ -39,5 +39,22 @@ $(document).ready(
                 </div>
             </nav>
         `;
+
+        // Insert footer html
+        let footerElem = document.querySelector('[data-js-target="js-populate-footer"]');
+
+        footerElem.innerHTML = `
+            <div class="soc-icons-footer">
+                <a href="https://www.facebook.com/youthdsfa/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/dsfa.students/?hl=en" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="http://dsfastudents.org/contact"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="footer-legal">
+                <i class="far fa-copyright"></i> Copyright 2020 - Digital Skills
+                For All
+            </div>
+        `;
     }
 );
