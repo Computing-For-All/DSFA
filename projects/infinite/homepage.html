@@ -1,150 +1,182 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a887207608.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-grid">
-        <div class="nav-bar-left"> 
-          <div class="emblem-buttons-container">
-            <div class="emblem-container">
-              <div class="emblem">
-                
-              </div>
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a887207608.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-grid">
+      <div class="nav-bar-left">
+        <div class="emblem-buttons-container">
+          <div class="emblem-container">
+            <div class="emblem">
+
             </div>
-            <div class="buttons-left">
-              <ul>
-                <li><a class="button-text text-left" id="page-button" href="homepage.html">Home Page</a></li>
-                <li><a class="button-text text-left" id="leaderboard-button" href="leaderboard.html">Leaderboard</a></li>
-                <li><a class="button-text text-left" id="friends-button" href="friends.html">Friends</a></li>
-              </ul>
-            </div>
-            <div></div>
-            <h1 class="welcome-text">Welcome, Players!</h1>
           </div>
+          <div class="buttons-left">
+            <ul>
+              <li><a class="button-text text-left" id="page-button" href="homepage.html">Home Page</a></li>
+              <li><a class="button-text text-left" id="leaderboard-button" href="leaderboard.html">Leaderboard</a></li>
+              <li><a class="button-text text-left" id="friends-button" href="friends.html">Friends</a></li>
+            </ul>
+          </div>
+          <div></div>
+          <h1 class="welcome-text">Welcome, Players!</h1>
         </div>
-        <div class="nav-bar-right">
-          <div class="buttons-right">
-            <a class="button-text text-right" id="login-button" href="login.html"><i></i>Login</a>
-            <a class="button-text text-right" id="setting-button" href="setting.html"><i></i>Settings</a>
+      </div>
+      <div class="nav-bar-right">
+        <div class="buttons-right">
+          <a class="button-text text-right" id="login-button" href="login.html"><i></i>Login</a>
+          <a class="button-text text-right" id="setting-button" href="setting.html"><i></i>Settings</a>
+        </div>
+        <div id="search-container">
+          <input class="search-box" type="search" placeholder="Search">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="home-grid">
+    <aside class="home-left">
+      <div class="news-feed">
+        <div class="news-feed-header">
+          <p>News Feed</p>
+        </div>
+        <div class="news-feed-body">
+          <div class="news-items">
+            <div class="news-feed-avatar">
+              <img src="avatars/vannary_avatar.png" height="70" width="70">
+            </div>
+            <div>
+              <p>Vannary</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
           </div>
-          <div id="search-container">
-            <input class="search-box" type="search" placeholder="Search">
+          <div class="news-items">
+            <div class="news-feed-avatar">
+              <img src="avatars/mari_avatar.png" height="70" width="70">
+            </div>
+            <div>
+              <p>Mari</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="news-items">
+            <div class="news-feed-avatar">
+              <img src="avatars/michael_avatar.png" height="70" weight="70">
+            </div>
+            <div>
+              <p>Michael</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="news-items">
+            <div class="news-feed-avatar">
+              <img src="avatars/andrew_avatar.png" height="70" weight="70">
+            </div>
+            <div>
+              <p>Andrew</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="news-items">
+            <div class="news-feed-avatar">
+              <img src="avatars/jessica_avatar.png" height="70" weight="70">
+            </div>
+            <div>
+              <p>Jessica</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="news-items">
+            <div class="news-feed-avatar">
+              <img src="avatars/leslie_avatar.png" height="70" weight="70">
+            </div>
+            <div>
+              <p>Leslie</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
-    <section class="home-grid">
-      <aside class="home-left">
-        <div class="news-feed">
-          <div class="news-feed-header"><p>News Feed</p></div>
-          <div class="news-feed-body">
-            <div class="news-items">
-              <div class="news-feed-avatar">
-                <img src="avatars/vannary_avatar.png" height="70" width="70">
-              </div>
-              <div>
-                <p>Vannary</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              </div>
+    </aside>
+    <aside class="home-right">
+      <div class="game-image-container"></div>
+      <div class="top-players-board">
+        <div class="top-players-header">Top Players</div>
+        <div class="top-players">
+          <div class="player">
+            <div class="player-score" id="first">
+              <p>#1</p>
             </div>
-            <div class="news-items">
-              <div class="news-feed-avatar">
-                <img src="avatars/mari_avatar.png" height="70" width="70">
-              </div>
-              <div>
+            <div class="player-info">
+              <div class="player-avatar"><img class="avatar-img" src="avatars/mari_avatar.png"></div>
+              <div class="player-name">
                 <p>Mari</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
             </div>
-            <div class="news-items">
-              <div class="news-feed-avatar">
-                <img src="avatars/michael_avatar.png" height="70" weight="70">
-              </div>
-              <div>
-                <p>Michael</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="player-points">
+              <p>1000</p>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-score" id="second">
+              <p>#2</p>
+            </div>
+            <div class="player-info">
+              <div class="player-avatar"><img class="avatar-img" src="avatars/victor_avatar.png"></div>
+              <div class="player-name">
+                <p>Victor</p>
               </div>
             </div>
-            <div class="news-items">
-              <div class="news-feed-avatar">
-                <img src="avatars/andrew_avatar.png" height="70" weight="70">
-              </div>
-              <div>
-                <p>Andrew</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="player-points">
+              <p>986</p>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-score" id="third">
+              <p>#3</p>
+            </div>
+            <div class="player-info">
+              <div class="player-avatar"><img class="avatar-img" src="avatars/oscar_avatar.png"></div>
+              <div class="player-name">
+                <p>Oscar</p>
               </div>
             </div>
-            <div class="news-items">
-              <div class="news-feed-avatar">
-                <img src="avatars/jessica_avatar.png" height="70" weight="70">
-              </div>
-              <div>
-                <p>Jessica</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="player-points">
+              <p>843</p>
+            </div>
+          </div>
+          <div class="player">
+            <div class="player-score">
+              <p>#4</p>
+            </div>
+            <div class="player-info">
+              <div class="player-avatar"><img class="avatar-img" src="avatars/vannary_avatar.png"></div>
+              <div class="player-name">
+                <p>Vannary</p>
               </div>
             </div>
-            <div class="news-items">
-              <div class="news-feed-avatar">
-                <img src="avatars/leslie_avatar.png" height="70" weight="70">
-              </div>
-              <div>
-                <p>Leslie</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              </div>
+            <div class="player-points">
+              <p>732</p>
             </div>
           </div>
         </div>
-      </aside>
-      <aside class="home-right">
-        <div class="game-image-container"></div>
-        <div class="top-players-board">
-          <div class="top-players-header">Top Players</div>
-          <div class="top-players">
-            <div class="player">
-              <div class="player-score" id="first"><p>#1</p></div>
-              <div class="player-info">
-                <div class="player-avatar"><img class="avatar-img" src="avatars/mari_avatar.png"></div>
-                <div class="player-name"><p>Mari</p></div>
-              </div>
-              <div class="player-points"><p>1000</p></div>
-            </div>
-            <div class="player">
-              <div class="player-score" id="second"><p>#2</p></div>
-              <div class="player-info">
-                <div class="player-avatar"><img class="avatar-img" src="avatars/victor_avatar.png"></div>
-                <div class="player-name"><p>Victor</p></div>
-              </div>
-              <div class="player-points"><p>986</p></div>
-            </div>
-            <div class="player">
-              <div class="player-score" id="third"><p>#3</p></div>
-              <div class="player-info">
-                <div class="player-avatar"><img class="avatar-img" src="avatars/oscar_avatar.png"></div>
-                <div class="player-name"><p>Oscar</p></div>
-              </div>
-              <div class="player-points"><p>843</p></div>
-            </div>
-            <div class="player">
-              <div class="player-score"><p>#4</p></div>
-              <div class="player-info">
-                <div class="player-avatar"><img class="avatar-img" src="avatars/vannary_avatar.png"></div>
-                <div class="player-name"><p>Vannary</p></div>
-              </div>
-              <div class="player-points"><p>732</p></div>
-            </div>
-          </div>
-        </div>
-        <div class="leaderboard-bar"><a class="arrow-icon" href="leaderboard.html"><i class="fas fa-angle-down"></i></a></div>
-      </aside>
-    </section>
-    <footer>
-      <div>
-        <p>Team Infinite 2020</p>
       </div>
-    </footer>
-  </body>
+      <div class="leaderboard-bar"><a class="arrow-icon" href="leaderboard.html"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </aside>
+  </section>
+  <footer data-js-target="js-populate-footer"></footer>
+</body>
+
 </html>
