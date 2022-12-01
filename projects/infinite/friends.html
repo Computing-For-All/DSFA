@@ -1,105 +1,143 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Friends</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body style="background-color:#434343">
-         <nav>
-      <div class="nav-grid">
-        <div class="nav-bar-left"> 
-          <div class="emblem-buttons-container">
-            <div class="emblem-container">
-              <div class="emblem">
-                
-              </div>
+
+<head>
+  <title>Friends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:#434343">
+  <nav>
+    <div class="nav-grid">
+      <div class="nav-bar-left">
+        <div class="emblem-buttons-container">
+          <div class="emblem-container">
+            <div class="emblem">
+
             </div>
-            <div class="buttons-left">
-              <ul>
-                <li><a class="button-text text-left" id="page-button" href="homepage.html">Home Page</a></li>
-                <li><a class="button-text text-left" id="leaderboard-button" href="leaderboard.html">Leaderboard</a></li>
-                <li><a class="button-text text-left" id="friends-button" href="friends.html">Friends</a></li>
-              </ul>
-            </div>
-            <div></div>
-            <h1 class="welcome-text">Welcome, Players!</h1>
+          </div>
+          <div class="buttons-left">
+            <ul>
+              <li><a class="button-text text-left" id="page-button" href="homepage.html">Home Page</a></li>
+              <li><a class="button-text text-left" id="leaderboard-button" href="leaderboard.html">Leaderboard</a></li>
+              <li><a class="button-text text-left" id="friends-button" href="friends.html">Friends</a></li>
+            </ul>
+          </div>
+          <div></div>
+          <h1 class="welcome-text">Welcome, Players!</h1>
+        </div>
+      </div>
+      <div class="nav-bar-right">
+        <div class="buttons-right">
+          <a class="button-text text-right" id="login-button" href="login.html">Login</a>
+          <a class="button-text text-right" id="setting-button" href="setting.html">Settings</a>
+        </div>
+        <div id="search-container">
+          <input class="search-box" type="search" placeholder="Search">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="friends-grid">
+    <aside>
+      <div class="friends-list friends-header" id="friends-list-title">
+        <p>Friend's List</p>
+      </div>
+      <section class="friends-list-container">
+        <div class="friends-grid-2by">
+          <div class="title avatar">
+            <p>Avatar</p>
+          </div>
+          <div class="title friends-name">
+            <p>Friend's Name</p>
           </div>
         </div>
-        <div class="nav-bar-right">
-          <div class="buttons-right">
-            <a class="button-text text-right" id="login-button" href="login.html">Login</a>
-            <a class="button-text text-right" id="setting-button" href="setting.html">Settings</a>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/vannary_avatar.png" height="70" width="70"></div>
+          <div class="friend">
+            <p>Vannary</p>
           </div>
-          <div id="search-container">
-            <input class="search-box" type="search" placeholder="Search">
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/oscar_avatar.png" height="70" width="70"></div>
+          <div class="friend">
+            <p>Oscar</p>
+          </div>
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/victor_avatar.png" height="70" weight="70"></div>
+          <div class="friend">
+            <p>Victor</p>
+          </div>
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/mari_avatar.png" height="70" weight="70"></div>
+          <div class="friend">
+            <p>Mari</p>
+          </div>
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/michael_avatar.png" height="70" weight="70"></div>
+          <div class="friend">
+            <p>Michael</p>
+          </div>
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/leslie_avatar.png" height="70" weight="70"></div>
+          <div class="friend">
+            <p>Leslie</p>
+          </div>
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/andrew_avatar.png" height="70" weight="70"></div>
+          <div class="friend">
+            <p>Andrew</p>
+          </div>
+        </div>
+        <div class="friends-grid-2by">
+          <div class="flex avatar"><img src="avatars/jessica_avatar.png" height="70" weight="70"></div>
+          <div class="friend">
+            <p>Jessica</p>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <aside>
+      <div class="invite-list">
+        <div class="invite-title friends-header">
+          <p>Invite</p>
+        </div>
+        <div class="invite-names">
+          <div>
+            <p>BoA</p>
+          </div>
+          <div>
+            <p>CFA</p>
+          </div>
+          <div>
+            <p>Mary</p>
+          </div>
+          <div>
+            <p>Ryan</p>
+          </div>
+          <div>
+            <p>Don</p>
+          </div>
+          <div>
+            <p>Ashley</p>
+          </div>
+          <div>
+            <p>Lisa</p>
+          </div>
+          <div>
+            <p>Kim</p>
           </div>
         </div>
       </div>
-    </nav>
-        <section class="friends-grid">
-            <aside>
-                <div class="friends-list friends-header" id="friends-list-title"><p>Friend's List</p></div>
-                <section class="friends-list-container">
-                    <div class="friends-grid-2by">
-                        <div class="title avatar"><p>Avatar</p></div>
-                        <div class="title friends-name"><p>Friend's Name</p></div>
-                    </div>
-                    <div class="friends-grid-2by">
-                          <div class="flex avatar"><img src="avatars/vannary_avatar.png" height="70" width="70"></div>
-                         <div class="friend"><p>Vannary</p></div>
-                     </div>
-                    <div class="friends-grid-2by">
-                         <div class="flex avatar"><img src="avatars/oscar_avatar.png" height="70" width="70"></div>
-                         <div class="friend"><p>Oscar</p></div>
-                    </div>
-                     <div class="friends-grid-2by">
-                          <div class="flex avatar"><img src="avatars/victor_avatar.png" height="70" weight="70"></div>
-                         <div class="friend"><p>Victor</p></div>
-                    </div>
-                      <div class="friends-grid-2by">
-                           <div class="flex avatar"><img src="avatars/mari_avatar.png" height="70" weight="70"></div>
-                          <div class="friend"><p>Mari</p></div>
-                    </div>
-                     <div class="friends-grid-2by">
-                          <div class="flex avatar"><img src="avatars/michael_avatar.png" height="70" weight="70"></div>
-                          <div class="friend"><p>Michael</p></div>
-                    </div>
-                     <div class="friends-grid-2by">
-                         <div class="flex avatar"><img src="avatars/leslie_avatar.png" height="70" weight="70"></div>
-                         <div class="friend"><p>Leslie</p></div>
-                    </div>
-                     <div class="friends-grid-2by">
-                         <div class="flex avatar"><img src="avatars/andrew_avatar.png" height="70" weight="70"></div>
-                         <div class="friend"><p>Andrew</p></div>
-                    </div>
-                     <div class="friends-grid-2by">
-                          <div class="flex avatar"><img src="avatars/jessica_avatar.png" height="70" weight="70"></div>
-                         <div class="friend"><p>Jessica</p></div>
-                    </div>  
-             </section>
-            </aside>
-            
-                <aside>
-                    <div class="invite-list">
-                        <div class="invite-title friends-header"><p>Invite</p></div>
-                        <div class="invite-names">
-                            <div><p>BoA</p></div>
-                            <div><p>CFA</p></div>
-                            <div><p>Mary</p></div>
-                            <div><p>Ryan</p></div>
-                            <div><p>Don</p></div>
-                            <div><p>Ashley</p></div>
-                            <div><p>Lisa</p></div>
-                            <div><p>Kim</p></div>
-                        </div>
-                    </div>
-                </aside>
-         </section>
-         <footer>
-          <div>
-            <p>Team Infinite 2020</p>
-          </div>
-        </footer>
-    </body>
+    </aside>
+  </section>
+  <footer data-js-target="js-populate-footer"></footer>
+</body>
+
 </html>
