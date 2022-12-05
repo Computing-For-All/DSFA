@@ -4,13 +4,9 @@ This website is the primary public face of Computing For All's Pre-Apprenticeshi
 
 ## Deployment
 
-This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org](https://www.dsfastudents.org/).
+This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org](https://www.dsfastudents.org/). Refer to this [doc](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing) for details.
 
 If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
-
-### DNS Configuration
-
-During Sept '22, this website was moved from using a Bluehost.com deploy to using GitHub Pages, while still using Bluehost.com for DNS services. The process of that transition is documented [here](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing), and includes useful information about the DNS configuration.
 
 ## Adding a student profile
 
