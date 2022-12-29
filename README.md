@@ -8,7 +8,7 @@ This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org]
 
 If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
 
-## Project Management
+### Trello board
 
 This website has a [Trello board](https://trello.com/b/ftGNpVdq/dsfa-website) with supplementary documentation. If you are working on this site, you know who to ask for access.
 
