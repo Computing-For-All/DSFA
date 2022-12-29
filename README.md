@@ -8,6 +8,10 @@ This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org]
 
 If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
 
+## Project Management
+
+This website has a [Trello board](https://trello.com/b/ftGNpVdq/dsfa-website) with supplementary documentation. If you are working on this site, you know who to ask for access.
+
 ## Adding a student profile
 
 1. Copy and fill out a template profile page, found at `profiles/__template_with_todos.html`
