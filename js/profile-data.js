@@ -25,9 +25,28 @@ Sample data:
         },
     ]
 }
+
+// TODO: Reminder of TODOs when adding new classes / students
+[] Add class per sample data above
+[] Add students per sample data above
+[] Add student image in /profiles/images/pic-STUDENTNAME.jpg
+[] Add student html file in /profiles/STUDENTNAME.html via __template.html files (all seem to be the same)
+[] Add project data via project-data.js TODO
 */
 
 let profileData = {
+    '2023': [
+        {
+            name: "Gordon Tran",
+            introduction: "I am a University of Washington student at the Foster School of Business pursuing an Information Systems degree. I am interested in tech, coding, and gaming. I enjoy learning about web development and creating websites about topics such as climate change using HTML, CSS, and JavaScript.",
+            url: "gordontran",
+        },
+        {
+            name: "Elroe Yayiso",
+            introduction: "Hey everyone, I'm Elroe. I'm a Sophomore  at University of Washington and  I'm planning to major in Informatics.",
+            url: "elroeyayiso",
+        },
+    ],
     '2022': [
         {
             name: "Alazar Mengistu",

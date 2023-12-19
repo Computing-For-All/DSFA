@@ -56,16 +56,32 @@ let gameData = [
     names: ["charlestan", "fraolbogale"],
     url: "https://charlestan44.github.io/oceansaver/public/index.html"
   },
-  */
-    // {
-    //   title: "Games for All",
-    //   description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
-    //   language: "HTML, CSS, JavaScript",
-    //   names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
-    //   url: "https://computingforall.github.io/G4A/public/",
-    //   imageName: "gamesforall",
-    // },
 
+
+    {
+        title: "Games for All",
+        description: "Game HUB website app dedicated to all of the games created and developed by the Digital Skill Youth Academy students.",
+        language: "HTML, CSS, JavaScript",
+        names: ["raymondnhim", "marichua", "veronikacalvo", "gageberz", "vannarysou", "victordeserley"],
+        url: "https://computingforall.github.io/G4A/public/",
+        imageName: "gamesforall",
+    },
+
+    // TODO: Reminder of TODOs when adding new projects
+    [] Add project per sample data above
+    [] Add project screenshot to /projects/thumbnails/thumb_proj_PROJECTNAME.jpg
+    [] Add student data via profile-data.js TODO
+*/
+    
+    {
+        title: "SoundEx",
+        description: "Empower sound with your support. Listen to your favorite music and directly support your favorite music artists via direct artist subscriptions and shops.",
+        language: "HTML, CSS, JavaScript, React",
+        names: ["gordontran", "elroeyayiso"],
+        url: "https://gordonnrat.github.io/group-2-project/",
+        imageName: "soundEx",
+        filter: "web",
+    },
     {
         title: "Otter Run",
         description: "There is more water than land on the earth and more life below water than life on land so why do we throw away so much trash into the ocean as if it doesn't affect the ecosystem of millions of creatures. Even creatures that don't fully live under water.",
