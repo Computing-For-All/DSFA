@@ -4,9 +4,13 @@ This website is the primary public face of Computing For All's Pre-Apprenticeshi
 
 ## Deployment
 
-This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org](https://www.dsfastudents.org/). Refer to this [doc](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing) for details.
+This GitHub repo is deployed via GitHub Pages and served from [dsfastudents.org](https://www.dsfastudents.org/). Refer to this [doc](https://docs.google.com/document/d/1wln7Wog64AbXoNNzSIJDIXlk0HgiTE8C38dOpyM2Ez0/edit?usp=sharing) for details on the DNS configuration and more.
 
-If you wish to pre-check changes, make a personal fork of this repo and deploy from there.
+If you wish to pre-check changes, make a personal fork of this repo, and deploy from there.
+
+### Trello board
+
+This website has a [Trello board](https://trello.com/b/ftGNpVdq/dsfa-website) with supplementary documentation. If you are working on this site, you know who to ask for access.
 
 ## Adding a student profile
 

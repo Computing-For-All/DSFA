@@ -2,7 +2,7 @@
 /* Fill in your project info per the TODOs */
 let gameData = [
   {
-    // TODO write your project title into the quotes
+    // TODO write your project title into the quotes.
     title: "Test Project title",
     // TODO write a project description into the quotes
     description: "Test project description",
