@@ -69,7 +69,7 @@ let gameData = [
 
     // TODO: Reminder of TODOs when adding new projects
     [] Add project per sample data above
-    [] Add project screenshot to /projects/thumbnails/thumb_proj_PROJECTNAME.jpg
+    [] Add project screenshot to /projects/thumbnails/thumb_proj_PROJECTNAME.jpg (not .JPG, case sensitive)
     [] Add student data via profile-data.js TODO
 */
     

@@ -29,7 +29,7 @@ Sample data:
 // TODO: Reminder of TODOs when adding new classes / students
 [] Add class per sample data above
 [] Add students per sample data above
-[] Add student image in /profiles/images/pic-STUDENTNAME.jpg
+[] Add student image in /profiles/images/pic-STUDENTNAME.jpg (not .JPG, case sensitive)
 [] Add student html file in /profiles/STUDENTNAME.html via __template.html files (all seem to be the same)
 [] Add project data via project-data.js TODO
 */
