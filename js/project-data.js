@@ -79,7 +79,7 @@ let gameData = [
         language: "HTML, CSS, JavaScript, React",
         names: ["gordontran", "elroeyayiso"],
         url: "https://gordonnrat.github.io/group-2-project/",
-        imageName: "soundEx",
+        imageName: "soundex",
         filter: "web",
     },
     {
