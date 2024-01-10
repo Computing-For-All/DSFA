@@ -37,6 +37,21 @@ Sample data:
 let profileData = {
     '2023': [
         {
+            "name": "Michelle Dang",
+            "introduction": "I am a student at the University of Washington studying Informatics. I am interested in web development!",
+            "url": "michelledang",
+        },
+        {
+            "name": "Nikolai Evans",
+            "introduction": "Hello I am Nikolai, I have liked and done programming since the 7th grade. I always have a thirst for knowledge in the tech and electric industry",
+            "url": "nikolaievans",
+        },
+        {
+            "name": "Jian Fu Chen",
+            "introduction": "I'm Jian, a Chinese immigrant hailing from a south eastern region of China. I enjoy playing games, and learning about new technologies.",
+            "url": "jianfuchen",
+        },
+        {
             name: "Gordon Tran",
             introduction: "I am a University of Washington student at the Foster School of Business pursuing an Information Systems degree. I am interested in tech, coding, and gaming. I enjoy learning about web development and creating websites about topics such as climate change using HTML, CSS, and JavaScript.",
             url: "gordontran",
