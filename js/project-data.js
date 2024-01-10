@@ -72,7 +72,15 @@ let gameData = [
     [] Add project screenshot to /projects/thumbnails/thumb_proj_PROJECTNAME.jpg (not .JPG, case sensitive)
     [] Add student data via profile-data.js TODO
 */
-    
+    {
+        title: "Sustainable Shop",
+        description: "A website that not only sells products, but has an emphasis on sustainability. The Sustainable Shop not only allows you to sort and filter your products, but carefully curates all products from sustainable sources.",
+        language: "HTML, CSS, JavaScript, React",
+        names: ["jianfuchen", "michelledang", "nikolaievans"],
+        url: "https://rixvro.github.io/CFA-Lvl5-Project/Home/home.html",
+        imageName: "sustainableshop",
+        filter: "web",
+    },
     {
         title: "SoundEx",
         description: "Empower sound with your support. Listen to your favorite music and directly support your favorite music artists via direct artist subscriptions and shops.",
