@@ -120,21 +120,22 @@ let gameData = [
     {
         title: "Achievement of Equality",
         description: "On this website, you will learn more about this important topic and it will give you access to take action to help end this problem. You will also have a game that will entertain the users and also inform them and give them more information about gender equality.",
-        language: "HTML, CSS",
+        language: "HTML, CSS, SCRATCH",
         names: ["albionauka", "mohammedhilfi"],
         url: "https://albionauka.github.io/Achievement-of-equality/homepage.html",
         imageName: "aoe",
-        filter: "web",
+        filter: "web, game",
     },
-    {
-        title: "Achievement of Equality Game",
-        description: "We built this game to show the importance of gender equality and how it's a huge problem around the world.",
-        language: "SCRATCH",
-        names: ["albionauka", "mohammedhilfi"],
-        url: "https://scratch.mit.edu/projects/553561149",
-        imageName: "aoegame",
-        filter: "game",
-    },
+    // Game is embedded on website, looks like repeat
+    // {
+    //     title: "Achievement of Equality Game",
+    //     description: "We built this game to show the importance of gender equality and how it's a huge problem around the world.",
+    //     language: "SCRATCH",
+    //     names: ["albionauka", "mohammedhilfi"],
+    //     url: "https://scratch.mit.edu/projects/553561149",
+    //     imageName: "aoegame",
+    //     filter: "game",
+    // },
     {
         title: "Lifeline",
         description: "We created a website that brings up the importance in mental health and how mental illness and suicide is an epidemic in the United States. ",
